@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Galaxy Genome Map</title>
+<link rel="canonical" href="https://galaxy-genome.github.io/map/">
+<meta http-equiv="refresh" content="0; url=/map/">
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+         background: #0b0f14; color: #c8d4e0;
+         font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif; }
+  main { max-width: 30rem; padding: 2rem; text-align: center; }
+  a { color: #6ecff6; }
+  p.fine { margin-top: 2rem; font-size: .8rem; color: #7b8794; }
+</style>
+<main>
+  <p>Redirecting to the <a href="/map/">Galaxy Genome Map</a>&hellip;</p>
+  <p class="fine">An unofficial fan-made map of the galaxy in
+    <strong>Galaxy Genome</strong> by SKV Games. Not affiliated with or endorsed
+    by the developer. All game data belongs to SKV Games.</p>
+</main>
+<script>
+  // Carry deep-link parameters across, so /?ore=painite still lands filtered.
+  location.replace("/map/" + location.search + location.hash);
+</script>
