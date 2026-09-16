@@ -1,25 +1,88 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Galaxy Genome Map</title>
-<link rel="canonical" href="https://galaxy-genome.github.io/map/">
-<meta http-equiv="refresh" content="0; url=/map/">
+<title>Galaxy Genome: map, wiki and quest editor</title>
+<link rel="canonical" href="https://galaxy-genome.github.io/">
+<meta name="description" content="Fan-made tools for Galaxy Genome: an interactive galaxy map, a wiki built from the game's own data, and a quest editor that writes mods.">
 <style>
-  :root { color-scheme: light dark; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center;
-         background: #0b0f14; color: #c8d4e0;
+  :root {
+    color-scheme: dark;
+    --bg: #0b0f14; --card: #131a22; --edge: #243040; --ink: #d9e2ec; --dim: #8b9aab;
+    --head: #ffffff; --accent: #3fc4dd; --accent-ink: #04222a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
          font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif; }
-  main { max-width: 30rem; padding: 2rem; text-align: center; }
-  a { color: #6ecff6; }
-  p.fine { margin-top: 2rem; font-size: .8rem; color: #7b8794; }
+  .wrap { max-width: 78rem; margin: 0 auto; padding-block: 3rem 4rem; padding-left: 1.25rem; padding-right: 1.25rem; }
+  header { text-align: center; margin-bottom: 2.5rem; }
+  h1 { margin: 0 0 .5rem; font-size: clamp(1.8rem, 5vw, 2.6rem); font-weight: 650; color: var(--head); text-wrap: balance; }
+  header p { margin: 0 auto; max-width: 42rem; color: var(--dim); }
+  header strong { color: var(--ink); font-weight: 600; }
+
+  .cols { display: grid; gap: 1.25rem; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: start; }
+  @media (max-width: 62rem) { .cols { grid-template-columns: 1fr; max-width: 30rem; margin: 0 auto; } }
+
+  .tool { display: flex; flex-direction: column; gap: 1rem; padding: 1.25rem;
+          background: var(--card); border: 1px solid var(--edge); border-radius: 6px; }
+  .tool h2 { margin: 0; font-size: 1.3rem; font-weight: 650; color: var(--head); }
+  .tool p { margin: 0; color: var(--dim); font-size: .95rem; }
+  .cta { display: block; padding: .8rem 1rem; text-align: center; text-decoration: none;
+         background: var(--accent); color: var(--accent-ink); font-weight: 650; border-radius: 4px; }
+  .cta:hover { filter: brightness(1.08); }
+  .cta:focus-visible { outline: 2px solid var(--head); outline-offset: 2px; }
+  .shot { display: block; width: 100%; max-width: 15rem; margin: 0 auto; height: auto;
+          border: 1px solid var(--edge); border-radius: 4px; background: #05080c; }
+  .more { margin-top: auto; font-size: .85rem; color: var(--dim); }
+  .more a { color: var(--accent); }
+
+  footer { margin-top: 3rem; text-align: center; font-size: .8rem; color: #6c7a89; }
+  footer a { color: var(--accent); }
 </style>
-<main>
-  <p>Redirecting to the <a href="/map/">Galaxy Genome Map</a>&hellip;</p>
-  <p class="fine">An unofficial fan-made map of the galaxy in
-    <strong>Galaxy Genome</strong> by SKV Games. Not affiliated with or endorsed
-    by the developer. All game data belongs to SKV Games.</p>
-</main>
+
+<div class="wrap">
+  <header>
+    <h1>Galaxy Genome, mapped, documented and moddable</h1>
+    <p>Three fan-made tools for <strong>Galaxy Genome</strong> by SKV Games: every system on one map, a wiki
+      built from the game's own data, and an editor that writes your own side quests.</p>
+  </header>
+
+  <main class="cols">
+    <section class="tool">
+      <h2>Map</h2>
+      <p>Every catalogued system and the generated space between them, with routes, warp gates, ore and
+        outfitting figures. Deep links open exactly what you are looking at.</p>
+      <a class="cta" href="/map/">Open the map</a>
+      <img class="shot" src="media/map.webp" alt="Tapping filter chips on the galaxy map so matching systems light up" width="393" height="851" loading="lazy" decoding="async">
+    </section>
+
+    <section class="tool">
+      <h2>Wiki</h2>
+      <p>What the game never tells you: what things pay, which planets yield which material, how the bar
+        offers quests, ship and module cards, and how mods load.</p>
+      <a class="cta" href="/wiki/">Open the wiki</a>
+      <img class="shot" src="media/wiki.webp" alt="Searching the wiki and jumping straight to the matching article" width="393" height="851" loading="lazy" decoding="async">
+    </section>
+
+    <section class="tool">
+      <h2>Quest Editor</h2>
+      <p>Write side quests and add star systems on your phone, play them through before the game sees them,
+        and download files ready to copy onto your device.</p>
+      <a class="cta" href="/mods/">Open the editor</a>
+      <video class="shot" src="https://github.com/galaxy-genome/mods/releases/download/demo/demo.mp4"
+             width="390" height="844" autoplay muted loop playsinline preload="metadata"
+             aria-label="Writing a quest in the editor: dialogue with choices, the flow view, fixing a problem, the galaxy map, and downloading a zip"></video>
+      <p class="more"><a href="https://github.com/galaxy-genome/mods">Source code and releases</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Unofficial fan project. Galaxy Genome and all of its data belong to
+      <a href="https://play.google.com/store/apps/details?id=com.skvgames.GalaxyGenome">SKV Games</a>.
+      Not affiliated with or endorsed by the developer.</p>
+  </footer>
+</div>
+
 <script>
-  // Carry deep-link parameters across, so /?ore=painite still lands filtered.
-  location.replace("/map/" + location.search + location.hash);
+  // Deep links that used to hit the map at the organisation root still land there.
+  if (location.search || location.hash) location.replace("/map/" + location.search + location.hash);
 </script>
