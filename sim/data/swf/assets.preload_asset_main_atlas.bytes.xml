@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath='main.png'>
+<SubTexture name="FontTexture" x="0" y="0" width="128" height="128"/>
+<SubTexture name="menu_bg" x="132" y="0" width="100" height="100"/>
+<SubTexture name="block_metal_wall" x="240" y="0" width="16" height="16"/>
+<SubTexture name="block_metal_floor" x="240" y="16" width="16" height="16"/>
+<SubTexture name="pixelDirtGreen" x="240" y="36" width="1" height="1"/>
+<SubTexture name="pixelDarkGreen" x="240" y="37" width="1" height="1"/>
+<SubTexture name="pixelLightGreen" x="240" y="38" width="1" height="1"/>
+<SubTexture name="pixelBlue" x="240" y="39" width="1" height="1"/>
+<SubTexture name="pixelLightBlue" x="240" y="40" width="1" height="1"/>
+
+<SubTexture name="logo" x="132" y="106" width="36" height="5"/>
+<SubTexture name="blackPanel" x="132" y="114" width="90" height="36"/>
+
+<SubTexture name="barBlue" x="240" y="46" width="1" height="42"/>
+<SubTexture name="barGreen" x="242" y="46" width="1" height="42"/>
+<SubTexture name="barOrange" x="244" y="46" width="1" height="42"/>
+<SubTexture name="barWhite" x="246" y="46" width="1" height="42"/>
+<SubTexture name="barBG" x="248" y="46" width="1" height="42"/>
+<SubTexture name="barRed" x="250" y="46" width="1" height="42"/>
+<SubTexture name="barBGSelection" x="132" y="101" width="30" height="1"/>
+
+<SubTexture name="messageBG" x="132" y="103" width="100" height="1"/>
+
+<SubTexture name="panelBG" x="526" y="775" width="488" height="126"/>
+
+<SubTexture name="bg_starBig" x="248" y="35" width="5" height="5"/>
+<SubTexture name="bg_starMed" x="254" y="36" width="3" height="3"/>
+<SubTexture name="bg_starSmall" x="259" y="37" width="1" height="1"/>
+<SubTexture name="bg_starLarge" x="262" y="34" width="7" height="7"/>
+<SubTexture name="bg_starBigR" x="270" y="35" width="5" height="5"/>
+<SubTexture name="bg_starMedR" x="277" y="36" width="3" height="3"/>
+<SubTexture name="map_lens" x="300" y="0" width="199" height="199"/>
+<SubTexture name="map_warp" x="1051" y="1043" width="179" height="179"/>
+
+<SubTexture name="map_Earth" x="526" y="505" width="750" height="250"/>
+<SubTexture name="map_Jupiter" x="0" y="250" width="525" height="175"/>
+<SubTexture name="map_Neptune" x="0" y="425" width="525" height="175"/>
+<SubTexture name="map_Uranus" x="0" y="600" width="525" height="175"/>
+<SubTexture name="map_Mars" x="526" y="250" width="750" height="250"/>
+<SubTexture name="map_Venus" x="0" y="775" width="525" height="175"/>
+
+<SubTexture name="map_Kafti" x="526" y="0" width="750" height="250"/>
+</TextureAtlas>

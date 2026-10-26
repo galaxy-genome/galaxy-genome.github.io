@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BtH0gOTJ.js";import{t}from"./unit-DOc6skV4.js";import{t as n}from"./help-D-uXQGi5.js";var r=e(),i=t({id:`u26`,always:[{tab:`mods`,element:(0,r.jsx)(n,{})}]});export{i as default};

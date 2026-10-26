@@ -1,0 +1,163 @@
+{
+  "nebulas": [
+    {
+      "Name": "Pleiades",
+      "type": "n",
+      "x":-77,
+      "y": -344,
+      "z": -146,
+      "colors": "0xff1a4daa,0xff173352,0xff000000:13:2",
+      "size": 80
+    }
+    ,
+    {
+      "Name": "Hind",
+      "type": "p",
+      "x": -36.92,
+      "y": -558.31,
+      "z": -206.4,
+      "colors": "0xffa05b33,0xff463525,0xff000000:13:2",
+      "size": 20
+    }
+    ,
+    {
+      "Name": "Witch Head",
+      "type": "n",
+      "x": 359.84,
+      "y": -718.37,
+      "z": -385.53,
+      "colors": "0xff725dd6,0xff6a3a87,0xff532528,0xff000000:10:1",
+      "size": 70
+    }
+    ,
+    {
+      "Name": "Eskimo",
+      "type": "p",
+      "x": 227,
+      "y": -698,
+      "z": 1224,
+      "colors": "0xffbb5029,0xff66561d,0xff2d3411,0xff000000:10:2",
+      "size": 10
+    }
+    ,
+    {
+      "Name": "LBN 623",
+      "type": "n",
+      "x": -499.90,
+      "z": -16.43,
+      "y": -332.56,
+      "colors": "0xff887bbd,0xff6a4d9a,0xff302751,0xff000000:10:2",
+      "size": 50
+    }
+    ,
+    {
+      "Name": "Helix",
+      "type": "p",
+      "x": -224.56,
+      "z": -587.75,
+      "y": 306.81,
+      "colors": "0xff2f548a,0xff254057,0xff1c1537,0xff000000:10:2",
+      "size": 16
+    }
+    ,
+    {
+      "Name": "CrA",
+      "type": "n",
+      "x": 1,
+      "z": -128.4,
+      "y": 387.87,
+      "colors": "0xffcd7957,0xff9d403a,0xff242b35,0xff000000:10:2",
+      "size": 40
+    }
+  ,
+    {
+      "Name": "Pencil",
+      "type": "n",
+      "x": 816.31,
+      "z": 2,
+      "y": -44.03,
+      "colors": "0xff725dd6,0xff6a3a87,0xff532528,0xff000000:10:2",
+      "size": 25
+    }
+  ,
+    {
+      "Name": "California",
+      "type": "n",
+      "x": -337.9,
+      "z": -211.93,
+      "y": -927.03,
+      "colors": "0xffcc7756,0xff933d36,0xff242d37,0xff000000:10:2",
+      "size": 80
+    }
+    ,
+    {
+      "Name": "Horsehead",
+      "type": "n",
+      "x": 700,
+      "z": -444,
+      "y": -1300,
+      "colors": "0xffcc7756,0xff933d36,0xff242d37,0xff000000:10:2",
+      "size": 50
+    }
+    ,
+    {
+      "Name": "Orion",
+      "type": "n",
+      "x": 610,
+      "z": -438,
+      "y": -1090,
+      "colors": "0xffcc7756,0xff933d36,0xff242d37,0xff000000:10:2",
+      "size": 50
+    }
+    ,
+    {
+      "Name": "Flame",
+      "type": "n",
+      "x": 625,
+      "z": -401,
+      "y": -1198,
+      "colors": "0xffe1cd28,0xffc85014,0xff223c59,0xff000000:10:2",
+      "size": 17
+    }
+    ,
+    {
+      "Name": "Barnards Loop",
+      "type": "n",
+      "x": 600,
+      "z": -427,
+      "y": -1200,
+      "colors": "0xffcc7756,0xff933d36,0xff242d37,0xff000000:10:2",
+      "size": 280
+    }
+  ,
+    {
+      "Name": "IC 6404",
+      "type": "n",
+      "x": 60,
+      "z": 182,
+      "y": 570,
+      "colors": "0xffa53c2e,0xff7d3c02,0xff223c59,0xff000000:10:2",
+      "size": 40
+    }
+  ,
+    {
+      "Name": "Messier 78",
+      "type": "n",
+      "x": 659,
+      "z": -428,
+      "y": -1434,
+      "colors": "0xff35b3e2,0xff483a87,0xff532528,0xff000000:10:2",
+      "size": 40
+    }
+  ,
+    {
+      "Name": "Eagle",
+      "type": "n",
+      "x": -2036,
+      "z": 100,
+      "y": 6687,
+      "colors": "0xffbb903e,0xff3183a5,0xff25533a,0xff000000:10:2",
+      "size": 45
+    }
+  ]
+}

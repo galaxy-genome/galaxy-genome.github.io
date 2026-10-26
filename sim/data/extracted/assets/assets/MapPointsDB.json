@@ -1,0 +1,74 @@
+{
+  "points": [
+    {
+      "Name": "CoreSystem",
+      "x": 0,
+      "y": 0,
+      "description": "Core Systems"
+    },
+    {
+          "Name": "Void",
+          "x": -2236,
+          "y": -3998,
+          "description": "The Void"
+    },
+    {
+          "Name": "Jaques",
+          "x": -9530,
+          "y": 19808,
+          "description": "Distant Colony"
+    },
+    {
+      "Name": "ToCenter",
+      "x": -1710,
+      "y": 13665,
+      "description": "Research Station"
+    },
+    {
+          "Name": "ToVoidCalifornia",
+          "x": -341,
+          "y": -964,
+          "description": "Mining Corp"
+        },
+        {
+              "Name": "ToVoid2",
+              "x": -1806,
+              "y": -2595,
+              "description": "Traveler's Hub"
+            }
+    ,
+    {
+      "Name": "ToCenterFirst",
+      "x": -336,
+      "y": 3954,
+      "description": "Bright Hub"
+    },
+    {
+      "Name": "Dark Object",
+      "x": -4608,
+      "y": -16070,
+      "description": "Dark Object"
+    }
+    ,
+    {
+      "Name": "Abyss",
+      "x": -29893,
+      "y": 32934,
+      "description": "Abyss"
+    }
+  ,
+    {
+      "Name": "Foundation",
+      "x": -24039,
+      "y": -975,
+      "description": "Foundation"
+    }
+  ,
+    {
+      "Name": "Beagle point",
+      "x": -145,
+      "y": 68096,
+      "description": "Beagle point"
+    }
+  ]
+}

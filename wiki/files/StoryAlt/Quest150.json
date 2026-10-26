@@ -1,0 +1,269 @@
+{
+  "settings": {
+    "QuestName": "Following Marcus",
+    "QuestDescription": "Marcus has gone to ground, and we need him before anyone else finds him.",
+    "ID": 9001,
+    "StationName": "Thunder Station",
+    "Lang": "en",
+    "isRandomStationQuest": false,
+    "isRandomSpaceQuest": false,
+    "RandomQuestX": 0,
+    "RandomQuestY": 0,
+    "RandomQuestRadius": 0,
+    "RandomSpaceQuestChance": 0.0,
+    "CharName": "Edmond Anger",
+    "CharImage": "Edmond Anger",
+    "MinKarma": -101,
+    "MaxKarma": 101,
+    "Faction": "none",
+    "FactionMinRep": 0,
+    "RandomSpaceQuestTrigger": null,
+    "RequestedQuestIDCompleted": null,
+    "Reward": 0,
+    "KarmaReward": 0
+  },
+  "BarRumors": [
+    {
+      "text": "Somebody at Manson Orbital is paying well for couriers who don't ask what they carry.",
+      "type": "global"
+    }
+  ],
+  "questParts": [
+    {
+      "name": "Briefing",
+      "TODO": "Decide where to look for Marcus first.",
+      "questID": 1,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Edmond Anger",
+          "showTimeSec": 6,
+          "text": "The exact location of our man is unknown.",
+          "character": "Edmond Anger",
+          "options": ""
+        },
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "But we don't have time to search everywhere.",
+          "character": "Eva",
+          "options": ""
+        },
+        {
+          "Name": "Edmond Anger",
+          "showTimeSec": 99999999,
+          "text": "Then you'll have to choose where to fly first.",
+          "character": "Edmond Anger",
+          "options": "2=Head straight for Wolf 359;10=Check Ross 720 first;"
+        }
+      ],
+      "completeAction": "ACTION_DIALOG_COMPLETE",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    },
+    {
+      "name": "Detour to Ross 720",
+      "TODO": "Fly to Ross 720 and look for any sign of Marcus.",
+      "questID": 10,
+      "isCheckPoint": true,
+      "dialogText": [],
+      "completeAction": "ACTION_WARP_END_SYSTEM_Ross 720",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    },
+    {
+      "name": "Nothing at Ross 720",
+      "TODO": "Marcus isn't at Ross 720. Head for Wolf 359.",
+      "questID": 11,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 99999999,
+          "text": "Nothing here. He never came this way.",
+          "character": "Eva",
+          "options": "2=Then it's Wolf 359;"
+        }
+      ],
+      "completeAction": "ACTION_DIALOG_COMPLETE",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    },
+    {
+      "name": "Fly to Wolf 359",
+      "TODO": "Fly to the Wolf 359 system.",
+      "questID": 2,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "We need to get to the Wolf 359 system.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "completeAction": "ACTION_WARP_END_SYSTEM_Wolf 359",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "We need to get to the Wolf 359 system.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240
+    },
+    {
+      "name": "Ambush",
+      "TODO": "Destroy the bounty hunter who followed you.",
+      "questID": 3,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "We were followed. We have to take out this bounty hunter.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "completeAction": "ACTION_SHIP_DESTROYED_Hunter",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Hurry!",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240,
+      "shipSpawn": [
+        {
+          "Name": "Hunter",
+          "shipModel": "atom",
+          "shipLevel": "Master",
+          "shipBehavior": "Enemy",
+          "autoLVL": false,
+          "spawnX": 0,
+          "spawnY": 0,
+          "distanceFromPlayer": 300
+        }
+      ],
+      "shipControl": [
+        {
+          "ShipName": "Hunter",
+          "SetTarget": "player",
+          "Attack": true,
+          "Destroy": false,
+          "shipBehavior": "Enemy"
+        }
+      ]
+    },
+    {
+      "name": "Dock at Manson Orbital",
+      "TODO": "Dock at Manson Orbital in Wolf 359.",
+      "questID": 4,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Looks like our target is Manson Orbital.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "completeAction": "ACTION_CLICK_STATION_Manson Orbital",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "No time to waste, get to Manson Orbital!",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240
+    },
+    {
+      "name": "Marcus's job",
+      "TODO": "Accept Marcus's job at Manson Orbital.",
+      "questID": 5,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Marcus",
+          "showTimeSec": 6,
+          "text": "So you found me after all! Fine, I have work for you. I'll tell you everything once it's done.",
+          "character": "Marcus",
+          "options": ""
+        }
+      ],
+      "completeAction": "CLICK_ACCEPT_STORY_MISSION",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999,
+      "task_on_station": {
+        "Type": "TransferGoods",
+        "Level": "Low",
+        "HomeStation": "Manson Orbital",
+        "TargetSystem": "Sirius",
+        "TargetStation": "Cooper City",
+        "TargetShipType": "Ion",
+        "TargetShipName": "",
+        "TargetShipHull": 1,
+        "TargetGoods": "Narcotics",
+        "TargetGoodsCount": 2,
+        "Reward": 100000,
+        "Reputation": 2,
+        "Story": true
+      }
+    },
+    {
+      "name": "Deliver the cargo",
+      "TODO": "Deliver the cargo to Cooper City in Sirius and collect the reward.",
+      "questID": 6,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Marcus",
+          "showTimeSec": 6,
+          "text": "Excellent, I knew you wouldn't say no. Now go!",
+          "character": "Marcus",
+          "options": ""
+        }
+      ],
+      "completeAction": "GET_STORY_REWARD",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "No time, we have to deliver the cargo!",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240
+    },
+    {
+      "name": "Goodbye",
+      "TODO": "We did it.",
+      "questID": 7,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 99999999,
+          "text": "We did it! Time to say goodbye.",
+          "character": "Eva",
+          "options": "-1=OK, bye!;"
+        }
+      ],
+      "completeAction": "ACTION_DIALOG_COMPLETE",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    }
+  ]
+}

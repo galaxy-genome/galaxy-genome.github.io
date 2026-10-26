@@ -1,0 +1,30 @@
+{
+    "anomalies": [
+        {
+            "system": "Caph",
+            "name": "unknown",
+            "type": "Storm",
+            "param": "3",
+            "x": 0,
+            "y": 0
+        }
+        ,
+        {
+            "system": "Wolf 851",
+            "name": "unknown",
+            "type": "Storm",
+            "param": "20",
+            "x": 0,
+            "y": 0
+        }
+        ,
+        {
+            "system": "93 Ceti",
+            "name": "unknown",
+            "type": "Storm",
+            "param": "4",
+            "x": 0,
+            "y": 0
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+// Flash's top-level `Date`, implemented in `src/natives/toplevel.rs`.
+package
+{
+   public final class Date
+   {
+      public function Date(yearOrTimevalue:* = undefined, month:* = undefined, date:* = undefined, hour:* = undefined, minute:* = undefined, second:* = undefined, millisecond:* = undefined);
+      public function get date():Number;
+      public function set date(value:Number):void;
+      public function get dateUTC():Number;
+      public function set dateUTC(value:Number):void;
+      public function get day():Number;
+      public function get dayUTC():Number;
+      public function get fullYear():Number;
+      public function set fullYear(value:Number):void;
+      public function get fullYearUTC():Number;
+      public function set fullYearUTC(value:Number):void;
+      public function get hours():Number;
+      public function set hours(value:Number):void;
+      public function get hoursUTC():Number;
+      public function set hoursUTC(value:Number):void;
+      public function get milliseconds():Number;
+      public function set milliseconds(value:Number):void;
+      public function get millisecondsUTC():Number;
+      public function set millisecondsUTC(value:Number):void;
+      public function get minutes():Number;
+      public function set minutes(value:Number):void;
+      public function get minutesUTC():Number;
+      public function set minutesUTC(value:Number):void;
+      public function get month():Number;
+      public function set month(value:Number):void;
+      public function get monthUTC():Number;
+      public function set monthUTC(value:Number):void;
+      public function get seconds():Number;
+      public function set seconds(value:Number):void;
+      public function get secondsUTC():Number;
+      public function set secondsUTC(value:Number):void;
+      public function get time():Number;
+      public function set time(value:Number):void;
+      public function get timezoneOffset():Number;
+      public function getDate():Number;
+      public function getUTCDate():Number;
+      public function getDay():Number;
+      public function getUTCDay():Number;
+      public function getFullYear():Number;
+      public function getUTCFullYear():Number;
+      public function getHours():Number;
+      public function getUTCHours():Number;
+      public function getMilliseconds():Number;
+      public function getUTCMilliseconds():Number;
+      public function getMinutes():Number;
+      public function getUTCMinutes():Number;
+      public function getMonth():Number;
+      public function getUTCMonth():Number;
+      public function getSeconds():Number;
+      public function getUTCSeconds():Number;
+      public function getTime():Number;
+      public function getTimezoneOffset():Number;
+      public function setDate(day:* = undefined):Number;
+      public function setUTCDate(day:* = undefined):Number;
+      public function setFullYear(year:* = undefined, month:* = undefined, day:* = undefined):Number;
+      public function setUTCFullYear(year:* = undefined, month:* = undefined, day:* = undefined):Number;
+      public function setHours(hour:* = undefined, minute:* = undefined, second:* = undefined, millisecond:* = undefined):Number;
+      public function setUTCHours(hour:* = undefined, minute:* = undefined, second:* = undefined, millisecond:* = undefined):Number;
+      public function setMilliseconds(millisecond:* = undefined):Number;
+      public function setUTCMilliseconds(millisecond:* = undefined):Number;
+      public function setMinutes(minute:* = undefined, second:* = undefined, millisecond:* = undefined):Number;
+      public function setUTCMinutes(minute:* = undefined, second:* = undefined, millisecond:* = undefined):Number;
+      public function setMonth(month:* = undefined, day:* = undefined):Number;
+      public function setUTCMonth(month:* = undefined, day:* = undefined):Number;
+      public function setSeconds(second:* = undefined, millisecond:* = undefined):Number;
+      public function setUTCSeconds(second:* = undefined, millisecond:* = undefined):Number;
+      public function setTime(millisecond:Number):Number;
+      public function valueOf():Number;
+      public function toString():String;
+      public function toDateString():String;
+      public function toTimeString():String;
+      public function toUTCString():String;
+      public function toLocaleString():String;
+      public function toLocaleDateString():String;
+      public function toLocaleTimeString():String;
+      public static function parse(date:String):Number;
+      public static function UTC(year:Number, month:Number, date:Number = 1, hour:Number = 0, minute:Number = 0, second:Number = 0, millisecond:Number = 0):Number;
+   }
+}

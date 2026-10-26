@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath='Stars.png'>
+<SubTexture name='starRed' x='0' y='0' width='100' height='100'/>
+<SubTexture name='starYellow' x='100' y='0' width='100' height='100'/>
+<SubTexture name='starViolet' x='200' y='0' width='100' height='100'/>
+<SubTexture name='starBlue' x='300' y='0' width='100' height='100'/>
+<SubTexture name='starBlueWhite' x='400' y='0' width='100' height='100'/>
+<SubTexture name='starBH' x='500' y='0' width='100' height='100'/>
+<SubTexture name='starOrange' x='600' y='0' width='100' height='100'/>
+<SubTexture name='starJet' x='700' y='0' width='100' height='100'/>
+<SubTexture name='starWhite' x='800' y='0' width='100' height='100'/>
+<SubTexture name='staticBG' x='0' y='101' width='1024' height='1023'/>
+<SubTexture name='NebulaDefault' x='1025' y='0' width='385' height='365'/>
+<SubTexture name='NebulaDefaultPlanetary' x='1410' y='0' width='400' height='285'/>
+<SubTexture name='NebulaPleiades' x='1035' y='359' width='391' height='300'/>
+<SubTexture name='NebulaWitch_Head' x='1427' y='315' width='371' height='328'/>
+<SubTexture name='NebulaEskimo' x='1871' y='249' width='157' height='160'/>
+<SubTexture name='NebulaHind' x='1780' y='396' width='269' height='233'/>
+<SubTexture name='NebulaCalifornia' x='1027' y='658' width='388' height='409'/>
+<SubTexture name='NebulaLBN_623' x='1434' y='644' width='355' height='384'/>
+<SubTexture name='NebulaPencil' x='0' y='1127' width='346' height='295'/>
+<SubTexture name='NebulaCrA' x='340' y='1127' width='581' height='421'/>
+<SubTexture name='NebulaBarnards_Loop' x='1023' y='1067' width='657' height='336'/>
+<SubTexture name='NebulaHorsehead' x='1725' y='941' width='325' height='470'/>
+<SubTexture name='NebulaOrion' x='1785' y='648' width='286' height='317'/>
+<SubTexture name='NebulaFlame' x='1798' y='1411' width='250' height='242'/>
+<SubTexture name='NebulaIC_6404' x='1813' y='1654' width='235' height='260'/>
+<SubTexture name='NebulaMessier_78' x='0' y='1421' width='260' height='214'/>
+<SubTexture name='NebulaEagle' x='0' y='1637' width='346' height='365'/>
+</TextureAtlas>

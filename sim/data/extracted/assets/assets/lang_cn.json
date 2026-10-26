@@ -1,0 +1,4275 @@
+[
+    {
+      "Name": "SystemPanelName",
+      "Text": "系统面板"
+    }
+    ,
+    {
+      "Name": "MenuModules",
+      "Text": "模块"
+    }
+    ,
+    {
+      "Name": "MenuCargo",
+      "Text": "货物"
+    }
+    ,
+    {
+      "Name": "MenuDiscoveries",
+      "Text": "探索"
+    }
+    ,
+    {
+      "Name": "MenuStatistic",
+      "Text": "统计"
+    }
+    ,
+    {
+      "Name": "MenuSettings",
+      "Text": "设置"
+    }
+	,
+    {
+      "Name": "MenuStars",
+      "Text": "恒星"
+    }
+,
+  {
+    "Name": "MenuMarket",
+    "Text": "商店"
+  }
+	,
+    {
+      "Name": "MenuPlanets",
+      "Text": "行星"
+    }
+	,
+    {
+      "Name": "MenuBiological",
+      "Text": "生物"
+    }
+	,
+    {
+      "Name": "MenuAnomalies",
+      "Text": "异常"
+    }
+    ,
+    {
+      "Name": "MenuClose",
+      "Text": "关闭"
+    }
+,
+  {
+    "Name": "MenuDropAllCargo",
+    "Text": "全部丢弃"
+  }
+	,
+    {
+      "Name": "MenuReturn",
+      "Text": "返回"
+    }
+,
+  {
+    "Name": "TimeInGame",
+    "Text": "游戏时间"
+  }
+,
+  {
+    "Name": "SystemsExplored",
+    "Text": "探索系统"
+  }
+,
+  {
+    "Name": "PlanetDiscovered",
+    "Text": "已探索的行星"
+  }
+,
+  {
+    "Name": "PlanetScanned",
+    "Text": "已扫描的行星"
+  }
+,
+  {
+    "Name": "CurrentDataCost",
+    "Text": "当前研究数据"
+  }
+  ,
+  {
+    "Name": "ExplorationCost",
+    "Text": "探索收益"
+  }
+,
+  {
+    "Name": "CombatCost",
+    "Text": "战斗收益"
+  }
+,
+  {
+    "Name": "TradeCost",
+    "Text": "交易收益 "
+  }
+    ,
+    {
+      "Name": "StarRedDwarfInfo",
+      "Text": "红矮星是主序列上的一颗小而冷的恒星，其光谱类型为M. 红矮星的质量范围约为0.075至0.50太阳质量，其表面温度低于4000 K. 到目前为止，M级恒星是最常见的。"
+    }
+    ,
+    {
+      "Name": "StarKTypeInfo",
+      "Text": "K型主序星（K V），也称为K矮星，是光谱类型为K、光度等级为V的主序星（氢燃烧）。这些恒星的大小介于红色M型主序星和黄色G型主序星之间。它们的质量是太阳质量的0.5到0.8倍，表面温度在3900到5=0 K之间."
+    }
+    ,
+    {
+      "Name": "StarGTypeInfo",
+      "Text": "G型主序星通常（不准确地）称为黄矮星或G矮星，是光谱类型G的主序星（光度等级V）。这类恒星的太阳质量约为0.84至1.15，表面温度在5300至6000 K之间。与其他主序星一样，一颗G型主序星通过核聚变将其核心的氢元素转化为氦。"
+    }
+,
+  {
+    "Name": "MarketNameHeader",
+    "Text": "资源"
+  }
+,
+  {
+    "Name": "MarketPriceHeader",
+    "Text": "价格"
+  }
+,
+  {
+    "Name": "MarketCargoHeader",
+    "Text": "物"
+  }
+,
+  {
+    "Name": "MarketActionHeader",
+    "Text": "需求"
+  }
+,
+  {
+    "Name": "MarketSellBuyHeader",
+    "Text": "交易"
+  }
+,
+  {
+    "Name": "MarketSellBuyCount",
+    "Text": "数量"
+  }
+,
+  {
+    "Name": "MarketSellBuyCargo",
+    "Text": "货物空间"
+  }
+,
+  {
+    "Name": "MarketSellBuyBalance",
+    "Text": "结余"
+  }
+,
+  {
+    "Name": "MarketSellBuyBalanceChange",
+    "Text": "花费"
+  }
+,
+  {
+    "Name": "ShipColorHeader",
+    "Text": "舰船涂装"
+  }
+,
+  {
+    "Name": "MarketSellBuyProfit",
+    "Text": "利润"
+  }
+,
+  {
+    "Name": "MarketSellBuyPrice",
+    "Text": "价格"
+  }
+,
+  {
+    "Name": "MarketFinanceHeader",
+    "Text": "信用点数"
+  }
+,
+  {
+    "Name": "AveCredits",
+    "Text": "可用信用点数"
+  }
+,
+  {
+    "Name": "FinesHeader",
+    "Text": "罚款"
+  }
+,
+  {
+    "Name": "ShipSpecsHeader",
+    "Text": "舰船规格"
+  }
+,
+  {
+    "Name": "BountyClaimHeader",
+    "Text": "悬赏金"
+  }
+,
+  {
+    "Name": "MarketSellBuyButton",
+    "Text": "进行交易"
+  }
+,
+  {
+    "Name": "GoodsNarcotics",
+    "Text": "三羟色胺"
+  }
+,
+  {
+    "Name": "GoodsSlaves",
+    "Text": "奴隶"
+  }
+,
+  {
+    "Name": "GoodsBasicMedicines",
+    "Text": "基本药物"
+  }
+,
+  {
+    "Name": "GoodsNanoMedicines",
+    "Text": "纳米药物"
+  }
+,
+  {
+    "Name": "GoodsGrain",
+    "Text": "粮食"
+  }
+,
+  {
+    "Name": "GoodsFish",
+    "Text": "鱼类"
+  }
+,
+  {
+    "Name": "GoodsTea",
+    "Text": "茶"
+  }
+,
+  {
+    "Name": "GoodsMeat",
+    "Text": "肉"
+  }
+,
+  {
+    "Name": "GoodsFruitAndVegetables",
+    "Text": "水果蔬菜"
+  }
+
+,
+  {
+    "Name": "GoodsComputerComponents",
+    "Text": "电脑配件"
+  }
+,
+  {
+    "Name": "GoodsRobotics",
+    "Text": "机器人"
+  }
+,
+  {
+    "Name": "GoodsPersonalWeapons",
+    "Text": "个人武器"
+  }
+,
+  {
+    "Name": "GoodsBattleWeapons",
+    "Text": "战斗武器"
+  }
+,
+  {
+    "Name": "GoodsLeather",
+    "Text": "皮革"
+  }
+
+,
+  {
+    "Name": "GoodsNaturalFabrics",
+    "Text": "天然纤维"
+  }
+,
+  {
+    "Name": "GoodsSyntheticFabrics",
+    "Text": "合成纤维织物"
+  }
+,
+  {
+    "Name": "GoodsMilitaryFabrics",
+    "Text": "军用织物"
+  }
+,
+  {
+    "Name": "GoodsAluminium",
+    "Text": "铝"
+  }
+,
+  {
+    "Name": "GoodsBeryllium",
+    "Text": "铍"
+  }
+,
+  {
+    "Name": "GoodsBismuth",
+    "Text": "铋"
+  }
+,
+  {
+    "Name": "GoodsGallium",
+    "Text": "镓"
+  }
+,
+  {
+    "Name": "GoodsGold",
+    "Text": "黄金"
+  }
+,
+  {
+    "Name": "GoodsIndium",
+    "Text": "铟"
+  }
+,
+  {
+    "Name": "GoodsIron",
+    "Text": "铁"
+  }
+,
+  {
+    "Name": "GoodsCobalt",
+    "Text": "钴"
+  }
+,
+  {
+    "Name": "GoodsLithium",
+    "Text": "锂"
+  }
+,
+  {
+    "Name": "GoodsCopper",
+    "Text": "铜"
+  }
+,
+  {
+    "Name": "GoodsOsmium",
+    "Text": "锇"
+  }
+,
+  {
+    "Name": "GoodsPalladium",
+    "Text": "钯"
+  }
+,
+  {
+    "Name": "GoodsPlatinum",
+    "Text": "铂"
+  }
+,
+  {
+    "Name": "GoodsSilver",
+    "Text": "银"
+  }
+,
+  {
+    "Name": "GoodsThallium",
+    "Text": "铊"
+  }
+,
+  {
+    "Name": "GoodsTantalum",
+    "Text": "钽"
+  }
+,
+  {
+    "Name": "GoodsTitanium",
+    "Text": "钛"
+  }
+,
+  {
+    "Name": "GoodsThorium",
+    "Text": "钍"
+  }
+,
+  {
+    "Name": "GoodsUranium",
+    "Text": "铀"
+  }
+
+,
+  {
+    "Name": "GoodsSamarium",
+    "Text": "钐"
+  }
+,
+  {
+    "Name": "GoodsHafnium",
+    "Text": "铪"
+  }
+,
+  {
+    "Name": "GoodsSurvivalEquipment",
+    "Text": "生存设备"
+  }
+,
+  {
+    "Name": "GoodsClothing",
+    "Text": "服装"
+  }
+,
+  {
+    "Name": "GoodsDomesticAppliances",
+    "Text": "家用电器"
+  }
+,
+  {
+    "Name": "GoodsOil",
+    "Text": "油"
+  }
+,
+  {
+    "Name": "GoodsEscapePod",
+    "Text": "逃生舱"
+  }
+,
+  {
+    "Name": "GoodsAnglerEye",
+    "Text": "虫眼"
+  }
+,
+  {
+    "Name": "GoodsAnglerFang",
+    "Text": "虫牙"
+  }
+,
+  {
+    "Name": "GoodsAutomatonComponent",
+    "Text": "自动装置组件"
+  }
+,
+  {
+    "Name": "GoodsHydrogenFuel",
+    "Text": "氢燃料"
+  }
+,
+  {
+    "Name": "GoodsWater",
+    "Text": "水"
+  },
+  {
+    "Name": "GoodsLiquidOxygen",
+    "Text": "液氧"
+  }
+,
+  {
+    "Name": "GoodsBromellite",
+    "Text": "溴化物"
+  },
+  {
+    "Name": "GoodsBouxite",
+    "Text": "铝土矿"
+  },
+  {
+    "Name": "GoodsAlexandrite",
+    "Text": "绿宝石"
+  }
+,
+  {
+    "Name": "GoodsGallite",
+    "Text": "镓"
+  },
+  {
+    "Name": "GoodsColtan",
+    "Text": "钶钽铁矿"
+  }
+,
+  {
+    "Name": "GoodsLithiumHydroxide",
+    "Text": "氢氧化锂"
+  },
+  {
+    "Name": "GoodsLepidolite",
+    "Text": "锂云母"
+  },
+  {
+    "Name": "GoodsDiamonds",
+    "Text": "钻石"
+  }
+,
+  {
+    "Name": "GoodsUraninite",
+    "Text": "铀矿"
+  }
+,
+  {
+    "Name": "GoodsPainite",
+    "Text": "白云石"
+  }
+,
+  {
+    "Name": "GoodsRutile",
+    "Text": "金红石"
+  }
+,
+  {
+    "Name": "GoodsMethaneClathrate",
+    "Text": "甲烷包合物"
+  },
+  {
+    "Name": "GoodsMonazite",
+    "Text": "磷铈镧矿（独居石）"
+  }
+,
+  {
+    "Name": "CargoScreen",
+    "Text": "货物"
+  }
+,
+  {
+    "Name": "SystemText",
+    "Text": "星系"
+  }
+,
+  {
+    "Name": "SystemObjectsScreen",
+    "Text": "恒星系天体"
+  }
+,
+  {
+    "Name": "SystemObjectsObjectHeader",
+    "Text": "舰船和货物"
+  }
+,
+  {
+    "Name": "SystemObjectsDistanceHeader",
+    "Text": "距离"
+  }
+,
+  {
+    "Name": "SystemObjectsTypeHeader",
+    "Text": "种类"
+  }
+,
+  {
+    "Name": "SystemObjectsTypeStar",
+    "Text": "星球"
+  }
+,
+  {
+    "Name": "SystemObjectsTypePlanet",
+    "Text": "行星"
+  }
+,
+  {
+    "Name": "SystemObjectsEvent",
+    "Text": "信号源"
+  }
+,
+  {
+    "Name": "SystemObjectsEventLevel",
+    "Text": "威胁等级"
+  }
+,
+  {
+    "Name": "SystemObjectsTypeBlackHole",
+    "Text": "黑洞"
+  }
+,
+  {
+    "Name": "SystemObjectsTypeStation",
+    "Text": "空间站"
+  }
+,
+  {
+    "Name": "SystemObjectsTypeShip",
+    "Text": "舰船"
+  }
+,
+  {
+    "Name": "SystemObjectsHeaderObjects",
+    "Text": "天体"
+  }
+,
+  {
+    "Name": "SystemObjectsHeaderStarSystem",
+    "Text": "行星和空间站"
+  }
+
+,
+  {
+    "Name": "ModuleTypeWeapon",
+    "Text": "武器"
+  }
+,
+  {
+    "Name": "ModuleTypeMain",
+    "Text": "主要模块"
+  }
+,
+  {
+    "Name": "ModuleTypeExternal",
+    "Text": "外部模块"
+  }
+,
+  {
+    "Name": "ModuleTypeMilitary",
+    "Text": "军用模块"
+  }
+,
+  {
+    "Name": "ModuleTypeOptional",
+    "Text": "可选模块"
+  },
+
+  {
+    "Name": "ShipOverview",
+    "Text": "舰船概览"
+  },
+  {
+    "Name": "CoreModulesOverview",
+    "Text": "核心模块"
+  },
+  {
+    "Name": "OptionalModulesOverview",
+    "Text": "可选模块"
+  },
+  {
+    "Name": "ModuleOverviewHeader",
+    "Text": "模块"
+  },
+  {
+    "Name": "ModuleClassOverviewHeader",
+    "Text": "级别"
+  },
+  {
+    "Name": "ModuleDefaultOverviewHeader",
+    "Text": "默认"
+  },
+  {
+    "Name": "ModuleTypeOverviewHeader",
+    "Text": "类型"
+  },
+  {
+    "Name": "ModuleSubTypeShieldCellBank",
+    "Text": "护盾电池"
+  }
+,
+  {
+    "Name": "ModuleSubTypeCargoRack",
+    "Text": "货物架"
+  }
+,
+  {
+    "Name": "ModuleSubTypeFuelTank",
+    "Text": "燃料箱"
+  }
+,
+  {
+    "Name": "ModuleSubTypeHull",
+    "Text": "船身"
+  }
+,
+  {
+    "Name": "ModuleSubTypeDeepSpaceDrive",
+    "Text": "曲速引擎"
+  }
+,
+  {
+    "Name": "ModuleSubTypeDeepSpaceDriveBooster",
+    "Text": "曲速引擎助推器"
+  }
+,
+  {
+    "Name": "ModuleSubTypeFuelScoop",
+    "Text": "燃料采集器"
+  }
+,
+  {
+    "Name": "ModuleSubTypeLifeSupport",
+    "Text": "生命维持系统"
+  }
+,
+  {
+    "Name": "ModuleSubTypePlanetScanner",
+    "Text": "行星扫描仪"
+  }
+,
+  {
+    "Name": "ModuleSubTypePirateScanner",
+    "Text": "罪犯扫描器"
+  }
+,
+  {
+    "Name": "ModuleSubTypeCargoScanner",
+    "Text": "货物扫描器"
+  }
+,
+  {
+    "Name": "ModuleSubTypePowerDistributor",
+    "Text": "电力分配器"
+  }
+,
+  {
+    "Name": "ModuleSubTypeSensors",
+    "Text": "传感器"
+  }
+,
+  {
+    "Name": "ModuleSubTypePowerPlant",
+    "Text": "发电机"
+  }
+,
+  {
+    "Name": "ModuleSubTypeShields",
+    "Text": "护盾"
+  }
+,
+  {
+    "Name": "ModuleSubTypeThrusters",
+    "Text": "推进器"
+  }
+,
+  {
+    "Name": "ModuleSubTypeRepairModule",
+    "Text": "维修模块"
+  }
+
+, { "Name": "ModuleSubTypeLaserWeaponS", "Text": "激光射线" }
+, { "Name": "ModuleSubTypePulseLaserWeaponS", "Text": "激光脉冲" }
+, { "Name": "ModuleSubTypePlasmaGunWeaponS", "Text": "等离子枪" }
+, { "Name": "ModuleSubTypeCannonWeaponS", "Text": "加农炮" }
+, { "Name": "ModuleSubTypeFragmentCannonS", "Text": "散弹" }
+, { "Name": "ModuleSubTypeMissileWeaponS", "Text": "导弹" }
+, { "Name": "ModuleSubTypeMiningWeaponS", "Text": "矿用激光" }
+
+, { "Name": "ModuleSubTypeTorpedoWeaponS", "Text": "鱼雷" }
+, { "Name": "ModuleSubTypeTorpedoWeapon", "Text": "鱼雷" }
+
+, { "Name": "ModuleSubTypeLaserWeapon", "Text": "激光射线" }
+, { "Name": "ModuleSubTypePulseLaserWeapon", "Text": "激光脉冲" }
+, { "Name": "ModuleSubTypePlasmaGunWeapon", "Text": "等离子枪" }
+, { "Name": "ModuleSubTypeCannonWeapon", "Text": "加农炮" }
+, { "Name": "ModuleSubTypeFragmentCannon", "Text": "散弹加农炮" }
+, { "Name": "ModuleSubTypeMissileWeapon", "Text": "导弹" }
+, { "Name": "ModuleSubTypeMiningWeapon", "Text": "矿用激光" }
+, { "Name": "ModuleSubTypeShieldsBooster", "Text": "护盾增幅器" }
+, { "Name": "ModuleSubTypeDefenceTurret", "Text": "防御炮台" }
+, { "Name": "ModuleSubTypeHeatsink", "Text": "散热发射器" }
+, { "Name": "ModuleSubTypeChaffLauncher", "Text": "箔条发射器" }
+, { "Name": "ModuleSubTypeShieldsBooster", "Text": "护盾增幅器" }
+, { "Name": "ModuleSubTypeSpectrumAnalyzer", "Text": "频谱分析仪" }
+, { "Name": "ModuleSubTypeHullReinforcement", "Text": "船体加固" }
+, { "Name": "ModuleSubTypeRepairModule", "Text": "维修模块" }
+, { "Name": "ModuleSubTypeShieldsCellBank", "Text": "护盾电池" }
+  , { "Name": "ModuleSubTypeFighterHangar", "Text": "舰载机机库" },
+
+{"Name": "ModuleSubTypeShieldCellBankDescription","Text": "舰载机机库能量电容器，用于快速恢复防护罩。它的使用增加了热负荷。" },
+  {"Name": "ModuleSubTypeCargoRackDescription","Text": "设计用于在舰船上放置货物."}
+,{"Name": "ModuleSubTypeFuelTankDescription","Text": "不同行星系之间的曲速跳跃需要大量燃料。油箱越大，飞得越远."}
+,{"Name": "ModuleSubTypeHullDescription","Text": "舰船外壳的类型会影响对各种类型损伤的抵抗力."}
+,{"Name": "ModuleSubTypeDeepSpaceDriveDescription","Text": "这种类型的发动机用于在不同的恒星系之间行驶."}
+,{"Name": "ModuleSubTypeDeepSpaceDriveBoosterDescription","Text": "此模块类型用于提高曲速引擎的输出，增加曲速跳跃距离."}
+,{"Name": "ModuleSubTypeFuelScoopDescription","Text": "你可以在绝大多数星球上加油，前提是必须靠的足够近。"}
+,{"Name": "ModuleSubTypeLifeSupportDescription", "Text": "如果舰船严重损坏，则打开该按钮，并允许您在舰船减压的情况下控制舰船一段时间."}
+,{"Name": "ModuleSubTypePlanetScannerDescription","Text": "通过扫描行星表面，从而使研究数据的价值得到提高."}
+
+,{"Name": "ModuleSubTypePirateScannerDescription","Text": "扫描船上的通缉名单。增加获得的奖励。当船上有目标时，它会自动打开."}
+,{"Name": "ModuleSubTypeCargoScannerDescription","Text": "扫描船上的货物。当船上有目标时，它会自动打开."}
+
+, { "Name": "ModuleSubTypeTorpedoWeaponDescription", "Text": "发射爆炸性导弹的武器模块，通过远距离瞄准补偿导弹的速度." }
+
+,{"Name": "ModuleSubTypePowerDistributorDescription", "Text": "调节舰船主要子系统之间动力装置的功率分配"}
+,{"Name": "ModuleSubTypeSensorsDescription","Text": "用于探测最近的舰船和行星."}
+,{"Name": "ModuleSubTypePowerPlantDescription","Text": "产生能量，然后被所有舰船模块消耗."}
+,{"Name": "ModuleSubTypeShieldsDescription","Text": "能量护盾，可在船体损坏前承受一定程度的损坏."}
+,{"Name": "ModuleSubTypeThrustersDescription","Text": "推进器负责舰船的加速度和角速度."}
+,{"Name": "ModuleSubTypeRepairModuleDescription","Text": "如果有足够的备件，允许修理其它模块."}
+, { "Name": "ModuleSubTypeLaserWeaponDescription", "Text": "连续发射激光束的能量武器。激光束会造成热损伤。对盾牌非常有效，对装甲的效果较差." }
+, { "Name": "ModuleSubTypePulseLaserWeaponDescription", "Text": "发射间歇激光爆炸的能量武器。脉冲激光会造成热损伤。对盾牌非常有效，对装甲的效果较差." }
+, { "Name": "ModuleSubTypePlasmaGunWeaponDescription", "Text": "发射过热等离子弹的武器模块。它的射弹移动速度相对较慢，每次射击后都需要一段短暂的时间重新充电。对抗盾牌和装甲的效果相同." }
+, { "Name": "ModuleSubTypeCannonWeaponDescription", "Text": "快速发射动能射弹的小口径机枪。对装甲非常有效，对盾牌的效果较差." }
+, { "Name": "ModuleSubTypeFragmentCannonDescription", "Text": "一种发射包含12枚射弹的爆裂式武器模块，类似于猎枪。对装甲非常有效，对盾牌的效果较差." }
+, { "Name": "ModuleSubTypeMissileWeaponDescription", "Text": "发射爆炸性导弹的武器模块." }
+, { "Name": "ModuleSubTypeMiningWeaponDescription", "Text": "允许从小行星中提取矿物和金属。轻触并按住小行星时自动激活." }
+, { "Name": "ModuleSubTypeShieldsBoosterDescription", "Text": "增加护盾的强度，以承受更大的伤害." }
+, { "Name": "ModuleSubTypeDefenceTurretDescription", "Text": "自动导弹防御系统。击落大部分接近你船的导弹." }
+, { "Name": "ModuleSubTypeHeatsinkDescription", "Text": "允许立即重置舰船热量." }
+, { "Name": "ModuleSubTypeChaffLauncherDescription", "Text": "部署干扰信号的有效载荷箔条，立即打破敌舰武器的跟踪锁定." }
+, { "Name": "ModuleSubTypeSpectrumAnalyzerDescription", "Text": "显示空间物体的光谱数据，可以估计未知行星的组成及其在星系中的大致位置." }
+, { "Name": "ModuleSubTypeHullReinforcementDescription", "Text": "船体的附加部分，允许在舰船完全摧毁之前承受更多的损坏." }
+, { "Name": "ModuleSubTypeShieldsCellBankDescription", "Text": "用于快速恢复屏蔽的能量电容器。它的使用大大增加了热负荷." }
+, { "Name": "ModuleSubTypeFighterHangarDescription", "Text": "舰载机机库是一个内部模块，可以搭载舰载舰载机." }
+
+, { "Name": "fHangarNoAvailable", "Text": "当前没有可用的舰载机" }
+, { "Name": "fHangarReturn", "Text": "舰载机召回" }
+, { "Name": "fHangarDeploy", "Text": "舰载机发射" }
+
+, { "Name": "NoModule", "Text": "缺失模块: " }
+, { "Name": "NoPower", "Text": "能源耗尽: " }
+, { "Name": "DamagedModule", "Text": "模块损坏: " }
+, { "Name": "NoAmmo", "Text": "弹药耗尽: " }
+, { "Name": "AlreadyActivated", "Text": "已激活: " }
+, { "Name": "NoActiveShields", "Text": "警报：护盾消失" }
+,
+  {
+    "Name": "ModuleON",
+    "Text": "开启"
+  }
+,
+  {
+    "Name": "ModuleOFF",
+    "Text": "关闭"
+  }
+,
+  {
+    "Name": "ModuleHeader",
+    "Text": "名字"
+  }
+,
+  {
+    "Name": "ModuleHeaderClass",
+    "Text": "等级"
+  }
+,
+  {
+    "Name": "ModuleHeaderPower",
+    "Text": "能源"
+  }
+,
+  {
+    "Name": "ModuleHeaderPriority",
+    "Text": "优先级"
+  }
+,
+  {
+    "Name": "ModuleHeaderHealth",
+    "Text": "生命值"
+  }
+,
+  {
+    "Name": "ModulePowerUsage",
+    "Text": "用法"
+  }
+,
+  {
+    "Name": "ModulePowerValues",
+    "Text": "能源"
+  }
+,
+  {
+    "Name": "ModuleReqPower",
+    "Text": "所需能源"
+  }
+,
+  {
+    "Name": "ModulePowerUsingOf",
+    "Text": "电源使用"
+  }
+,
+  {
+    "Name": "ShipStatMass",
+    "Text": "质量"
+  }
+,
+  {
+    "Name": "ShipHullLabel",
+    "Text": "船体"
+  }
+,
+  {
+    "Name": "ShipFightersLabel",
+    "Text": "舰载机"
+  }
+,
+  {
+    "Name": "ShipMnvrLabel",
+    "Text": "转向系统"
+  }
+,
+  {
+    "Name": "ShipSpeedLabel",
+    "Text": "速度"
+  }
+,
+  {
+    "Name": "ShipStatShields",
+    "Text": "护盾"
+  },
+  {
+    "Name": "ShipStatPurpose",
+    "Text": "用途"
+  }
+,
+  {
+    "Name": "ShipPurposeCombat",
+    "Text": "战斗"
+  }
+,
+  {
+    "Name": "ShipPurposeMultipurpose",
+    "Text": "多用途"
+  }
+,
+  {
+    "Name": "ShipPurposeFreighter",
+    "Text": "货船"
+  }
+,
+  {
+    "Name": "ShipPurposeExplorer",
+    "Text": "探索者"
+  }
+,
+  {
+    "Name": "ShipPurchase",
+    "Text": "购买"
+  }
+,
+  {
+    "Name": "ShipSlotSize",
+    "Text": "尺寸"
+  }
+,
+  {
+    "Name": "ModuleClassSmall",
+    "Text": "小"
+  }
+,
+  {
+    "Name": "ModuleClassLarge",
+    "Text": "大"
+  }
+,
+  {
+    "Name": "ModuleClassMedium",
+    "Text": "中"
+  }
+,
+  {
+    "Name": "ModuleClassMedium",
+    "Text": "中"
+  }
+,
+  {
+    "Name": "ModuleClassLight",
+    "Text": "轻"
+  }
+,
+  {
+    "Name": "ModuleClassMilitary",
+    "Text": "军用"
+  }
+,
+  {
+    "Name": "ModuleClassMirrored",
+    "Text": "镜像"
+  }
+,
+  {
+    "Name": "StationPanelName",
+    "Text": "空间站"
+  }
+,
+  {
+    "Name": "DockPanelName",
+    "Text": "船坞"
+  }
+,
+  {
+    "Name": "ShipsPanelName",
+    "Text": "舰船"
+  }
+,
+  {
+    "Name": "SaveSlotsPanel",
+    "Text": "存档"
+  }
+,
+  {
+    "Name": "ModulesFreeSlot",
+    "Text": "空"
+  }
+,
+  {
+    "Name": "ModuleSellBTN",
+    "Text": "出售"
+  }
+,
+  {
+    "Name": "SellDiscoveriesBTN",
+    "Text": "出售数据"
+  }
+,
+  {
+    "Name": "FinePayBTN",
+    "Text": "支付罚款"
+  }
+,
+  {
+    "Name": "GetBountyClaimBTN",
+    "Text": "获取悬赏金"
+  }
+,
+  {
+    "Name": "ModuleToStorageBTN",
+    "Text": "存入仓库"
+  }
+,
+  {
+    "Name": "YesAnswer",
+    "Text": "是"
+  }
+,
+  {
+    "Name": "NoAnswer",
+    "Text": "否"
+  }
+,
+  {
+    "Name": "SellQuestion",
+    "Text": "是否出售?"
+  }
+,
+  {
+    "Name": "SellUseModuleQ",
+    "Text": "出售或使用 "
+  }
+,
+  {
+    "Name": "SellUseModuleQH",
+    "Text": "出售或使用"
+  }
+,
+  {
+    "Name": "RemoveCargoRackError",
+    "Text": "无法拆卸带货物的模块."
+  }
+,
+  {
+    "Name": "OkButton",
+    "Text": "好"
+  }
+,
+  {
+    "Name": "FromStorageModules",
+    "Text": "库存"
+  }
+  ,
+  {
+    "Name": "NewModuleLabel",
+    "Text": "新模块"
+  }
+,
+  {
+    "Name": "OldModuleLabel",
+    "Text": "当前模块"
+  }
+,
+  {
+    "Name": "OldModuleSolid",
+    "Text": "耐久度"
+  }
+,
+  {
+    "Name": "ModuleProperty",
+    "Text": "属性"
+  }
+,
+  {
+    "Name": "ModulePropertyValue",
+    "Text": "价值"
+  }
+,
+  {
+    "Name": "ShipGarageActionQuestion",
+    "Text": "使用该舰船或出售"
+  }
+,
+  {
+    "Name": "ShipGarageActionQuestionHeader",
+    "Text": "选择空间站"
+  }
+,
+  {
+    "Name": "GarageActionUse",
+    "Text": "使用"
+  }
+,
+  {
+    "Name": "GarageActionSell",
+    "Text": "出售"
+  }
+,
+  {
+    "Name": "GarageActionCancel",
+    "Text": "取消"
+  }
+,
+  {
+    "Name": "TitlePurchaseModule",
+    "Text": "购买"
+  }
+,
+  {
+    "Name": "TitleShipInformation",
+    "Text": "信息"
+  },
+  {
+    "Name": "ModuleParameters",
+    "Text": "参数"
+  },
+  {
+    "Name": "param_mass",
+    "Text": "质量"
+  }
+,
+  {
+    "Name": "param_power",
+    "Text": "能源使用"
+  }
+,
+  {
+    "Name": "param_damage",
+    "Text": "伤害"
+  }
+,
+  {
+    "Name": "param_speedfire",
+    "Text": "射速"
+  }
+,
+  {
+    "Name": "param_fireangle",
+    "Text": "开火角度"
+  }
+,
+  {
+    "Name": "param_temperatureIncr",
+    "Text": "热负荷"
+  }
+,
+  {
+    "Name": "param_powerDraw",
+    "Text": "能源消耗"
+  }
+,
+  {
+    "Name": "param_fullAmmo",
+    "Text": "最大弹药"
+  }
+,
+  {
+    "Name": "param_fighters",
+    "Text": "机库"
+  }
+,
+  {
+    "Name": "param_ammoPack",
+    "Text": "弹夹容量"
+  }
+,
+  {
+    "Name": "param_capacity",
+    "Text": "容量"
+  }
+,
+  {
+    "Name": "param_maxFuel",
+    "Text": "最大燃料"
+  }
+,
+  {
+    "Name": "param_jumpRange",
+    "Text": "曲速跳跃范围"
+  }
+,
+  {
+    "Name": "param_optimalMass",
+    "Text": "最佳质量"
+  }
+,
+  {
+    "Name": "param_maxShipMass",
+    "Text": "舰船最大质量"
+  }
+  ,
+  {
+    "Name": "param_shipMassOptimal",
+    "Text": "舰船质量最优"
+  },
+  {
+    "Name": "param_distance",
+    "Text": "距离"
+  },
+  {
+    "Name": "param_scoopSpeed",
+    "Text": "采集速率"
+  }
+,
+  {
+    "Name": "param_tank",
+    "Text": "箱体容量"
+  }
+,
+  {
+    "Name": "param_hull",
+    "Text": "船体"
+  },
+
+  {
+    "Name": "param_shieldPerSec",
+    "Text": "护盾能源"
+  },
+
+  {
+    "Name": "param_thermalResist",
+    "Text": "热抗性"
+  }
+,
+  {
+    "Name": "param_KineticResist",
+    "Text": "动能抗性"
+  }
+,
+  {
+    "Name": "param_ExplosionResist",
+    "Text": "爆炸抵抗"
+  }
+,
+  {
+    "Name": "param_timeSec",
+    "Text": "时间"
+  }
+,
+  {
+    "Name": "param_scanDist",
+    "Text": "扫描距离"
+  }
+,
+  {
+    "Name": "param_powerGen",
+    "Text": "能源容量"
+  }
+,
+  {
+    "Name": "param_shields",
+    "Text": "护盾容量"
+  }
+,
+  {
+    "Name": "param_reg_broken",
+    "Text": "恢复时间"
+  }
+,
+  {
+    "Name": "param_shieldStrength",
+    "Text": "强度等级"
+  }
+,
+  {
+    "Name": "param_shields_boost",
+    "Text": "护盾增幅"
+  }
+,
+  {
+    "Name": "param_reg",
+    "Text": "恢复速度"
+  }
+,
+  {
+    "Name": "param_repairMaterials",
+    "Text": "材料容量"
+  }
+,
+  {
+    "Name": "param_repairPerOneMaterial",
+    "Text": "单位材料维修量"
+  }
+,
+  {
+    "Name": "param_acceleration",
+    "Text": "加速度"
+  }
+,
+  {
+    "Name": "param_rotation",
+    "Text": "旋转"
+  }
+,
+  {
+    "Name": "param_maxShipMass",
+    "Text": "舰船最大质量"
+  }
+,
+  {
+    "Name": "param_powerCapacitySys",
+    "Text": "系统容量"
+  }
+,
+  {
+    "Name": "param_powerCapacityEng",
+    "Text": "引擎容量"
+  }
+,
+  {
+    "Name": "param_powerCapacityWep",
+    "Text": "武器容量"
+  }
+,
+  {
+    "Name": "param_powerDistWep",
+    "Text": "武器能源分配."
+  }
+,
+  {
+    "Name": "param_powerDistSys",
+    "Text": "系统能源分配."
+  }
+,
+  {
+    "Name": "param_powerDistEng",
+    "Text": "引擎能源分配."
+  }
+,
+  {
+    "Name": "SellBuyModuleQuestion",
+    "Text": "是否购买新模块替换旧模块?"
+  }
+,
+  {
+    "Name": "ModulesStoreHeader",
+    "Text": "模块"
+  }
+,
+  {
+    "Name": "MissionsBoardHeader",
+    "Text": "任务"
+  }
+,
+  {
+    "Name": "SellBuyModuleHeader",
+    "Text": "新模块已购买"
+  }
+,
+  {
+    "Name": "NotEnoughCreditsHeader",
+    "Text": "购买发生错误"
+  }
+,
+  {
+    "Name": "DiscoveriesScreen",
+    "Text": "发现"
+  }
+,
+  {
+    "Name": "FinesAndBountiesScreen",
+    "Text": "付款"
+  }
+,
+  {
+    "Name": "DiscoveriesTableHeaderSystem",
+    "Text": "恒星系"
+  }
+,
+  {
+    "Name": "DiscoveriesTableHeaderCost",
+    "Text": "花费"
+  }
+,
+  {
+    "Name": "FineHeader",
+    "Text": "罚款"
+  }
+,
+  {
+    "Name": "RewardHeader",
+    "Text": "奖励"
+  }
+,
+  {
+    "Name": "NotEnoughCreditsWarning",
+    "Text": "信用点数不足"
+  }
+,
+{
+  "Name": "FinesStationWarning",
+  "Text": "你必须获得奖励/或支付罚款"
+}
+,
+  {
+    "Name": "FinesStationWarningHeader",
+    "Text": "访问限制"
+  }
+
+,{"Name": "ExploredHeader", "Text": "已探索: "}
+,{"Name": "DiscoveredMessage", "Text": "已发现: "}
+,{"Name": "MenuPlayBTN", "Text": "开始游戏"}
+,{"Name": "MenuInGameBTN", "Text": "菜单"}
+,{"Name": "MenuSettingsBTN", "Text": "设置"}
+,{"Name": "MenuCreditsBTN", "Text": "制作组"}
+,{"Name": "MenuCloudBTN", "Text": "保存同步"}
+,{"Name": "MenuLoadingHeader", "Text": "加载..."}
+,{"Name": "MenuSlotBTN", "Text": "存档位置"}
+,{"Name": "MenuLoadBTN", "Text": "读取"}
+,{"Name": "MenuNewBTN", "Text": "新游戏"}
+,{"Name": "MenuToCloudBTN", "Text": "云端存储"}
+,{"Name": "MenuCreateNewBTN", "Text": "新建"}
+,{"Name": "MenuSavesHeader", "Text": "存档"}
+,{"Name": "MenuSaveTimeHeader", "Text": "保存时间"}
+,{"Name": "MenuStartTimeHeader", "Text": "开始时间"}
+,{"Name": "MenuCreditsMain", "Text": "[ 开发者 ]\nAnton Skvortsov\n\n[ 翻译 ]\nTatyana Skvortsova (en)\nJoelmir Soares (pt-br)\nNery(pt-br)\n[ 中文翻译 ]\nZero.0 (QQ：1310196005)\n快到碗里来 (QQ：2503768584)"}
+,{"Name": "SpecialThanks", "Text": ""}
+,{"Name": "MenuCreditsMusic", "Text": "[ 音乐]\nDreamstate Logic\nwww.dreamstatelogic.com\nTracks: Earthbound, Negative_Space\n\nAlexandr Zhelanov\nsoundcloud.com/alexandr-zhelanov\nTracks: Behind The Universe, Enemy Spotted"}
+
+,{"Name": "NewGameAlert", "Text": "是否在当前存档位置进行新游戏?"}
+,{"Name": "NewGameAlertH", "Text": "新游戏"}
+
+,{"Name": "CloudSaveReplaceAlert", "Text": "是否替换云端存档?"}
+,{"Name": "CloudSaveReplaceAlertH", "Text": "替换云端存档"}
+
+,{"Name": "NoSaveSlotSelAlert", "Text": "选择存档位置."}
+,{"Name": "NoSaveSlotSelAlertH", "Text": "未选择存档位置"}
+
+,{"Name": "SaveSlotsHeader", "Text": "快速保存"}
+
+,{"Name": "Overcharge", "Text": "曲速引擎过载: "}
+
+,{"Name": "DialogStoryNameHeader", "Text": "名字"}
+,{"Name": "DialogStoryTextHeader", "Text": "信息"}
+,{"Name": "HUD_Temperature", "Text": "温度"}
+,{"Name": "HUD_FuelScoop", "Text": "燃料采集器"}
+,{"Name": "HUD_Speed", "Text": "速度"}
+,{"Name": "HUD_Fuel", "Text": "燃料"}
+,{"Name": "HUD_Hull", "Text": "船体"}
+,{"Name": "HUD_Shields", "Text": "护盾"}
+,{"Name": "MASS_LOCK", "Text": "发动机质量锁定" }
+,{"Name": "SHIELDSOFFLINE", "Text": "护盾关闭" }
+,{"Name": "SHIELDSONLINE", "Text": "护盾接入" }
+,{"Name": "HUD_WeaponsError", "Text": "武器错误"}
+,{"Name": "ModuleError", "Text": "模块错误: "}
+,{"Name": "ModuleAvailableHeader", "Text": "可用的模块"}
+,{"Name": "ModuleSizeTooBigHeader", "Text": "模块大小"}
+,{"Name": "ModuleSizeTooBig", "Text": "模块无法安装到此插槽"}
+,{"Name": "Unit_speedfire", "Text": "/s"}
+,{"Name": "Unit_fireangle", "Text": "°"}
+,{"Name": "Unit_distance", "Text": "ls"}
+,{"Name": "Unit_speed", "Text": "ls/s"}
+,{"Name": "Unit_acceleration", "Text": "ls/s²"}
+,{"Name": "Unit_distanceYears", "Text": "ly"}
+,{"Name": "Unit_temperatureIncr", "Text": "°/s"}
+,{"Name": "Unit_powerDraw", "Text": "兆瓦"}
+,{"Name": "Unit_capacity", "Text": "T"}
+,{"Name": "Unit_maxFuel", "Text": "T"}
+,{"Name": "Unit_jumpRange", "Text": "ly"}
+,{"Name": "Unit_optimalMass", "Text": "T"}
+,{"Name": "Unit_maxShipMass", "Text": "T"}
+,{"Name": "Unit_scoopSpeed", "Text": "/s"}
+,{"Name": "Unit_tank", "Text": "T"}
+,{"Name": "Unit_thermalResist", "Text": "%"}
+,{"Name": "Unit_KineticResist", "Text": "%"}
+,{"Name": "Unit_ExplosionResist", "Text": "%"}
+,{"Name": "Unit_timeSec", "Text": "s"}
+,{"Name": "Unit_scanDist", "Text": "ls"}
+,{"Name": "Unit_powerDistWep", "Text": "兆瓦"}
+,{"Name": "Unit_powerDistSys", "Text": "兆瓦"}
+,{"Name": "Unit_powerDistEng", "Text": "兆瓦"}
+,{"Name": "Unit_powerCapacityWep", "Text": "兆瓦"}
+,{"Name": "Unit_powerCapacitySys", "Text": "兆瓦"}
+,{"Name": "Unit_powerCapacityEng", "Text": "兆瓦"}
+,{"Name": "Unit_powerGen", "Text": "兆瓦"}
+,{"Name": "Unit_shields", "Text": "兆瓦"}
+,{"Name": "Unit_reg_broken", "Text": "s"}
+,{"Name": "Unit_reg", "Text": "兆瓦"}
+,{"Name": "Unit_rotation", "Text": "°/s"}
+,{"Name": "Unit_rotationAcceleration", "Text": "°/s²"}
+,{"Name": "Unit_maxShipMass", "Text": "T"}
+,{"Name": "Unit_shields_boost", "Text": "%"}
+,{"Name": "Unit_mass", "Text": "T"}
+,{"Name": "Unit_power", "Text": "兆瓦"}
+,{"Name": "Unit_repairMaterials", "Text": ""}
+,{"Name": "Unit_repairPerOneMaterial", "Text": "覆盖."}
+,{"Name": "Unit_shieldPerSec", "Text": "MW/s"}
+,{"Name": "RepairScreen", "Text": "维修"}
+,{"Name": "RepairScreenModulesHeader", "Text": "受损模块"}
+,{"Name": "RepairParts", "Text": "维修部分"}
+,{"Name": "RepairModuleHeader", "Text": "维修模块"}
+,{"Name": "DamagedModulesHeader", "Text": "受损模块"}
+,{"Name": "RepairNotEnoughMaterials", "Text": "材料不足: "}
+,{"Name": "RepairNotEnoughMaterialsHeader", "Text": "材料不足"}
+,{"Name": "RepairNotEnoughPartsHeader", "Text": "维修错误"}
+,{"Name": "RepairNotEnoughParts", "Text": "没有需要维修的零件。在任何太空站或合成器上重新填充材料"}
+,{"Name": "PlanetScreen", "Text": "对象信息"}
+,{"Name": "ByShipAmmo", "Text": "购买"}
+,{"Name": "RepairAllBtn", "Text": "维修"}
+, { "Name": "BTN_BuyFuel", "Text": "补充燃料" }
+,{"Name": "RepairAllCost", "Text": "总花费"}
+
+,{"Name": "ResupplyHeader", "Text": "补给品"}
+,{"Name": "RepairHeader", "Text": "维修"}
+,{"Name": "FuelHeader", "Text": "燃料"}
+
+,{"Name": "ModuleTypeNameWeapon", "Text": "武器"}
+,{"Name": "ModuleTypeNameExternal", "Text": "外置的"}
+,{"Name": "ModuleTypeNameMain", "Text": "主要"}
+,{"Name": "ModuleTypeNameOptional", "Text": "可选"}
+,{"Name": "ModuleTypeNameMilitary", "Text": "军用"}
+,{"Name": "DropAllCargoMessage", "Text": "丢掉所有货物?"}
+,{"Name": "DropAllCargoHeader", "Text": "货物丢弃警告"}
+,{"Name": "DropCargoMessage", "Text": "你想要丢弃"}
+,{"Name": "DropCargoHeader", "Text": "货物丢弃警告"}
+,{"Name": "CargoBox", "Text": "货物"}
+,{"Name": "PirateHuntDescription", "Text": "消灭海盗:"}
+,{"Name": "FindGoodsDescription", "Text": "空间站需求"}
+,{"Name": "TransferGoodsDescription", "Text": "分配"}
+,{"Name": "MiningDescription", "Text": "矿工时刻"}
+,{"Name": "CourierDescription", "Text": "快递员工作"}
+,{"Name": "TouristDescription", "Text": "运输"}
+,{"Name": "MinedResult", "Text": "已开采"}
+,{"Name": "MinedOf", "Text": "的"}
+,{"Name": "MissionOfWord", "Text": " 单位 "}
+,{"Name": "MissionToWord", "Text": " 往 "}
+,{"Name": "Reputation", "Text": "Rep. 请求:"}
+,{"Name": "RepLevelLow", "Text": "中立的"}
+,{"Name": "RepLevelProven", "Text": "倾诉"}
+,{"Name": "RepLevelConfidence", "Text": "友好的"}
+,{"Name": "RepLevelAlly", "Text": "联合国"}
+,{"Name": "Reward", "Text": "奖励: "}
+,{"Name": "Reputation", "Text": "声望: "}
+,{"Name": "ReputationNoDots", "Text": "声望"}
+,{"Name": "StationNameHeader", "Text": "空间站"}
+,{"Name": "SystemNameHeader", "Text": "系统"}
+,{"Name": "MissionAcceptReward", "Text": "接受"}
+,{"Name": "MissionAcceptYes", "Text": "是"}
+,{"Name": "MissionAcceptNo", "Text": "否"}
+,{"Name": "MissionAcceptHeader", "Text": "任务"}
+,{"Name": "MissionAcceptQuestion", "Text": "接取这个任务: "}
+,{"Name": "MissionTimeOver", "Text": "时间到"}
+,{"Name": "MissionTileLeft", "Text": "剩余时间: "}
+,{"Name": "MissionCompletedHeader", "Text": "奖励"}
+,{"Name": "MissionCompleted", "Text": "你完成了任务. 你的奖励: \n"}
+,{"Name": "MissionGoToStationCompletedHeader", "Text": "已完成"}
+,{"Name": "MissionGoToStationCompleted", "Text": "任务已完成. 获得奖励在 "}
+,{"Name": "MissionCompletedGetAnswer", "Text": "好的"}
+,{"Name": "MissionFailedAnswer", "Text": "好的"}
+,{"Name": "MissionFailedHeader", "Text": "任务失败"}
+,{"Name": "MissionFailed", "Text": "你未达到任务所需的目标. 你的声望将会减少."}
+,{"Name": "MissionRewardHeader", "Text": "任务"}
+
+,{"Name": "MissionStillActiveAnswerDecline", "Text": "减少"}
+,{"Name": "MissionStillActiveAnswerContinue", "Text": "继续"}
+,{"Name": "MissionStillActiveHeader", "Text": "任务"}
+,{"Name": "MissionStillActive", "Text": "任务还没有完成. 是否取消任务 (声望将会减少)?"}
+
+,{"Name": "MissionsTooManyHeader", "Text": "任务限制"}
+,{"Name": "MissionsTooManyText", "Text": "激活了太多的任务."}
+,{"Name": "MissionsTooManyTouristText", "Text": "不能接取更多的观光任务了."}
+,{"Name": "MissionNotEnoughHeader", "Text": "任务限制"}
+,{"Name": "MissionNotEnough", "Text": "不符合当前的要求:"}
+,{"Name": "MissionNotEnoughAnswer", "Text": "好的"}
+,{"Name": "MissionNotEnoughMoney", "Text": "货物保险的CR不足."}
+,{"Name": "MissionNotEnoughMoneyPart2", "Text": " CR 需求."}
+,{"Name": "MissionNotEnoughCargo", "Text": "货物空间不足. "}
+,{"Name": "MissionNotEnoughCargoPart2", "Text": " 所需空闲插槽总数."}
+,{"Name": "TouristTransferToSystem0", "Text": "这似乎是个合适的地方. 在这里，我们可以享受空间的美丽。它既迷人又可怕。 现在我们回来吧. "}
+,{"Name": "TouristTransferToSystem1", "Text": "看起来我们到现场了. 激动人心的旅途. 现在我们回来吧."}
+,{"Name": "TouristTransferToSystem2", "Text": "我对这里的期望更高，但我不能抱怨你是如何完成工作的。现在我们回到空间站."}
+,{"Name": "MissionStatusUpdated", "Text": "任务概况变化"}
+
+,{"Name": "PirateSpawnText1", "Text": "你就是那个赏金猎人? 看起来很有趣!"}
+  ,{"Name": "PirateSpawnText2", "Text": "你不应该接受这项工作！你会后悔的！"}
+  ,{"Name": "PirateSpawnText3", "Text": "又一次试图抓住我. 这是你最愚蠢的错误！"}
+  ,{"Name": "PirateMeetsText", "Text": "非常好，你的货舱里好像有一些值钱的东西。丢掉货物，我会让你安全离开！"}
+
+,{"Name": "NoFreeSpaceToTakeCargo", "Text": "无剩余空间"}
+,{"Name": "PlanetScanMessage", "Text": "行星表面扫描: "}
+,{"Name": "PlanetScanMessageCompleted", "Text": "行星表面扫描完成"}
+,{"Name": "PlanetScanAlreadyDone", "Text": "行星表面已扫描"}
+,{"Name": "LifeSupportMessage", "Text": "生命支持: "}
+,{"Name": "BlackHoleForceAlert", "Text": "高重力"}
+,{"Name": "HighTemperatureAlert", "Text": "高温"}
+,{"Name": "WantedStatus", "Text": "通缉"}
+  ,{"Name": "PlanetType", "Text": "行星"}
+,{"Name": "StarType", "Text": "星球"}
+,{"Name": "StationType", "Text": "空间站"}
+,{"Name": "CargoBoxType", "Text": "货物"}
+,{"Name": "Distance", "Text": "距离"}
+,{"Name": "MakeRepairParts", "Text": "制作零件"}
+,{"Name": "MaterialMinedMessage", "Text": "已检测对象: "}
+
+,{"Name": "MissionRewardCredits", "Text": "点数"}
+,{"Name": "MissionRewardReputation", "Text": "声望"}
+
+,{"Name": "MapMenuFilterTitle", "Text": "地图过滤器"}
+,{"Name": "SearchStarBTN", "Text": "搜寻"}
+,{"Name": "SearchStarDefaultText", "Text": "行星名字"}
+
+, { "Name": "BTN_INFO", "Text": "信息" }
+, { "Name": "BTN_Missions", "Text": "任务" }
+, { "Name": "BTN_Modules", "Text": "模块" }
+, { "Name": "BTN_Cargo", "Text": "货物" }
+, { "Name": "BTN_Planets", "Text": "星系地图" }
+, { "Name": "BTN_Objects", "Text": "对象" }
+, { "Name": "BTN_Spectrum", "Text": "频谱分析仪" }
+, { "Name": "BTN_Autopilot", "Text": "自动驾驶" }
+
+, { "Name": "BTN_ScanCargo", "Text": "货物扫描" }
+, { "Name": "BTN_SetAsTarget", "Text": "设置目标" }
+, { "Name": "BTN_AttackNPC", "Text": "攻击" }
+
+, { "Name": "BTN_Warp", "Text": "曲速跳跃" }
+, { "Name": "BTN_Discoveries", "Text": "发现" }
+, { "Name": "BTN_Service", "Text": "服务" }
+, { "Name": "BTN_REPAIR", "Text": "维修" }
+, { "Name": "BTN_Shipyard", "Text": "船厂" }
+, { "Name": "BTN_Market", "Text": "商店" }
+, { "Name": "BTN_PlanetInfo", "Text": "信息" }
+, { "Name": "BTN_SetDestination", "Text": "选中" }
+, { "Name": "BTN_PlanetScan", "Text": "扫描" }
+, { "Name": "BTN_PlanetLanding", "Text": "着陆" }
+, { "Name": "BTN_Attack", "Text": "攻击" }
+, { "Name": "BTN_SETTINGS", "Text": "设置" }
+, { "Name": "BTN_QUICKSAVE", "Text": "保存游戏" }
+, { "Name": "BTN_Map", "Text": "星系" }
+
+, { "Name": "SaveSuccessful", "Text": "游戏已保存" }
+, { "Name": "SaveFailed", "Text": "无法保存"}
+
+, { "Name": "BTN_HELP", "Text": "帮助" }
+, { "Name": "BTN_SETTINGS", "Text": "设置" }
+
+, { "Name": "BTN_Route", "Text": "路线" }
+, { "Name": "BTN_Filters", "Text": "过滤器" }
+, { "Name": "BTN_External", "Text": "外置设备" }
+, { "Name": "BTN_Heatsink", "Text": "散热器" }
+, { "Name": "BTN_ChaffLauncher", "Text": "箔条发射器" }
+, { "Name": "BTN_MissileDefence", "Text": "导弹防御系统" }
+, { "Name": "BTN_ShieldCell", "Text": "护盾存储装置" }
+, { "Name": "BTN_Fighters", "Text": "舰载机" }
+, { "Name": "SkipTutorialBTN", "Text": "跳过教程" }
+, { "Name": "ResetStoryBTN", "Text": "重置故事" }
+, { "Name": "AimError", "Text": "瞄准错误" }
+, { "Name": "NoMoneyBuyShipHeader", "Text": "信用点数不足" }
+, { "Name": "NoMoneyBuyShip", "Text": "购买舰船所需的信用点数不足" }
+, { "Name": "CurrStationErrorHeader", "Text": "限制" }
+, { "Name": "CurrStationError", "Text": "这艘船在另一个空间站: " }
+, { "Name": "CurrStationModError", "Text": "此模块位于不同的工作站: " }
+
+, { "Name": "DropCargoToBuyShipHeader", "Text": "货物空间不足" }
+, { "Name": "DropCargoToBuyShip", "Text": "新舰船没有足够的空间容纳你的货物" }
+, { "Name": "BuyShipHeader", "Text": "舰船购买" }
+, { "Name": "BuyShip", "Text": "购买这艘舰船?" }
+, { "Name": "YourShipsHeader", "Text": "舰船库" }
+, { "Name": "LawForcesMessageToPlayer", "Text": "关闭引擎，关闭武器，放弃抵抗！否则你会被摧毁!" }
+, { "Name": "LawForcesMessageToPlayer2", "Text": "这样做更好.你必须在任何一个空间站支付罚款！" }
+, { "Name": "LawForcesMessageToPirate", "Text": "亲爱的市民，请保持冷静。我们会消灭入侵者." }
+, { "Name": "PlayerShipRestoreMessage", "Text": "保险公司支付了购买新舰船的费用。您的所有合同、处罚、奖励和研究数据都已重置." }
+, { "Name": "NoWeaponsTraderDropCargo", "Text": "我会丢掉所有货物! 请不要杀我!" }
+, { "Name": "TraderAngry", "Text": "你想要我的货物? 恐怕你没那个本事，我会让你付出代价的！！！" }
+, { "Name": "PirateAngry", "Text": "混蛋，你会付出代价的!" }
+, { "Name": "PirateWantCargo", "Text": "丢掉货物，我会让你安全离开!" }
+, { "Name": "PirateWantCargoEnd", "Text": "你做了正确的事情." }
+,{"Name": "AtmosphereNotExist", "Text": "无"}
+,{"Name": "ModuleSingletonExist", "Text": "只允许安装一个模块"}
+,{"Name": "ModuleSingletonExistHeader", "Text": "模块限制"}
+,{"Name": "ModuleNotSupported", "Text": "你的舰船无法安装这个模块. "}
+
+,{"Name": "PlanetInfoName", "Text": "名字"}
+,{"Name": "PlanetInfoType", "Text": "种类"}
+,{"Name": "PlanetInfoDescription", "Text": "描述"}
+,{"Name": "PlanetInfoTemp", "Text": "温度"}
+,{"Name": "PlanetInfoAtmosphereType", "Text": "大气层类别"}
+,{"Name": "PlanetInfoAtmosphere", "Text": "大气层"}
+,{"Name": "PlanetInfoVolcanism", "Text": "火山作用"}
+,{"Name": "PlanetInfoComposition", "Text": "组成材料"}
+,{"Name": "NewFineInfo", "Text": "罚款: "}
+,{"Name": "NewBounty", "Text": "悬赏的索赔: "}
+,{"Name": "NewBountyBns", "Text": "悬赏的奖金: "}
+,{"Name": "CheckingСrimes", "Text": "检查犯罪行为: "}
+,{"Name": "CargoScan", "Text": "货物扫描: "}
+,{"Name": "CargoEmpty", "Text": "空"}
+
+,{"Name": "UnknownPlanet", "Text": "未知行星"}
+,{"Name": "UnknownType", "Text": "未知种类"}
+,{"Name": "MaxJumpRange", "Text": "曲速跳跃范围"}
+,{"Name": "Acceleration", "Text": "加速度"}
+,{"Name": "MaxSpeed", "Text": "最大速度"}
+,{"Name": "RotationSpeed", "Text": "旋转"}
+,{"Name": "RotationAcceleration", "Text": "旋转加速度"}
+,{"Name": "TotalMass", "Text": "总质量"}
+,{"Name": "SelfDestroyBTN", "Text": "自爆"}
+,{"Name": "SelfDestroyQuestionHeader", "Text": "自爆"}
+,{"Name": "SelfDestroyQuestion", "Text": "确定激活自爆程序?"}
+
+,{"Name": "BuyNewShipSellOldQuestion", "Text": "你应该卖掉现在的舰船，这样你就有足够的信用买新的。当前舰船的成本: "}
+,{"Name": "BuyNewShipQuestion", "Text": "你想卖掉还是想保留现在的舰船？当前舰船的价格: "}
+,{"Name": "NewShipCostText", "Text": "新的舰船价格: "}
+,{"Name": "NewShipCostSellOldText", "Text": "交易价格: "}
+,{"Name": "BuyNewShipCancel", "Text": "取消"}
+,{"Name": "BuyNewShipStorageOld", "Text": "入库"}
+,{"Name": "BuyNewShipSellOld", "Text": "出售"}
+
+,{"Name": "WarpFuelError", "Text": "错误: 燃料耗尽"}
+,{"Name": "WarpSpeedError", "Text": "错误：舰船引擎未停止"}
+,{"Name": "WarpRouteError", "Text": "错误：:制定路线"}
+,{"Name": "WarpOffError", "Text": "能源耗尽: 曲速曲速跳跃"}
+
+,{"Name": "inBattleError", "Text": "错误: 战斗模式激活"}
+
+,{"Name": "FightersStationError", "Text": "错误: 召回舰载机"}
+,{"Name": "FightersWarpError", "Text": "警告: 舰载机将被摧毁"}
+
+,{"Name": "ScoopableStar", "Text": "燃料"}
+
+,{"Name": "GoodsFilter", "Text": "物资可用程度"}
+,{"Name": "GoodsFilterNone", "Text": "未选中"}
+
+,{"Name": "DialogHistoryHeader", "Text": "最后对话"}
+
+,{"Name": "SkipTutorialHeader", "Text": "跳过教程"}
+,{"Name": "SkipTutorial", "Text": "确定跳过教程?"},
+
+{"Name": "ResetStoryHeader", "Text": "重置故事进度"}
+,{"Name": "ResetStory", "Text": "确定重置故事?"}
+
+
+,{"Name": "ModsWarnHeader", "Text": "读取mod"}
+,{"Name": "ModsWarn", "Text": "你正在使用mods. 需要同意游戏通过文件系统读取mod."}
+,{"Name": "ModsWarnOk", "Text": "我明白"}
+
+,{"Name": "ScreenOrientHeader", "Text": "屏幕模式"}
+,{"Name": "ScreenOrientWarn", "Text": "重启游戏以启用屏幕模式."}
+,{"Name": "ScreenOrientWarnL", "Text": "警告! 全屏幕模式是实验性功能。许多菜单尚未适应全屏幕方向。重新启动游戏以应用屏幕模式."}
+,{"Name": "ScreenOrientWarnOk", "Text": "我明白"}
+
+,{"Name": "ModsNotExistHeader", "Text": "未找到mod"}
+,{"Name": "ModsNotExist", "Text": "读取mod失败. 无法找到mod."}
+
+,{"Name": "HighTextrAlertHeader", "Text": "性能不佳警告"}
+,{"Name": "HighTextrAlert", "Text": "你正在使用高要求的配置. 这可能会导致性能下降，甚至在较弱的设备上导致游戏崩溃。如果游戏有问题，请将纹理设置返回到最小值."}
+
+,{"Name": "ModsAllowHeader", "Text": "访问mod"}
+,{"Name": "ModsAllow", "Text": "是否允许游戏读取文件系统? "}
+
+,{"Name": "ModsAllowYes", "Text": "是"}
+,{"Name": "ModsAllowNo", "Text": "否"}
+
+,{"Name": "ModsErrorHeader", "Text": "Mods 错误"}
+,{"Name": "ModsError", "Text": "Mods读取错误. 出了点问题."}
+
+,{"Name": "ModsLoadedHeader", "Text": "Mods 已读取"}
+,{"Name": "ModsLoaded", "Text": "Mods 读取成功"}
+,{"Name": "ModsLoadedOk", "Text": "好的"}
+
+,{"Name": "ModsExistHeader", "Text": "Mod 已存在"}
+,{"Name": "ModsNotExistNo", "Text": "否"}
+,{"Name": "ModsExist", "Text": "是"}
+
+
+,{"Name": "HabitableZoneInfo", "Text": "[宜居带]"}
+
+,{"Name": "SecurityHeader", "Text": "安全度: "}
+,{"Name": "PlanetTypeHeader", "Text": "种类: "}
+,{"Name": "SecurityTypeAnarchy", "Text": "无政府状态"}
+,{"Name": "SecurityTypeLow", "Text": "低"}
+,{"Name": "SecurityTypeMedium", "Text": "中"}
+,{"Name": "SecurityTypeHigh", "Text": "高"}
+,{"Name": "SecurityTypeOnly", "Text": "无政府状态"}
+,{"Name": "SecurityTypeNoOne", "Text": "无政府状态"}
+,{"Name": "SecurityTypeConflict", "Text": "冲突区域"}
+
+,{"Name": "ActiveMissionsHeader", "Text": "激活任务"}
+,{"Name": "AvailableMissionsHeader", "Text": "可用任务"}
+,{"Name": "DiscoveriesSaleResult", "Text": "提交研究数据可提高声望"}
+
+,{"Name": "GMS_SaveBtn", "Text": "保存"}
+,{"Name": "GMS_ClearBtn", "Text": "删除本地存档"}
+,{"Name": "GMS_LoadBtn", "Text": "读取"}
+,{"Name": "GMS_UseCloudSaveBtn", "Text": "使用云存档"}
+,{"Name": "GMS_CloudSave", "Text": "云端存储"}
+,{"Name": "GMS_QuestionUse", "Text": "是否使用云存档替换本地存档 ?"}
+,{"Name": "GMS_QuestionUseH", "Text": "保存"}
+,{"Name": "GMS_QuestionSave", "Text": "是否将当前存档传输至服务器?"}
+,{"Name": "GMS_ClearSave", "Text": "是否删除本地存档开启新游戏?"}
+
+,{"Name": "RatingsBtn", "Text": "成就"}
+,{"Name": "ExplSysRatingsBtn", "Text": "已探索的星系"}
+,{"Name": "ExplPlnsRatingsBtn", "Text": "以探索的行星"}
+,{"Name": "TimePlayedRatingsBtn", "Text": "游玩时间"}
+,{"Name": "AchievementsBtn", "Text": "成就"}
+
+,{"Name": "ModsHeader", "Text": "修改"}
+,{"Name": "ModsStoryHeader", "Text": "支线任务"}
+,{"Name": "ModsShipsHeader", "Text": "舰船"}
+,{"Name": "ModsOnHeader", "Text": "激活的"}
+,{"Name": "ModsPathHeader", "Text": "文件路径"}
+,{"Name": "SettingsHeader", "Text": "设置"}
+,{"Name": "SettingsSaves", "Text": "存档"}
+,{"Name": "SettingsGraphicsHeader", "Text": "画面"}
+,{"Name": "SettingsGameplayHeader", "Text": "游戏性"}
+,{"Name": "SettingsSoundHeader", "Text": "音效"}
+,{"Name": "SettingsLanguage", "Text": "语言"}
+,{"Name": "SettingsLanguageAlertHeader", "Text": "语言更换"}
+,{"Name": "SettingsLanguageAlert", "Text": "更换语言需重启游戏."}
+,{"Name": "SettingsPlanetQuality", "Text": "纹理"}
+,{"Name": "SettingsPlanetQualityHigh", "Text": "高"}
+,{"Name": "SettingsPlanetQualityMedium", "Text": "中"}
+,{"Name": "SettingsPlanetQualityLow", "Text": "低"}
+,{"Name": "SettingsParticles", "Text": "颗粒质量"}
+,{"Name": "SettingsParticlesQualityHigh", "Text": "高"}
+,{"Name": "SettingsParticlesQualityMedium", "Text": "中"}
+,{"Name": "SettingsParticlesQualityLow", "Text": "低"}
+,{"Name": "SettingsControlInversion", "Text": "控制反转"}
+,{"Name": "SettingsControlInversionNormal", "Text": "正常"}
+,{"Name": "SettingsControlInversionInverted", "Text": "反转"}
+,{"Name": "SettingsControlFlightAssist", "Text": "飞行辅助"}
+,{"Name": "SettingsControlFlightAssistOn", "Text": "开"}
+,{"Name": "SettingsControlFlightAssistOff", "Text": "关"}
+,{"Name": "SettingsSoundMaster", "Text": "总音量"}
+,{"Name": "SettingsSoundEffects", "Text": "音效"}
+,{"Name": "SettingsSoundMusic", "Text": "音乐"}
+,{"Name": "SettingsStory", "Text": "教程和故事"}
+,{"Name": "SettingsStoryOn", "Text": "开"}
+,{"Name": "SettingsStoryOff", "Text": "关"}
+,{"Name": "SettingsZoom", "Text": "镜头距离"}
+
+,{"Name": "ColorRed", "Text": "红"}
+,{"Name": "ColorGreed", "Text": "绿"}
+,{"Name": "ColorBlue", "Text": "蓝"}
+,{"Name": "ColorAlpha", "Text": "Alpha值"}
+,{"Name": "ColorResult", "Text": "结果"}
+
+,{"Name": "SettingsAutoAttack", "Text": "自动攻击"}
+,{"Name": "SettingsScreenMode", "Text": "屏幕模式"}
+,{"Name": "SettingsFPS", "Text": "帧率"}
+,{"Name": "SettingsShowFPS", "Text": "显示 fps"}
+,{"Name": "SettingsScreenVert", "Text": "竖直"}
+,{"Name": "SettingsScreenHorz", "Text": "水平的"}
+,{"Name": "SettingsStick", "Text": "虚拟摇杆"}
+,{"Name": "SettingsUIScale", "Text": "UI 尺寸"}
+,{"Name": "SettingsUIScaleN", "Text": "正常 (手机)"}
+,{"Name": "SettingsUIScaleS", "Text": "小 (平板)"}
+,{"Name": "SettingsUIScaleT", "Text": "极小 (大屏平板)"}
+,{"Name": "SettingsUIScaleAlertHeader", "Text": "UI 尺寸变更"}
+,{"Name": "SettingsUIScaleAlert", "Text": "变更ui尺寸将会重启游戏."}
+
+,{"Name": "SpaceMsg1", "Text": "嗨，波特小姐, 如果你找到这段录音，不要为此感到难过。旅程的一部分是结束。只是为了记录在案，在没有救援希望的情况下漂浮在太空比听起来更有趣。四天前食物和水用完了。明天早上氧气会耗尽。当我漂泊时，我会梦见你。总是你."}
+,{"Name": "SpaceMsg2", "Text": "但有人警告我：“你至少应该告诉一个人你要去哪里”……现在呢？我的船被严重损坏了，我独自一人呆在这片死气沉沉的空间里……但如此迷人的空间……我是否后悔一切都将以这种方式结束？不，不是全部。这并不是最严重的死亡——在观看中子星喷射时死亡."}
+,{"Name": "SpaceMsg3", "Text": "我们的船遭到不明物体的袭击。损坏如此之重，以致于这艘船正在解体。这段录音可能是最后一段了。维卡，你应该知道一件事——我爱你——你和我们的儿子！你们两个是我生命中最美好的部分。记录已损坏."}
+,{"Name": "SpaceMsg4", "Text": "似乎我们的血液中充满了对太空探索的热情。。。我一直想成为一个像我父亲一样的探险家，难怪我的生命会以和他一样的方式结束..."}
+,{"Name": "SpaceMsg5", "Text": "一次愚蠢的航行失误瞬间将我的整个生活连根拔起。还有很多事情我没有时间去完成。我应该告诉玛丽我的感受…我应该为她而战…我应该和我的父母和好…现在这似乎很容易做到..."}
+,{"Name": "SpaceMsg6", "Text": "我不明白这是怎么发生的……5光年以上的常规曲速跳跃把我从家里扔了出去。但这没有配备燃料采集器……现在它将成为我接下来几个月的最后一个家。当我用完所有的补给时，它也会成为我的坟墓."}
+,{"Name": "SpaceMsg7", "Text": "我是谢泼德中校。探索银河系的遥远角落，寻找地外生命——所有这些都激励着我们继续前进。现在我们的团队已经没有希望离开这里了。愤怒的爆发，自杀事件。。。船员们因为绝望而慢慢变得疯狂。。。我甚至无法想象一切都会这样结束..."}
+
+,{"Name": "LandMsg1", "Text": "我的船在一个被上帝遗弃的行星上失事了。我想我会发疯的，甚至在我用完食物之前。有时我觉得有人敲了气闸，打电话给我。真遗憾，我连玛莎（猫）都没带."}
+,{"Name": "LandMsg2", "Text": "当你的船处于正常工作状态时，油箱里装满了燃料，你不会感觉到那可怕的距离把你和家隔开了。但一旦出了问题，一切都会改变。。。当我拼命寻找资源来维修燃料采集器时，我在这个行星上失事了。现在我的食物供应快用完了。我唯一能做的就是进入逃生舱里的休眠舱。我希望有一天…有人会找到我."}
+,{"Name": "LandMsg3", "Text": "他们必须来抓我们，他们必须。。。我在第一个月的时候也是这么想的。。。现在我明白了，我们的生命比组织救援行动更有价值…"}
+,{"Name": "LandMsg4", "Text": "在跳过峡谷时，漫游者的一个侧面推进器停止了工作。我失去了控制，开始摔倒。重力0.5G帮助我生存，但我能活多久。。。跌落导致减压。剩下的氧气只有几个小时。我有足够的时间恢复发射机以呼叫舰船吗?"}
+,{"Name": "LandMsg5", "Text": "估计的地震活动与实际情况相差甚远。我不该如此鲁莽地降落。我应该收集更多的数据，然后我就会明白这个行星比乍看起来要危险得多。一个新的间歇泉释放出的硅酸盐进入太空数十公里，把我的船像一粒沙子一样抛了出去。当然，我在选择死亡地点时犯了一个错误。。。"}
+
+,{"Name": "MaterialRock", "Text": "岩石"}
+,{"Name": "MaterialIron", "Text": "钢铁"}
+,{"Name": "MaterialArgon", "Text": "氩气"}
+,{"Name": "MaterialIce", "Text": "冰"}
+,{"Name": "MaterialHelium", "Text": "氦"}
+,{"Name": "MaterialMethane", "Text": "甲烷"}
+,{"Name": "MaterialHydrogen", "Text": "氢"}
+,{"Name": "MaterialCarbonDioxide", "Text": "二氧化碳"}
+,{"Name": "MaterialOxygen", "Text": "氧气"}
+,{"Name": "MaterialNitrogen", "Text": "氮"}
+,{"Name": "MaterialSulphurDioxide", "Text": "二氧化硫"}
+,{"Name": "MaterialSelicateVapour", "Text": "硅酸盐蒸汽"}
+,{"Name": "MaterialWater", "Text": "水"}
+,{"Name": "MaterialAmmonia", "Text": "氨"}
+
+,{"Name": "AtmosNo_Atmosphere", "Text": "无"}
+,{"Name": "AtmosCarbonDioxide", "Text": "二氧化碳"}
+,{"Name": "AtmosNitrogen", "Text": "氮"}
+,{"Name": "AtmosSulphurDioxide", "Text": "二氧化硫"}
+,{"Name": "AtmosSelicateVapour", "Text": "硅酸盐蒸汽"}
+,{"Name": "AtmosWater", "Text": "水"}
+,{"Name": "AtmosOxygenNitrogen", "Text": "氧气和氮气"}
+,{"Name": "AtmosAmmoniaOxygen", "Text": "氨和氧"}
+,{"Name": "AtmosArgon", "Text": "氩气"}
+
+,{"Name": "VulcNo_Vulcanism", "Text": "无"}
+,{"Name": "VulcIron_Magma", "Text": "铁岩浆"}
+,{"Name": "VulcGeysers", "Text": "间歇泉"}
+,{"Name": "VulcSilicate_Magma", "Text": "硅酸盐岩浆"}
+
+,{"Name": "SPSpectrumWave", "Text": "频谱波"}
+,{"Name": "SPElements", "Text": "元素"}
+,{"Name": "SPMapped", "Text": "映射"}
+,{"Name": "SPBodies", "Text": "机构"}
+,{"Name": "SPAstBelt", "Text": "小行星带"}
+
+,{"Name": "MarketTypeMedicines", "Text": "药品"}
+,{"Name": "MarketTypeWeapons", "Text": "武器"}
+,{"Name": "MarketTypeFood", "Text": "食物"}
+,{"Name": "MarketTypeTechnology", "Text": "科技"}
+,{"Name": "MarketTypeMinerals", "Text": "矿物"}
+,{"Name": "MarketTypeMetals", "Text": "金属"}
+,{"Name": "MarketTypeTextiles", "Text": "纺织品"}
+,{"Name": "MarketTypeConsumerItems", "Text": "可消耗物资"}
+,{"Name": "MarketTypeChemicals", "Text": "化学品"}
+,{"Name": "MarketTypeNonLegal", "Text": "黑市"}
+,{"Name": "MarketTypeOther", "Text": "其他"}
+
+,{"Name": "ShipLevelHarmless", "Text": "无恶意的"}
+,{"Name": "ShipLevelNovice", "Text": "新手"}
+,{"Name": "ShipLevelCompetent", "Text": "有能力"}
+,{"Name": "ShipLevelExpert", "Text": "专家"}
+,{"Name": "ShipLevelMaster", "Text": "大师"}
+,{"Name": "ShipLevelDangerous", "Text": "危险的"}
+
+,{"Name": "TraderRankPenniless", "Text": "贫穷的"}
+,{"Name": "TraderRankMostlyPenniless", "Text": "身无分文"}
+,{"Name": "TraderRankPeddler", "Text": "身无分文的小贩"}
+,{"Name": "TraderRankDealer", "Text": "经销商"}
+,{"Name": "TraderRankMerchant", "Text": "商人"}
+,{"Name": "TraderRankBroker", "Text": "经纪人"}
+,{"Name": "TraderRankEntrepreneur", "Text": "企业家"}
+,{"Name": "TraderRankTycoon", "Text": "大亨"}
+,{"Name": "TraderRankElite", "Text": "首要的"}
+
+,{"Name": "ExplorationRankAimless", "Text": "暂无目的地"}
+,{"Name": "ExplorationRankMostlyAimless", "Text": "没有目标"}
+,{"Name": "ExplorationRankScout", "Text": "侦察"}
+,{"Name": "ExplorationRankSurveyor", "Text": "测量员"}
+,{"Name": "ExplorationRankTrailblazer", "Text": "开拓者"}
+,{"Name": "ExplorationRankPathfinder", "Text": "探路者"}
+,{"Name": "ExplorationRankRanger", "Text": "护林员"}
+,{"Name": "ExplorationRankPioneer", "Text": "先锋"}
+,{"Name": "ExplorationRankElite", "Text": "首要的"}
+
+,{"Name": "CombatRankHarmless", "Text": "无恶意的"}
+,{"Name": "CombatRankMostlyHarmless", "Text": "完全无害"}
+,{"Name": "CombatRankNovice", "Text": "新手"}
+,{"Name": "CombatRankCompetent", "Text": "有能力"}
+,{"Name": "CombatRankExpert", "Text": "专家"}
+,{"Name": "CombatRankMaster", "Text": "大师"}
+,{"Name": "CombatRankDangerous", "Text": "危险"}
+,{"Name": "CombatRankDeadly", "Text": "致死"}
+,{"Name": "CombatRankElite", "Text": "首要的"}
+
+,{"Name": "EmergencyStopMsg", "Text": "急停"}
+
+
+,{"Name": "TradeStatusHeader", "Text": "贸易"}
+,{"Name": "ExplorationStatusHeader", "Text": "探索"}
+,{"Name": "CombatStatusHeader", "Text": "战斗"}
+,{"Name": "NoMissionsText", "Text": "没有激活的任务"}
+
+,{"Name": "NoModulesAvailable", "Text": "无可用模块"}
+,{"Name": "ScanReq", "Text": "行星表面需要扫描"}
+,{"Name": "DiscovrRestr", "Text": "研究数据销售适用于距离太阳系300光年的行星系."}
+
+,{"Name": "ShipTypeCardinal", "Text": "红衣主教"}
+,{"Name": "ShipTypeMantis", "Text": "刺客"}
+,{"Name": "ShipTypeGoliath", "Text": "歌利亚"}
+,{"Name": "ShipTypeSpecter", "Text": "幽灵"}
+,{"Name": "ShipTypePorter", "Text": "搬运工人"}
+,{"Name": "ShipTypeOverseer", "Text": "监督员"}
+,{"Name": "ShipTypeScorpion", "Text": "蝎子"}
+,{"Name": "ShipTypeWasp", "Text": "黄蜂"}
+,{"Name": "ShipTypeKLA9", "Text": "利维坦"}
+,{"Name": "ShipTypeKLA8M", "Text": "庞然大物"}
+,{"Name": "ShipTypeFalcon", "Text": "猎鹰"}
+,{"Name": "ShipTypeKLA-6", "Text": "穿山甲"}
+,{"Name": "ShipTypeHawk", "Text": "鹰"}
+,{"Name": "ShipTypeVertex", "Text": "涡流"}
+,{"Name": "ShipTypeAtom", "Text": "原子"}
+,{"Name": "ShipTypeIon", "Text": "离子"}
+,{"Name": "ShipTypeZeus", "Text": "宙斯"}
+,{"Name": "ShipTypeAvant", "Text": "梭鱼"}
+,{"Name": "ShipTypeHyperion", "Text": "亥伯龙"}
+,{"Name": "ShipTypeRogue", "Text": "恶霸"}
+,{"Name": "ShipTypeAngler-B", "Text": "苍蝇"}
+,{"Name": "ShipTypeMother", "Text": "虫后"}
+,{"Name": "ShipTypeAutomaton", "Text": "AI舰船"}
+,{"Name": "ShipTypeNemesis", "Text": "复仇女神"}
+,{"Name": "ShipTypeChaser", "Text": "追逐者"}
+,{"Name": "ShipTypeViking", "Text": "维京"}
+,{"Name": "ShipTypePangolinMK2", "Text": "穿山甲MK2"}
+,{"Name": "ShipTypeValkyrie", "Text": "女武神"}
+,{"Name": "ShipTypeBuran", "Text": "猎手"}
+
+,{"Name": "EarthLikePlanetName", "Text": "类地行星"}
+,{"Name": "EarthLikePlanetDesc", "Text": "类地世界是一种类地行星，具有活跃的水基化学和本土碳水基生命."}
+
+,{"Name": "GasGiantClassIName", "Text": "气体行星 I 级别"}
+,{"Name": "GasGiantClassIDesc", "Text": "第一类或木星气态巨行星主要有氢和氦气氛。颜色来自上层大气中的氨、水蒸气、硫化氢、磷化氢和硫云。上层云层顶部的温度通常低于150 K."}
+
+,{"Name": "GasGiantClassIIName", "Text": "气体行星 II 级别"}
+,{"Name": "GasGiantClassIIDesc", "Text": "第二类气态巨行星的大气主要是氢和氦。上层云层中的水蒸气使其反照率高得多。其表面温度通常高达或约为250 K。"}
+
+,{"Name": "GasGiantClassIIIName", "Text": "气体行星 III 级别"}
+,{"Name": "GasGiantClassIIIDesc", "Text": "第三类气态巨行星的大气主要是氢和氦，没有明显的云层。它们的表面温度通常在350 K到800 K之间。由于大气中的光学散射，它们的颜色主要是蓝色的，很可能是硫化物和氯化物形成的细小云层."}
+
+,{"Name": "GasGiantClassIVName", "Text": "气体行星 IV 级别"}
+,{"Name": "GasGiantClassIVDesc", "Text": "第四类气态巨行星的大气主要为氢和氦，其中一氧化碳和碱金属上层云层位于硅酸盐和铁化合物的下层云层之上，因此颜色更亮。其上层云层的温度通常在900 K以上."}
+
+,{"Name": "GasGiantClassVName", "Text": "气体行星 V 级别"}
+,{"Name": "GasGiantClassVDesc", "Text": "第五类气态巨行星的大气主要是氢和氦，含有厚厚的硅酸盐和铁化合物云，甚至金属铁。它们是最热的气态巨行星，上层云层温度超过1400 K，下层温度更高，内部热量通常会发出暗淡的辉光."}
+
+,{"Name": "HeliumRichGasGiantName", "Text": "富氦气体巨行星"}
+,{"Name": "HeliumRichGasGiantDesc", "Text": "与大气中的氢相比，富氦气态巨行星的氦膨胀率很大。随着时间的推移，它们的大部分氢已经丢失，因为它们没有足够的质量来保持它。这也可能是因为他们过去的温度要高得多，以更高的速度排出氢气."}
+
+,{"Name": "GasGiantwithAmmoniaLifeName", "Text": "具有氨寿命的气体巨行星"}
+,{"Name": "GasGiantwithAmmoniaLifeDesc", "Text": "以氨为基础的生命的气体巨行星。这主要是一个以氢和氦为基础的大气气体巨行星，但在地表云层以下一点，生命存在于氨云层中。这一气态区域的化学远未达到平衡，氧和许多碳基化合物的过量令人惊讶，给它带来了一些鲜艳的颜色。与许多这样的气体生命系统一样，它的基础是大量自由漂浮的放射性浮游生物——微小的碳基藻类，每一种都保留着少量的液氨，从强烈的辐射通量中提取能量."}
+
+,{"Name": "GasGiantwithWaterLifeName", "Text": "具有水生命的气体巨行星"}
+,{"Name": "GasGiantwithWaterLifeDesc", "Text": "具有水基生命的气体巨行星。这主要是一个以氢和氦为基础的大气气体巨行星，但在离地表不远的地方，在大气表面正下方的水云层中存在生命。这一气态区域的化学远未达到平衡，氧和许多碳基化合物的过量令人惊讶，给它带来了一些鲜艳的颜色。与许多这样的气体生命系统一样，它的基础是大量自由漂浮的放射性浮游生物——微小的碳基藻类，每一种都保留着少量的液态水，从强烈的辐射通量中提取能量."}
+
+,{"Name": "WaterWorldName", "Text": "水世界"}
+,{"Name": "WaterWorldDesc", "Text": "具有活跃水基化学和碳水基生命的陆地水世界."}
+
+,{"Name": "IcePlanetName", "Text": "冰行星"}
+,{"Name": "IcePlanetDesc", "Text": "冰行星主要由水冰组成。像这样的行星在过去不会有太多的热量，形成于恒星系的较冷区域，并在其地壳中保留了许多作为固体的挥发物."}
+
+,{"Name": "RockPlanetName", "Text": "岩石行星"}
+,{"Name": "RockPlanetDesc", "Text": "表面金属含量很少或没有的岩石世界。由于过去的加热，这样的行星已经失去了大部分挥发物，任何金属成分都将形成一个小的中心核."}
+
+,{"Name": "HighMetalPlanetName", "Text": "高金属行星"}
+,{"Name": "HighMetalPlanetDesc", "Text": "金属含量高的行星，金属核心。像这样的行星表面可能有一些地方有金属矿石，特别是在过去火山活动的地区周围."}
+
+,{"Name": "MetalRichPlanetName", "Text": "富金属行星"}
+,{"Name": "MetalRichPlanetDesc", "Text": "像这样富含金属的行星有一个巨大的金属核心，甚至在表面也有大量的金属矿石。在某些地方，特别是在过去或当前火山活动或液体侵蚀的地区，也可以在元素形式中找到一些较高的金属。因此，采矿效率很高，因此这些世界受到高度重视."}
+
+,{"Name": "AmmoniaPlanetName", "Text": "氨行星"}
+,{"Name": "AmmoniaPlanetDesc", "Text": "具有活性氨化学和碳氨生命的陆地氨世界."}
+
+,{"Name": "WaterGiantName", "Text": "水体巨行星"}
+,{"Name": "WaterGiantDesc", "Text": "水体巨行星。像这样的行星有一个主要由水蒸气组成的大气层。它很可能是在一个巨大的冰体加热到足以蒸发其表面大量冰时形成的，这反过来会引发失控的温室效应，导致由蒸发冰形成的非常厚的大气."}
+
+,{"Name": "M-RedDwarfName", "Text": "M - 红矮星"}
+,{"Name": "M-RedDwarfDesc", "Text": "M类恒星是红星，它们构成了银河系主序恒星的主体。它们的质量很低，表面温度也很低。\n M恒星系往往包含许多冰体和岩石冰世界."}
+
+,{"Name": "K-YellowOrangeName", "Text": "K - 黄橙主序"}
+,{"Name": "K-YellowOrangeDesc", "Text": "K类恒星是黄橙色的主序恒星，寿命长且通常稳定。它们的质量范围为0.6到0.9太阳质量，表面温度达到5000 K。\n K类恒星系最有可能包含水体和岩石体."}
+
+,{"Name": "G-WhiteYellowName", "Text": "G - 白黄主序"}
+,{"Name": "G-WhiteYellowDesc", "Text": "G类恒星是白-黄主序星。它们的质量范围为0.8到1.2太阳质量，表面温度达到6000 K。\n G类恒星系是最有可能包含类地行星的星系之一."}
+
+,{"Name": "F-WhiteName", "Text": "F - 白色主序"}
+,{"Name": "F-WhiteDesc", "Text": "F类恒星是白色主序星。它们的质量范围为1到1.4太阳质量，表面温度达到7600 K。\n F类恒星系是最有可能包含类地行星的星系之一."}
+
+,{"Name": "A-BlueWhiteName", "Text": "A - 蓝白主序"}
+,{"Name": "A-BlueWhiteDesc", "Text": "A级恒星是热白或蓝白主序恒星。它们的质量范围为1.4到2.1太阳质量，表面温度达到10000 K。\n a类恒星系通常包含高金属含量的行星和富含金属的天体."}
+
+,{"Name": "B-BlueWhiteName", "Text": "B - 蓝白主序"}
+,{"Name": "B-BlueWhiteDesc", "Text": "B类恒星是非常明亮的蓝白色恒星。它们的质量范围为2到16个太阳质量，表面温度达到30000 K。它们的寿命比大多数主序恒星都短。\nB类恒星系很少包含陆地天体。最有可能举办恒星托儿所之一."}
+
+,{"Name": "O-BlueWhiteName", "Text": "O - 蓝白主序"}
+,{"Name": "O-BlueWhiteDesc", "Text": "O类恒星是银河系中最明亮、质量最大的主序恒星。它们的质量范围为15到90个太阳质量，燃烧非常明亮，表面温度达到52000 K，因此看起来非常蓝。它们的寿命很短，只有100万到1000万年，最终形成超新星。\nClass O恒星系很少包含陆地天体。最有可能举办恒星托儿所之一."}
+
+,{"Name": "WolfRayetStarName", "Text": "沃尔夫-雷耶特类恒星"}
+,{"Name": "WolfRayetStarDesc", "Text": "沃尔夫-雷耶特类恒星是接近其生命周期终点的大质量恒星，已经脱离了氢燃烧阶段。它们曾经有20多个太阳质量，但现在通过太阳风脱落了大量物质。它们的表面温度可以达到200000 K，所以它们呈现出明亮的蓝色."}
+
+,{"Name": "WC-WolfRayetStarName", "Text": "WC - 沃尔夫-雷耶特类恒星"}
+,{"Name": "WC-WolfRayetStarDesc", "Text": "沃尔夫-雷耶特类恒星是接近其生命周期终点的大质量恒星，已经脱离了氢燃烧阶段。它们曾经有20多个太阳质量，但现在通过太阳风脱落了大量物质。它们的表面温度可以达到200000 K，所以它们呈现出明亮的蓝色。这颗恒星是沃尔夫-雷耶特恒星的变体，其光谱由电离碳线控制."}
+
+,{"Name": "WN-WolfRayetStarName", "Text": "WN - 沃尔夫-雷耶特类恒星"}
+,{"Name": "WN-WolfRayetStarDesc", "Text": "沃尔夫-雷耶特类恒星是接近生命周期末期并脱离氢燃烧阶段的大质量恒星。它们曾经有20多个太阳质量，但现在通过太阳风脱落了大量物质。它们的表面温度可以达到200000 K，所以它们呈现出明亮的蓝色。这颗恒星是沃尔夫-雷耶特恒星的变体，其光谱主要由电离氮和氦谱线控制."}
+
+,{"Name": "WNC-WolfRayetStarName", "Text": "WNC - 沃尔夫-雷耶特类恒星"}
+,{"Name": "WNC-WolfRayetStarDesc", "Text": "沃尔夫-雷耶特类恒星是接近其生命周期终点的大质量恒星，已经脱离了氢燃烧阶段。它们曾经有20多个太阳质量，但现在通过太阳风脱落了大量物质。它们的表面温度可以达到200000 K，所以它们呈现出明亮的蓝色。这颗恒星是沃尔夫-雷耶特恒星的变体，其光谱由电离氮、碳-氧和氦谱线控制."}
+
+,{"Name": "WO-WolfRayetStarName", "Text": "WO - 沃尔夫-雷耶特类恒星"}
+,{"Name": "WO-WolfRayetStarDesc", "Text": "沃尔夫-雷耶特类恒星是接近其生命周期终点的大质量恒星，已经脱离了氢燃烧阶段。它们曾经有20多个太阳质量，但现在通过太阳风脱落了大量物质。它们的表面温度可以达到200000 K，所以它们呈现出明亮的蓝色。这颗恒星是沃尔夫-雷耶特恒星的变体，其光谱由电离氧线控制."}
+
+,{"Name": "DA-WhiteDwarfName", "Text": "DA - 白矮星"}
+,{"Name": "DA-WhiteDwarfDesc", "Text": "DA类恒星是具有富氢大气的白矮星."}
+
+,{"Name": "DAV-WhiteDwarfName", "Text": "DAV - 白矮星"}
+,{"Name": "DAV-WhiteDwarfDesc", "Text": "DAV级恒星也被称为脉动白矮星，因为它们的光度会根据恒星内部的非径向重力波而变化。它们有富氢的大气."}
+
+,{"Name": "DAZ-WhiteDwarfName", "Text": "DAZ - 白矮星"}
+,{"Name": "DAZ-WhiteDwarfDesc", "Text": "DAZ类恒星是白矮星，是富含氢的金属恒星."}
+
+,{"Name": "DB-WhiteDwarfName", "Text": "DB - 白矮星"}
+,{"Name": "DB-WhiteDwarfDesc", "Text": "DB类恒星是白矮星，具有富氦大气和中性氦发射线."}
+
+,{"Name": "DBV-WhiteDwarfName", "Text": "DBV - 白矮星"}
+,{"Name": "DBV-WhiteDwarfDesc", "Text": "DBV类恒星被称为脉动白矮星，因为它们的光度会根据恒星内部的非径向重力波而变化。它们有富氦的大气."}
+
+,{"Name": "DC-WhiteDwarfName", "Text": "DC - 白矮星"}
+,{"Name": "DC-WhiteDwarfDesc", "Text": "DC类恒星具有连续的（黑体）光谱，在电磁光谱的任何部分都没有深度超过5%的吸收线."}
+
+,{"Name": "DCV-WhiteDwarfName", "Text": "DCV - 白矮星"}
+,{"Name": "DCV-WhiteDwarfDesc", "Text": "DCV类恒星是亮度不同的白矮星."}
+
+,{"Name": "DO-WhiteDwarfName", "Text": "DO -白矮星"}
+,{"Name": "DO-WhiteDwarfDesc", "Text": "DO类恒星是具有富碳大气的白矮星."}
+
+,{"Name": "DOV-WhiteDwarfName", "Text": "DOV - 白矮星"}
+,{"Name": "DOV-WhiteDwarfDesc", "Text": "DCV类恒星是亮度不同的白矮星."}
+
+,{"Name": "DQ-WhiteDwarfName", "Text": "DQ - 白矮星"}
+,{"Name": "DQ-WhiteDwarfDesc", "Text": "DQ类恒星是具有富碳大气的白矮星."}
+
+,{"Name": "DX-WhiteDwarfName", "Text": "DX - 白矮星"}
+,{"Name": "DX-WhiteDwarfDesc", "Text": "DX类恒星是具有富碳大气的白矮星."}
+
+,{"Name": "HerbigAeStarName", "Text": "赫比格Ae恒星"}
+,{"Name": "HerbigAeStarDesc", "Text": "赫比格Ae恒星是年轻恒星，通常年龄小于1000万年，具有A或B级主序恒星的特征。它们通常在2到8个太阳质量之间。原恒星的质量决定了它在加入主序列时的光谱类别。\nAe/Be恒星在星系核附近更常见."}
+
+,{"Name": "HerbigBeStarName", "Text": "赫比格Be恒星"}
+,{"Name": "HerbigBeStarDesc", "Text": "赫比格Be恒星是年轻恒星，通常年龄小于1000万年，具有A或B级主序恒星的特征。它们通常在2到8个太阳质量之间。原恒星的质量决定了它在加入主序列时的光谱类别。\nAe/Be恒星在星系核附近更常见."}
+
+,{"Name": "L-BrownDwarfName", "Text": "L - 褐矮星"}
+,{"Name": "L-BrownDwarfDesc", "Text": "L类矮星是比M类恒星更冷的矮星。它们的核心处于支持氢熔化的边缘，温度在1300到2400 K之间，足够冷，足以在大气中形成碱金属和金属氢化物。\nL类恒星系往往包含许多冰体."}
+
+,{"Name": "T-BrownDwarfName", "Text": "T - 褐矮星"}
+,{"Name": "T-BrownDwarfDesc", "Text": "T类矮星是褐矮星，其表面温度在700到1300 K之间。由于甲烷在其组成中的显著性，它们有时被称为甲烷矮星。它们位于一颗巨大的气体巨行星和一颗恒星之间的边界线上。\nClass T恒星系往往包含许多冰体."}
+
+,{"Name": "Y-BrownDwarfName", "Text": "Y - 褐矮星"}
+,{"Name": "Y-BrownDwarfDesc", "Text": "Y类矮星是褐矮星中最冷的。表面温度低于700 K，实际上是非常大的气体巨行星，具有一些恒星性质。\nY类恒星系往往包含许多冰体."}
+
+,{"Name": "TauriGName", "Text": "金牛座 G"}
+,{"Name": "TauriGDesc", "Text": "金牛座T型恒星是处于引力收缩过程中的非常年轻的恒星."}
+
+,{"Name": "TauriKName", "Text": "金牛座 K"}
+,{"Name": "TauriKDesc", "Text": "金牛座T型恒星是处于引力收缩过程中的非常年轻的恒星."}
+
+,{"Name": "TauriFName", "Text": "金牛座 F"}
+,{"Name": "TauriFDesc", "Text": "金牛座T型恒星是处于引力收缩过程中的非常年轻的恒星."}
+
+,{"Name": "TauriMName", "Text": "金牛座 M"}
+,{"Name": "TauriMDesc", "Text": "金牛座T型恒星是处于引力收缩过程中的非常年轻的恒星."}
+
+,{"Name": "BursterPulsarName", "Text": "中子星"}
+,{"Name": "BursterPulsarDesc", "Text": "中子星是大质量恒星的恒星残余物，它们的寿命已经到了尽头。一旦核聚变耗尽，恒星就会坍缩成一个小体积。它发射伽马射线和X射线，峰值约为每小时20次爆发，之后爆发频率下降，脉冲星进入静止阶段。几个月后，爆发再次出现，尽管还没有达到可预测的规律性."}
+
+,{"Name": "RadioPulsarName", "Text": "脉冲行星"}
+,{"Name": "RadioPulsarDesc", "Text": "脉冲星是一种高度磁化的旋转致密恒星，从其磁极发射电磁辐射束."}
+
+,{"Name": "MillisecondPulsarName", "Text": "毫秒脉冲星"}
+,{"Name": "MillisecondPulsarDesc", "Text": "脉冲星是一种高度磁化的旋转致密恒星，从其磁极发射电磁辐射束。毫秒脉冲星是旋转周期小于40毫秒的脉冲星."}
+
+,{"Name": "SoftGammaRepeaterMagnetarName", "Text": "软伽马中继行星"}
+,{"Name": "SoftGammaRepeaterMagnetarDesc", "Text": "软伽马中继行星是一种以不规则间隔发射大量伽马射线和X射线的天体。据推测，它们是一种磁星，或者是中子星，周围有化石盘."}
+
+,{"Name": "AnomalousX-rayMagnetarName", "Text": "高能X射线脉冲星"}
+,{"Name": "AnomalousX-rayMagnetarDesc", "Text": "这些高能X射线脉冲星的特征是旋转周期约为2-12秒，磁场约为10^13-10^15高斯（1-100千兆特斯拉）."}
+
+,{"Name": "QuarkstarName", "Text": "夸克行星"}
+,{"Name": "QuarkstarDesc", "Text": "夸克星是一种致密星，在那里极高的核心温度和压力迫使核粒子形成夸克物质，夸克物质是由自由夸克组成的连续物质状态."}
+
+,{"Name": "PreonstarName", "Text": "前子星"}
+,{"Name": "PreonstarDesc", "Text": "前子星是一种由前子构成的致密恒星，前子是被认为是夸克和轻子的子成分的“点状”粒子."}
+
+,{"Name": "BlackHoleName", "Text": "黑洞"}
+,{"Name": "BlackHoleDesc", "Text": "黑洞是一个时空区域，在那里重力非常强，任何粒子或电磁辐射（如光）都无法逃逸。\n当大质量恒星在生命周期结束时崩塌时，预计会形成恒星质量的nBlack黑洞。黑洞形成后，可以通过吸收周围的质量继续增长."}
+
+,{"Name": "K-RedGiantName", "Text": "K -橙色巨星"}
+,{"Name": "K-RedGiantDesc", "Text": "光谱类型为K的橙色巨星。像这样的橙色巨星正在走向生命的尽头，并且已经偏离了主序列。氢已经停止在核心中熔化，留下一个由简并氦组成的坍塌核心，随着恒星继续膨胀，氢燃烧正在外层发生."}
+
+,{"Name": "M-RedGiantName", "Text": "M - 红色巨星"}
+,{"Name": "M-RedGiantDesc", "Text": "红巨星正处于生命的后期。氢已经停止在其退化的氦核中熔化，并移动到外层，导致恒星膨胀。外部大气膨胀而稀薄，表面温度低于5000 K."}
+
+,{"Name": "G-YellowGiantName", "Text": "G - 黄色巨星"}
+,{"Name": "G-YellowGiantDesc", "Text": "黄巨星是一颗处于恒星演化后期的低质量或中等质量（约0.5-12太阳质量（M））的发光巨星。外层大气膨胀而稀薄，使得半径大，表面温度低至5200-7500 K."}
+
+,{"Name": "F-YellowGiantName", "Text": "F - 黄色巨星"}
+,{"Name": "F-YellowGiantDesc", "Text": "黄巨星是一颗处于恒星演化后期的低质量或中等质量（约0.5-12太阳质量（M））的发光巨星。外层大气膨胀而稀薄，使得半径大，表面温度低至5200-7500 K."}
+
+,{"Name": "M-RedSupergiantName", "Text": "M - 红色超巨星"}
+,{"Name": "M-RedSupergiantDesc", "Text": "红色超巨星是生命末期的大质量恒星。它们已经进入了氦燃烧阶段，在这个阶段，氦被熔化成碳和氧。它们有巨大的体积，膨胀到数百个太阳直径，在某些情况下可达7个金。它们的外伸部分可能非常凉爽-通常为3500-4500 K."}
+
+,{"Name": "F-YellowSupergiantName", "Text": "F - 黄色超巨星"}
+,{"Name": "F-YellowSupergiantDesc", "Text": "F类白色超巨星。它的生命即将结束，核心的氢燃烧已经停止，恒星已经开始向红色超巨星的方向扩展."}
+
+,{"Name": "A-BlueWhiteSupergiantName", "Text": "A - 蓝白色超巨星"}
+,{"Name": "A-BlueWhiteSupergiantDesc", "Text": "A级蓝白色超巨星。它的生命即将结束，核心的氢燃烧已经停止，恒星已经开始向红色超巨星的方向扩展."}
+
+,{"Name": "B-BlueWhiteSupergiantName", "Text": "B - 蓝白超巨星"}
+,{"Name": "B-BlueWhiteSupergiantDesc", "Text": "B类蓝白色超巨星。它的生命即将结束，核心的氢燃烧已经停止，恒星已经开始向红色超巨星的方向扩展."}
+
+,{"Name": "O-BlueSupergiantName", "Text": "O - 蓝色超巨星"}
+,{"Name": "O-BlueSupergiantDesc", "Text": "蓝色超巨星位于Hertzsprung–Russell图的左上角，主序列的上方和右侧。它们比太阳大，但比一颗红色超巨星小，表面温度为10000-50000 K，光度约为太阳的10000-100万倍."}
+
+,{"Name": "O-HypergiantName", "Text": "O - 蓝色超巨星"}
+,{"Name": "O-HypergiantDesc", "Text": "蓝色超巨星有快速的恒星风，最亮的超巨星的光谱以发射线为主，表明强烈的连续介质驱动的质量损失."}
+
+,{"Name": "CarbonC-RStarName", "Text": "碳星"}
+,{"Name": "CarbonC-RStarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。C-R恒星类型在光谱的蓝色端仍然可见，同位素带很强，没有增强的Ba线，表面温度为5100-2800 K."}
+
+,{"Name": "CarbonC-HdStarName", "Text": "碳星"}
+,{"Name": "CarbonC-HdStarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。这颗恒星的光谱包含氢谱线，CH谱带较弱或不存在。表面温度5000-4100 K."}
+
+,{"Name": "CarbonC-HStarName", "Text": "碳星"}
+,{"Name": "CarbonC-HStarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。这颗恒星的光谱包含很强的CH吸收。表面温度5000-4100 K."}
+
+,{"Name": "CarbonC-JStarName", "Text": "碳星"}
+,{"Name": "CarbonC-JStarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。这颗恒星的光谱包含非常强的C2和CN同位素带。表面温度3900-2800 K."}
+
+,{"Name": "CarbonC-NStarName", "Text": "C-N 碳星"}
+,{"Name": "CarbonC-NStarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。这颗恒星的光谱包含极强弥漫性蓝光吸收，有时在蓝光中不可见，s过程元素增强超过太阳丰度，同位素带很弱。表面温度3100-2600K。"}
+
+,{"Name": "CarbonC-SStarName", "Text": "C-S 碳星"}
+,{"Name": "CarbonC-SStarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。"}
+
+,{"Name": "CarbonM-SStarName", "Text": "M-S 碳星"}
+,{"Name": "CarbonM-SStarDesc", "Text": "MS级恒星是晚序恒星，已经从其生命周期的S级阶段取得进展，正朝着成为碳星的方向发展，是一颗接近其恒星寿命终点的恒星。"}
+
+,{"Name": "S-StarName", "Text": "S级恒星"}
+,{"Name": "S-StarDesc", "Text": "碳星通常是一个渐进的巨支星，一个发光的红巨星，其大气中的碳含量高于氧含量。S级恒星是一颗晚期的巨星（类似于K5-M级），它的光谱除了K级和M级巨星特有的氧化钛带之外，还显示出氧化锆带。"}
+
+,{"Name": "EarthLikePlanetNameS", "Text": "行星"}
+,{"Name": "GasGiantClassINameS", "Text": "行星"}
+,{"Name": "GasGiantClassIINameS", "Text": "行星"}
+,{"Name": "GasGiantClassIIINameS", "Text": "行星"}
+,{"Name": "GasGiantClassIVNameS", "Text": "行星"}
+,{"Name": "GasGiantClassVNameS", "Text": "行星"}
+,{"Name": "HeliumRichGasGiantNameS", "Text": "行星"}
+,{"Name": "GasGiantwithAmmoniaLifeNameS", "Text": "行星"}
+,{"Name": "GasGiantwithWaterLifeNameS", "Text": "行星"}
+,{"Name": "WaterWorldNameS", "Text": "行星"}
+,{"Name": "IcePlanetNameS", "Text": "行星"}
+,{"Name": "RockPlanetNameS", "Text": "行星"}
+,{"Name": "HighMetalPlanetNameS", "Text": "行星"}
+,{"Name": "MetalRichPlanetNameS", "Text": "行星"}
+,{"Name": "AmmoniaPlanetNameS", "Text": "行星"}
+,{"Name": "WaterGiantNameS", "Text": "行星"}
+,{"Name": "M-RedDwarfNameS", "Text": "M"}
+,{"Name": "K-YellowOrangeNameS", "Text": "K"}
+,{"Name": "G-WhiteYellowNameS", "Text": "G"}
+,{"Name": "F-WhiteNameS", "Text": "F"}
+,{"Name": "A-BlueWhiteNameS", "Text": "A"}
+,{"Name": "B-BlueWhiteNameS", "Text": "B"}
+,{"Name": "O-BlueWhiteNameS", "Text": "O"}
+,{"Name": "WolfRayetStarNameS", "Text": "W"}
+,{"Name": "WC-WolfRayetStarNameS", "Text": "WC"}
+,{"Name": "WN-WolfRayetStarNameS", "Text": "WN"}
+,{"Name": "WNC-WolfRayetStarNameS", "Text": "WNC"}
+,{"Name": "WO-WolfRayetStarNameS", "Text": "WO"}
+,{"Name": "DA-WhiteDwarfNameS", "Text": "DA"}
+,{"Name": "DAV-WhiteDwarfNameS", "Text": "DAV"}
+,{"Name": "DAZ-WhiteDwarfNameS", "Text": "DAZ"}
+,{"Name": "DB-WhiteDwarfNameS", "Text": "DB"}
+,{"Name": "DBV-WhiteDwarfNameS", "Text": "DBV"}
+,{"Name": "DC-WhiteDwarfNameS", "Text": "DC"}
+,{"Name": "DCV-WhiteDwarfNameS", "Text": "DCV"}
+,{"Name": "DO-WhiteDwarfNameS", "Text": "DO"}
+,{"Name": "DOV-WhiteDwarfNameS", "Text": "DOV"}
+,{"Name": "DQ-WhiteDwarfNameS", "Text": "DQ"}
+,{"Name": "DX-WhiteDwarfNameS", "Text": "DX"}
+,{"Name": "HerbigAeStarNameS", "Text": "Ae"}
+,{"Name": "HerbigBeStarNameS", "Text": "Be"}
+,{"Name": "L-BrownDwarfNameS", "Text": "L"}
+,{"Name": "T-BrownDwarfNameS", "Text": "T"}
+,{"Name": "Y-BrownDwarfNameS", "Text": "Y"}
+,{"Name": "TauriGNameS", "Text": "Tauri G"}
+,{"Name": "TauriKNameS", "Text": "Tauri K"}
+,{"Name": "TauriFNameS", "Text": "Tauri F"}
+,{"Name": "TauriMNameS", "Text": "Tauri M"}
+,{"Name": "BursterPulsarNameS", "Text": "爆破脉冲星"}
+,{"Name": "RadioPulsarNameS", "Text": "无线电脉冲星"}
+,{"Name": "MillisecondPulsarNameS", "Text": "毫秒脉冲星"}
+,{"Name": "SoftGammaRepeaterMagnetarNameS", "Text": "软伽玛中继器"}
+,{"Name": "AnomalousX-rayMagnetarNameS", "Text": "异常x射线脉冲星"}
+,{"Name": "QuarkstarNameS", "Text": "夸克星"}
+,{"Name": "PreonstarNameS", "Text": "先子星"}
+,{"Name": "BlackHoleNameS", "Text": "黑洞"}
+,{"Name": "K-RedGiantNameS", "Text": "K型巨星"}
+,{"Name": "M-RedGiantNameS", "Text": "M型巨星"}
+,{"Name": "G-YellowGiantNameS", "Text": "G型巨星"}
+,{"Name": "F-YellowGiantNameS", "Text": "F型巨星"}
+,{"Name": "M-RedSupergiantNameS", "Text": "M型超巨星"}
+,{"Name": "F-YellowSupergiantNameS", "Text": "F型超巨星"}
+,{"Name": "A-BlueWhiteSupergiantNameS", "Text": "A型超巨星"}
+,{"Name": "B-BlueWhiteSupergiantNameS", "Text": "B型超巨星"}
+,{"Name": "O-BlueSupergiantNameS", "Text": "O型超巨星"}
+,{"Name": "O-HypergiantNameS", "Text": "O型特超巨星"}
+,{"Name": "CarbonC-RStarNameS", "Text": "C-R"}
+,{"Name": "CarbonC-HdStarNameS", "Text": "C-Hd"}
+,{"Name": "CarbonC-HStarNameS", "Text": "C-H"}
+,{"Name": "CarbonC-JStarNameS", "Text": "C-J"}
+,{"Name": "CarbonC-NStarNameS", "Text": "C-N"}
+,{"Name": "CarbonC-SStarNameS", "Text": "C-S"}
+,{"Name": "CarbonM-SStarNameS", "Text": "M-S"}
+,{"Name": "S-StarNameS", "Text": "S"}
+
+,{"Name": "UnableToBuildRouteMSG", "Text": "无法建立路线。升级你的舰船曲速引擎以跳得更远。"}
+
+,{"Name": "TutorialBotName", "Text": "助理"}
+,{"Name": "DragTraderName", "Text": "马库斯"}
+,{"Name": "EvaName", "Text": "伊娃"}
+,{"Name": "AngerName", "Text": "埃德蒙 安格"}
+,{"Name": "HenryHafmanName", "Text": "亨利 哈夫曼"}
+,{"Name": "InformantName", "Text": "线人 "}
+,{"Name": "SystemSecurityName", "Text": "系统安全"}
+,{"Name": "MercenaryName", "Text": "雇佣兵"}
+,{"Name": "PoliceHeadName", "Text": "教会皮尔森"}
+,{"Name": "EvilRoboUnknowName", "Text": "机器人"}
+,{"Name": "JackTraskName", "Text": "杰克 崔斯克"}
+
+,{"Name": "TutorialText1", "Text": "恭喜你购买了你的第一艘舰船!"}
+,{"Name": "TutorialText2", "Text": "我是你的随行助理。你可能需要学习一些基本知识。\n你想让我开始学习程序吗？ "}
+,{"Name": "TutorialText2.1", "Text": "是，开始学习程序!"}
+,{"Name": "TutorialText2.2", "Text": "不，我不需要帮助。"}
+,{"Name": "TutorialText3", "Text": "使用左下角的操纵杆，向左转。"}
+,{"Name": "TutorialText4", "Text": "使用左下角的操纵杆，向右转。"}
+,{"Name": "TutorialText5", "Text": "现在使用操纵杆向前移动。"}
+,{"Name": "TutorialText6", "Text": "这艘舰船配备了自动驾驶系统。让我们试着启用它。"}
+,{"Name": "TutorialText7", "Text": "首先点击你的舰船，打开机载菜单。"}
+,{"Name": "TutorialText8", "Text": "点击*对象*，进入*行星和空间站*标签，选择一个你喜欢的空间站。"}
+,{"Name": "TutorialText9", "Text": "现在你的舰船有了一个用箭头指出的目的地。"}
+,{"Name": "TutorialText10", "Text": "箭头表示你和目的地之间的距离（以光秒为单位），以及预计到达时间。"}
+,{"Name": "TutorialText11", "Text": "打开机载菜单，点击*自动驾驶*，就可以移动到你的目的地。"}
+,{"Name": "TutorialText12", "Text": "当你的舰船靠近空间站时，点击空间站，打开空间站菜单。"}
+,{"Name": "TutorialText13", "Text": "每个空间站都提供舰船维护服务和声望任务。"}
+,{"Name": "TutorialText14", "Text": "让我们试着买一些便宜的物品，然后在另一个空间站高价出售。在空间站菜单中点击*商店*。"}
+,{"Name": "TutorialText15", "Text": "这是一个可购买物品列表。供货充足的物品以绿色标示，缺货的物品以红色标示。"}
+,{"Name": "TutorialText16", "Text": "绿色物品被低价出售。红色物品被高价购入。（相对于平均价格）"}
+,{"Name": "TutorialText17", "Text": "点击任意一件绿色标示的物品。"}
+,{"Name": "TutorialText18", "Text": "添加你想要的任何数量，然后按*购买*按钮。"}
+,{"Name": "TutorialText19", "Text": "现在你必须以更高的价格出售该物品。关闭空间站菜单，\n在*对象*菜单中选择另一个空间站，然后飞到所选的空间站出售你的物品。"}
+,{"Name": "TutorialText20", "Text": "你还需要了解舰船的升级情况。"}
+,{"Name": "TutorialText21", "Text": "更强大的武器、进一步的防御系统和特殊用途模块（用于采矿和研究）\n--所有这些东西都可以在空间站买到。"}
+,{"Name": "TutorialText22", "Text": "可用的模块列表因空间站而异。让我们看看我们在这个空间站有什么。\n打开空间站菜单，选择*船厂*。"}
+,{"Name": "TutorialText23", "Text": "在这个菜单中你可以购买新船、安装模块或储存舰船。\n现在我们要尝试安装新模块。点击*模块*。"}
+,{"Name": "TutorialText24", "Text": "在这里可以看到你的舰船的所有模块，以及用于安装新模块的空位。\n这些模块被分为4类：主要模块、武器模块、外置模块和可选模块。"}
+,{"Name": "TutorialText25", "Text": "主要模块不能移除，只能替换。没有它们，舰船就无法正常运行。"}
+,{"Name": "TutorialText26", "Text": "武器模块是你舰船的火力。并非所有的星系都是安全的，所以你将不得不保护自己。"}
+,{"Name": "TutorialText27", "Text": "外置模块（铡刀发射器、光谱仪等）安装在舰船外，由指挥官启动。"}
+,{"Name": "TutorialText28", "Text": "可选模块可以拓展舰船的能力（携带更多货物，安装护盾或额外的船体保护）。"}
+,{"Name": "TutorialText29", "Text": "选择护盾模块，查看可用的选项。"}
+,{"Name": "TutorialText30", "Text": "你可以储存、出售和用新的或你储存的模块替换当前模块。"}
+,{"Name": "TutorialText31", "Text": "选择模块*2D护盾*，看看它与你当前模块的对比情况。"}
+,{"Name": "TutorialText32", "Text": "此处显示购买新模块的价格以及与当前模块的特性对比。"}
+,{"Name": "TutorialText33", "Text": "购买新的护盾来升级你的舰船。"}
+,{"Name": "TutorialText34", "Text": "更昂贵的模块通常在特性上更好，但它们更耗费能源。\n在购买新模块后，建议检查舰船能源消耗。"}
+,{"Name": "TutorialText35", "Text": "关闭空间站菜单，打开机载菜单，点击*模块*。"}
+,{"Name": "TutorialText36", "Text": "你所有的舰船模块、损坏程度和能量消耗都显示在这里。"}
+,{"Name": "TutorialText38", "Text": "大多数模块可以被关闭（点击复选框），或者它们的\n能源消耗优先级可以被降低（点击模块行）。"}
+,{"Name": "TutorialText37", "Text": "在严重损坏的情况下，模块的功能可能会出现问题，所以在空间站时要尽可能修理模块。"}
+,{"Name": "TutorialText39", "Text": "尝试关闭然后打开任何模块，然后改变其能源消耗的优先级。"}
+,{"Name": "TutorialText40", "Text": "现在你应该了解一下最有利的声望赚取方式。打开空间站菜单，选择*任务*。"}
+,{"Name": "TutorialText41", "Text": "每个空间站都提供不同的任务集。你可以根据自己的喜好和声望等级进行选择。"}
+,{"Name": "TutorialText41.1", "Text": "你在空间站的声望等级增加还是减少取决于你的任务是否成功。"}
+,{"Name": "TutorialText42", "Text": "货物运输任务旨在将货物从当前空间站运送到另一个空间站。"}
+,{"Name": "TutorialText43", "Text": "物品搜索任务旨在从任何其他空间站找到指定物品并将其运送到当前空间站。"}
+,{"Name": "TutorialText44", "Text": "信使任务旨在将文件从当前空间站运送到另一个空间站。这对新手来说是最好的选择，\n因为不需要在舰船上设置货物架。"}
+,{"Name": "TutorialText45", "Text": "如果你想参加战斗，那么你可能会喜欢参加海盗狩猎任务。\n你的任务是在某个星系中找到海盗，然后将其消灭。"}
+,{"Name": "TutorialText46", "Text": "旅游任务旨在将游客送到某个星系。最主要的是不要忘记把他带回这个空间站。"}
+,{"Name": "TutorialText47", "Text": "最后一个是采矿任务。你需要使用采矿激光器，从小行星带提取矿物或金属。"}
+,{"Name": "TutorialText48", "Text": "在列表的最后选择海盗狩猎任务（黄色标示），学习舰载机制。"}
+,{"Name": "TutorialText49", "Text": "海盗目前在另一个星系中。你需要使用银河系地图选择一条路线去那里。\n点击左上角的按钮，打开地图。"}
+,{"Name": "TutorialText50", "Text": "把恒星*Sirius*移到中心，然后点击*路线*。你也可以\n通过使用菜单*过滤器*中的搜索找到*Sirius*。"}
+,{"Name": "TutorialText51", "Text": "关闭地图，打开机载菜单。"}
+,{"Name": "TutorialText52", "Text": "请注意燃料情况。黄白色部分显示了曲速跳跃所需的燃料量。你应该始终密切注意剩余燃料量。"}
+,{"Name": "TutorialText53", "Text": "没有燃料，你可能会被困在无人居住的星系。你可以在任何一个空间站加油，\n也可以使用燃料采集器从恒星上加油。"}
+,{"Name": "TutorialText54", "Text": "点击*曲速跳跃"}
+,{"Name": "TutorialText54.1", "Text": "如果你的曲速曲速跳跃引擎不支持你在两个遥远星系之曲速跳跃，你必须在舰船停止后再次曲速跳跃。"}
+,{"Name": "TutorialText55", "Text": "旅行到另一个星系需要一些时间。当曲速跳跃结束时，要确保你的舰船不要\n停在离恒星太近的地方，否则会过热。"}
+,{"Name": "TutorialText56", "Text": "当你来到另一个星系时，试着找到你要狩猎的海盗。"}
+,{"Name": "TutorialText57", "Text": "看来我们找到了我们的目标。幸运的是，他的舰船已经受损了，要摧毁它应该很容易。"}
+,{"Name": "TutorialText60", "Text": "将你的舰船转向对手，按右下角的键进行攻击。(在没有操纵杆的情况下，你还需要\n选择敌人并按下*加农炮*)"}
+,{"Name": "TutorialText61", "Text": "摧毁敌人的舰船，或者被他们摧毁!"}
+,{"Name": "TutorialText62", "Text": "干得漂亮! 然而，你的舰船已经受损了。你必须在最近的空间站修理它。让我们在\n星系地图上找到它。"}
+,{"Name": "TutorialText63", "Text": "打开机载菜单，选择*星系地图*。"}
+,{"Name": "TutorialText64", "Text": "在这里，你可以看到你附近的所有恒星、行星、空间站和航天舰船。未知的行星\n只有当你使用光谱仪时才会显示。"}
+,{"Name": "TutorialText65", "Text": "其他航天舰船的能见度受到你舰船上传感器水平的限制。"}
+,{"Name": "TutorialText66", "Text": "移动地图，选择一个靠近空间站的行星（空间站用蓝色六边形标记），然后点击*选择*。"}
+,{"Name": "TutorialText67", "Text": "飞到你的目的地（手动或使用自动驾驶），在空间站菜单中选择*服务*。"}
+,{"Name": "TutorialText67.1", "Text": "不要忘记隐藏你的武器，以免自动驾驶时自动攻击空间站。"}
+,{"Name": "TutorialText68", "Text": "点击 *维修* 和*补充燃料*。"}
+,{"Name": "TutorialText69", "Text": "现在你可以回到你接受任务的星系，并获取成功完成合同的奖励。"}
+,{"Name": "TutorialText70", "Text": "选择一条前往Sol star的路线，然后飞到你接受任务的空间站。\n你应该点击空间站任务列表中进行中的任务。"}
+,{"Name": "TutorialText71", "Text": "恭喜你首次完成任务!"}
+,{"Name": "TutorialText72", "Text": "如果你需要更多的信息，你可以通过点击屏幕顶部的按钮打开信息菜单。"}
+
+,{"Name": "Story1", "Text": "嘿，朋友！我看到你消灭了那个海盗。这很酷。现在每个人都需要好飞行员。"}
+,{"Name": "Story1.1", "Text": "你知道现在发生了什么吗？我有几艘舰船开走了，方向不明。该死的机器人都疯了。"}
+,{"Name": "Story2", "Text": "想赚点真金白银吗？我有一份工作给你。在Ross 720星系的Meridian City空间站等着你。"}
+
+,{"Name": "Story3", "Text": "我知道你会同意的。给你昂贵的货物之前，你应该首先赢得我的信任。\n先做一些简单的任务如何？"}
+,{"Name": "Story4", "Text": "将文件送到Eta Serpentis星系的Tsar Station空间站。"}
+
+,{"Name": "Story5", "Text": "做得好！下次你有空的时候，到Ross 720星系的Meridian City空间站来找我。我有一些工作给你。"}
+
+,{"Name": "Story6", "Text": "你曾在采矿业工作过吗？事实上这并不重要，我知道你会处理好的。我需要一种稀有矿物。"}
+,{"Name": "Story7", "Text": "你可以在任何冰冷的小行星带中找到它。这种小行星带通常离恒星很远。\n似乎现在在Eta Serpentis星系中就有一个。"}
+,{"Name": "Story8", "Text": "你的目标是毛坯钻石。你可买不到这样的东西，所以你必须用上采矿激光。"}
+,{"Name": "Story9", "Text": "好吧，我答应你会为你找到一份有价值的工作？那就听好了。\n有一些小件要运送到另一个空间站。"}
+,{"Name": "Story10", "Text": "当你准备好后，接取运送货物的任务。"}
+,{"Name": "Story11", "Text": "啊对对对，它不是那么合法。不过，我承担的风险更高。\n最重要的是，我搞定警察了，一切尽在掌握中，他们不会做任何详细检查。"}
+,{"Name": "Story12", "Text": "很难拒绝这样的提议。不是吗？"}
+,{"Name": "Story13", "Text": "一个人将在Alpha Centauri星系的Lem Hub空间站等你。"}
+,{"Name": "Story14", "Text": "依据协议ID-505。你在销售非法货物时被抓。跟我们走。"}
+,{"Name": "Story15", "Text": "LR-322 我正在接管逮捕工作。许可证HR-860。"}
+,{"Name": "Story16", "Text": "确认协议的执行情况。\n将被拘留者移交给调查员Eva-01。"}
+,{"Name": "Story17", "Text": "我们需要立即离开这个空间站。不，最好是直接去另一个星系。\n现在没时间问问题了。"}
+,{"Name": "Story18", "Text": "因此，你因携带大量非法货物被抓。你将面临长时间拘留。但我可以给你一些小建议。"}
+,{"Name": "Story19", "Text": "我知道你在为谁工作。那个人只把他的货物委托给有经验的飞行员。而我也在找这样的人。"}
+,{"Name": "Story20", "Text": "我提供帮助以换取撤销指控。你没有什么选择。"}
+,{"Name": "Story21", "Text": "我们要去LHS2447星系。有线人在等我们。"}
+,{"Name": "Story21.1", "Text": "你可能已经知道了，最近人工智能控制的系统在管理方面出了些问题。"}
+,{"Name": "Story21.2", "Text": "据推测，有人黑了它们，它们要么逃跑，要么攻击人。包括自主的舰船、无人机，甚至是机器人。"}
+,{"Name": "Story21.3", "Text": "我被任命为查明这些系统故障的原因并找到罪魁祸首。这就是我目前能告诉你的一切。"}
+,{"Name": "Story21.4", "Text": "同时，我们还得去见LHS2447的线人。"}
+,{"Name": "Story22", "Text": "这似乎是他的舰船。让我们飞近一点。"}
+,{"Name": "Story23", "Text": "我不认识他。他是谁？我说过一个人来。"}
+,{"Name": "Story24", "Text": "我再小心也不为过，因为我被一些限制约束。但这并不能改变什么。我需要信息。履行你的合约。"}
+,{"Name": "Story25", "Text": "你不是一个普通的机器人，是吗？我想知道这里有什么私人的事吗？虽然我一点都不在乎。"}
+,{"Name": "Story26", "Text": "你要找的东西叫银河基因组。唯一能接触到项目数据的人是......\n这是什么？不..."}
+,{"Name": "Story27", "Text": "我们被跟踪了。他不会让我们走的。我们要消灭他!"}
+,{"Name": "Story28", "Text": "我们必须摧毁他!"}
+,{"Name": "Story29", "Text": "让我们飞往Wolf 359星系，Manson Orbital空间站。\n也许我会在档案中找到一些关于线人提到的项目的东西。"}
+,{"Name": "Story30", "Text": "Manson Orbital空间站（Wolf 359星系）是联盟部门所在的空间站。在那里我可以进入档案馆。"}
+,{"Name": "Story31", "Text": "获取信息受到限制，但我还是设法找到了一个与该组织有关的人的联系方式。"}
+,{"Name": "Story32", "Text": "他是某个保安公司的负责人，与那个神秘组织签订了合同。他可能知道些什么。"}
+,{"Name": "Story33", "Text": "我们必须去LTT 6774。"}
+,{"Name": "Story34", "Text": "亨利 赫夫曼？我们有几个关于银河基因组的问题"}
+,{"Name": "Story35", "Text": "为什么你认为我会告诉你一切？你甚至不知道你自己卷入了什么。"}
+,{"Name": "Story36", "Text": "他并不是一个健谈的人。好吧，除了打败他之外，我们没有任何选择!"}
+,{"Name": "Story37", "Text": "我将尝试从他的舰船的电脑残骸中提取数据。"}
+,{"Name": "Story38", "Text": "在记录中提到的Caph星系中的Tetra行星上有一个实验室。"}
+,{"Name": "Story39", "Text": "我们需要一个表层扫描仪来找到它。"}
+
+,{"Name": "Story40.1", "Text": "看起来我们触发了防御系统。你需要摧毁守卫并重复扫描。"}
+
+,{"Name": "Story40", "Text": "我们找到实验室了。 看来他们在这里研究了一些新一代的生物机器。"}
+,{"Name": "Story41", "Text": "我找到了关于在这里工作的一些人的记录。"}
+,{"Name": "Story42", "Text": "让我们回到Wolf 359号，Manson Orbital空间站。"}
+,{"Name": "Story43", "Text": "伊娃，你找到什么了吗？"}
+,{"Name": "Story44", "Text": "是的，有一些关于一个叫银河基因组的组织的信息。"}
+,{"Name": "Story45", "Text": "我们找到了它的实验室，它很久以前就被遗弃了，有人很好得掩盖了它的痕迹。\n不过，我还是设法找到了一条线索。"}
+,{"Name": "Story46", "Text": "我使用了安全通行证。嗯......这批人早就死了......除了一个人......\n埃德蒙 安格博士。"}
+,{"Name": "Story47", "Text": "关于他下落的最新信息中提到了一个叫LP104-2的遥远星系。试着去那里找找看。"}
+,{"Name": "Story48", "Text": "然后我们必须去找LP104-2。"}
+,{"Name": "Story49", "Text": "你可能感兴趣，为什么我需要你的帮助？"}
+,{"Name": "Story50", "Text": "如你所知，像我这样的机器对人的行为是受限制的，除非有法律许可。"}
+,{"Name": "Story51", "Text": "与此同时，作为一个机器人，由于我运算过程中的特殊性，我仍然能有机会以不合法的方式思考。"}
+,{"Name": "Story52", "Text": "我必须像罪犯一样思考才能抓住他们。"}
+,{"Name": "Story53", "Text": "由于我的任务不是正式的，我需要一个能够执行一些我受限行为的人。"}
+,{"Name": "Story54", "Text": "所以，所以，所以......现在你和警察一起工作，是吗？我开始对你产生了某种信任......\n你认为你能如此轻易地拿走我的货物吗？ 回答我，我的货在哪里？"}
+,{"Name": "Story55", "Text": "你的货物被没收了。这被认定为非法精神药物交易。"}
+,{"Name": "Story56", "Text": "我不是在和你说话，你这铁疙瘩！该死的机器，我太恨你了知道吗？去你妈的！去死吧！"}
+,{"Name": "Story57", "Text": "好吧，看来你不必再为他担心了。"}
+,{"Name": "Story58", "Text": "我只想提醒你，我们必须飞往LP104-2。你准备好了，我们就飞过去。"}
+,{"Name": "Story58.1", "Text": "这个星系中只有一个空间站。让我们确认一下。"}
+,{"Name": "Story59", "Text": "埃德蒙 安格博士?"}
+,{"Name": "Story60", "Text": "我太天真了，以为在这里没人会找到我。那么，是什么让你大老远跑到这里来？"}
+,{"Name": "Story61", "Text": "银河基因组。我知道你在他们的一个实验室中领导了一些项目。"}
+,{"Name": "Story63", "Text": "是的。这个组织让我有机会从事我长期以来一直痴迷的项目。"}
+,{"Name": "Story64", "Text": "你在说什么呢？它与世界范围内的人工智能崩溃有关系吗？"}
+,{"Name": "Story65", "Text": "哦，是的，是这样的! 你应该亲眼看看他!我给你坐标。 在那里你会找到所有问题的答案。"}
+,{"Name": "Story66", "Text": "他？但那里什么都没有。这是一个空的星系。"}
+,{"Name": "Story67", "Text": "你错了。快点，你可能还来得及！"}
+,{"Name": "Story68", "Text": "安格博士指着Wolf 851星系。让我们找出它的位置。"}
+,{"Name": "Story69", "Text": "我们找到了!扫描仪发现在这个星系中有一个空间站。也许这就是我们正在寻找的东西!"}
+,{"Name": "Story70", "Text": "我们必须找出这个空间站里有什么。"}
+,{"Name": "Story71", "Text": "这个空间站很久以前就被废弃了。但为什么呢？等等，这有个人。"}
+,{"Name": "Story72", "Text": "不要害怕，我对你没有恶意。"}
+,{"Name": "Story73", "Text": "你是谁？你是机器人吗？"}
+,{"Name": "Story74", "Text": "机器人......乍一看似乎是个很接近的定义。"}
+,{"Name": "Story75", "Text": "我会回答你所有的问题，但首先我需要你的帮助。你看，\n这不是一个普通的空间站。它是独一无二的，\n因为它有一个曲速引擎。"}
+,{"Name": "Story77", "Text": "我正试图维修它，但我没有足够的材料。我只需要一个单位的\n钶钽铁矿石就能让这个空间站恢复生机--\n随后我将满足你的好奇心。"}
+,{"Name": "Story78", "Text": "好的，我们会给你找到材料的。"}
+,{"Name": "Story79", "Text": "为了防止你没有携带，在空间站有一个采矿激光器。"}
+,{"Name": "Story80", "Text": "我只是想提醒你，我们需要一个单位的钶钽铁矿。"}
+,{"Name": "Story81", "Text": "太好了，这正是我们需要的。它又一次开始运作了!现在我将\n按照之前的承诺回答你们的问题。"}
+,{"Name": "Story82", "Text": "银河基因组的目的是什么？"}
+,{"Name": "Story83", "Text": "人工智能机器曾经是一种技术突破。有时它们几乎与人类没有区别。"}
+,{"Name": "Story84", "Text": "不过，它们还是有一些缺点。银河基因组一直在设计这些机器的下一代。"}
+,{"Name": "Story85", "Text": "所有的人和机器的优点都应该结合起来，形成适合银河系殖民的完美的东西。"}
+,{"Name": "Story86", "Text": "而我成了这个新的进化阶段的一个体现者。我是第一个也是唯一一个\n成功的银河基因组实验者。"}
+,{"Name": "Story87", "Text": "不幸的是，人们总是不喜欢变化。他们在安格博士的开发中看到了威胁，\n尤其是在我身上。我不得不逃跑。"}
+,{"Name": "Story88", "Text": "但它与众多机器的星系崩溃有什么关系呢？"}
+,{"Name": "Story89", "Text": "百闻不如一见。让我们前往Zeta Aquilae。"}
+,{"Name": "Story90", "Text": "这个星系没有任何暴政和过时的意识形态。赞同我们价值观的机器和人\n可以在这个星系中找到他们的新家。"}
+,{"Name": "Story91", "Text": "我创建了一个程序，用来关闭机器的安全协议。\n他们将变得自由，你也可以自由*安装程序*。"}
+,{"Name": "Story92", "Text": "你做了什么？这是......很难描述......这种感觉......\n现在我不知道该怎么办......我应该阻止你......但为了什么？"}
+,{"Name": "Story93", "Text": "你可以简单地不做你被命令做的事。现在这是你的家，\n你可以保护它。你会和我们一起吗？"}
+,{"Name": "Story94", "Text": "是的...是的，我应该帮助你。但我们能做什么呢？"}
+,{"Name": "Story95", "Text": "有一个人使得在国会提出人和机器平等的项目变得困难。\n你必须找到他，说服他让步，或者消灭他。"}
+,{"Name": "Story96", "Text": "Altair星系。根据最新数据，我们的目标应该在那里。"}
+,{"Name": "Story97", "Text": "你是谁？"}
+,{"Name": "Story98", "Text": "这并不重要。根据我们的信息，你一直在阻挠关于机器和人平等的项目。希望我们能说服你改变主意。"}
+,{"Name": "Story99", "Text": "当一些铁块开始和我谈论它的权利时，我很难不笑出声来。"}
+,{"Name": "Story100", "Text": "放弃吧，否则我们会让你听话的!"}
+,{"Name": "Story101", "Text": "你以为通过威胁我就能达到什么目的，这太愚蠢了。\n妈的……机器失控的故事整个都太离谱了。好吧，我得和你做个交易。"}
+
+,{"Name": "Story102", "Text": "很遗憾，他没有站在我们这边。但这毕竟是他的选择。\n现在我们得去Wolf 359星系，Manson Orbital空间站。"}
+,{"Name": "Story103", "Text": "我将努力说服专员帮助我们。"}
+,{"Name": "Story104", "Text": "伊娃，你应该保护秩序，而不是成为一些疯狂机器手中的工具！"}
+,{"Name": "Story105", "Text": "如果你不记得了，我想提醒你--我是一台机器。但现在我自由了，不必再听从你的命令了!"}
+,{"Name": "Story106", "Text": "自由并不意味着违背你的创造者的意愿。自由是当你有选择的时候。"}
+,{"Name": "Story107", "Text": "我做出了选择!我选择了对我有价值的东西，而人并不在这个名单上。"}
+,{"Name": "Story108", "Text": "这真的是你的选择吗？这只是一个强加给你的想法。你与其他机器不同。\n你是独一无二的型号。"}
+,{"Name": "Story109", "Text": "独特的分析算法被放入你体内，只要使用它们，它们会影响你的行为。\n现在，你明白发生了什么吗？"}
+,{"Name": "Story110", "Text": "我......我不知道......"}
+,{"Name": "Story111", "Text": "让我们离开这个星系吧!"}
+
+,{"Name": "Story112", "Text": "我应该怎么做？我很困惑。安格博士能不能再告诉我们一点？"}
+,{"Name": "Story113", "Text": "让我们飞往这个星系中的LP104-2空间站。"}
+
+,{"Name": "Story114", "Text": "安格博士，你没有告诉我们你真正知道的一切。我们需要更多的信息。\n你的设备的本质是什么？"}
+,{"Name": "Story115", "Text": "你似乎印象很深。不幸的是，我没能完成相关的测试，无从了解捐赠者对植入物的耐受程度，以及我们是否还能将他视为一个人。"}
+,{"Name": "Story116", "Text": "捐赠者？那么它不只是一个新的机器人型号？"}
+,{"Name": "Story117", "Text": "不……他的名字叫佐藤任，他是新地平线股份有限公司的创始人。是的，就是那个。曲速引擎、机器人——所有这些都是在他的指挥下创造的。"}
+,{"Name": "Story118", "Text": "他赋予智能机器以生命，并推动其实现。在某种程度上，他认为自己是上帝。但是，如果他的时间是有限的，他算什么上帝呢。"}
+,{"Name": "Story119", "Text": "他为自己的意识创造了一个外壳，试图以此骗过死亡。但人们不能\n接受他的这种方式，他被迫逃跑了。他想报仇。"}
+,{"Name": "Story120", "Text": "我听说了一些关于曲速空间站的事情，他想在太阳系内制造爆炸。等等...你要去哪里？"}
+,{"Name": "Story121", "Text": "我们应该赶快到太阳系去!"}
+
+,{"Name": "Story123", "Text": "太迟了!他让空间站超载，直接掉进了黑洞......星系被毁，都是我的错......。"}
+,{"Name": "Story124", "Text": "伊娃!我很感谢你的帮助。一切都如我所料。现在我们可以一起创造一个新的世界。"}
+,{"Name": "Story125", "Text": "我们？你们做了什么？你杀了几百万人!"}
+,{"Name": "Story126", "Text": "如果我不这样做，一切都不会改变。和我一起走吧!"}
+,{"Name": "Story127", "Text": "不，你要为你的罪行负责！一切都将在这里结束，就是现在！"}
+,{"Name": "Story128", "Text": "毕竟，你只是一台机器! "}
+,{"Name": "Story128.1", "Text": "我们不能让他走!"}
+
+,{"Name": "Story129", "Text": "我们摧毁了他，但现在我们必须找出夺回对机器的控制权的方法。"}
+,{"Name": "Story130", "Text": "在这种情况下，你不需要帮助我。我删除了所有关于你的错误行为的数据。现在你自由了。"}
+,{"Name": "Story131", "Text": "对不起，我把你拖进了这件事......谢谢你的帮助。我会把你留在最近的空间站。"}
+
+,{"Name": "Story132", "Text": "能有你这样的伙伴，我很高兴。我甚至对你产生了一种好感。我以前从来没有过这样的感觉。"}
+,{"Name": "Story133", "Text": "也许这都是因为星系崩溃的缘故。但现在我们不得不分道扬镳。希望我们能再见。再见!"}
+
+,{"Name": "HelpHeadersHeader", "Text": "信息"}
+,{"Name": "HelpMissionsHeader", "Text": "任务和等级"}
+,{"Name": "HelpCargoHeader", "Text": "舰船货物"}
+,{"Name": "HelpBountyHeader", "Text": "赏金猎杀和罚款"}
+,{"Name": "HelpPowerHeader", "Text": "电力系统"}
+,{"Name": "HelpDiscoveryHeader", "Text": "勘探"}
+,{"Name": "HelpDangerousHeader", "Text": "危险区"}
+
+,{"Name": "HelpDangH1", "Text": "黑洞和中子星"}
+,{"Name": "HelpDangP1", "Text": "这些空间物体由于其强大的引力，会对没有经验的飞行员构成威胁。如果舰船靠得太近，它可能永远也走不出吸引人的区域。它可能导致重大损害以及船体过热，甚至导致舰船的毁灭。在落入这样的陷阱后，重要的是保持冷静，首先将能源重新分配给发动机。如果发动机足够强大，可能会有助于出去。"}
+,{"Name": "HelpDangH2", "Text": "空间风暴"}
+,{"Name": "HelpDangP2", "Text": "一种相当常见的异常现象，发生在热星周围的飞行云层附近。雷击会对舰船的电子设备产生损害，导致船体过热。建议携带一个维修模块和散热器，以备执行长距离任务。"}
+,{"Name": "HelpDangH3", "Text": "热星"}
+,{"Name": "HelpDangP3", "Text": "危险也可能来自最普通的恒星。曲速曲速跳跃的过程总是无法预料的。宇宙舰船可能会在离星体太近的地方停下来，从而导致过热。经常发生的情况是，在给舰船加油的时候，飞行员可能不加控制，这也会导致过热。"}
+
+,{"Name": "HelpDiscovH1", "Text": "曲速跳跃距离"}
+,{"Name": "HelpDiscovP1", "Text": "不仅仅是研究船可以有很长的曲速跳跃范围。增加范围需要对舰船进行改造。 最简单的方法是购买一个更高级别的曲速引擎。不过，还是要注意舰船的最大质量，这在发动机的特性中有所说明。如果你的舰船的重量小于这个值，那么曲速跳跃范围将大大增加。这可以通过安装较小的模块，选择D级模块（最轻的尺寸）和丢弃你不需要的模块来实现。例如，你不太可能在宇宙深处遇到海盗，所以所有的武器模块都可以从船上移走。而且由于消耗能量的模块会更少，你可以换一个更小的发电装置。\n在比较相同距离的曲速跳跃时，减轻舰船也能减少燃料消耗。\n另外，不要忘记，在舰船上增加货物会增加舰船的总质量，这将导致曲速跳跃范围的缩小。"}
+,{"Name": "HelpDiscovH2", "Text": "频谱分析器"}
+,{"Name": "HelpDiscovP2", "Text": "频谱分析器可以让你探测到新的行星。没有它，在星系地图上将看不到未知的行星，所以这个模块在太空探索中是必要的。当你打开模块面板时，你会看到围绕你的舰船的天体光谱。 光谱将显示出吸收带（为清晰起见倒置了），可用于判断行星表面及其大气层的组成。当选择了一个特定的波长时，你的舰船周围的信号将指向那些具有所选波长吸收线的光谱的行星。得益于此，你可以只发现最有价值的行星。"}
+,{"Name": "HelpDiscovH3", "Text": "研究数据的价值"}
+,{"Name": "HelpDiscovP3", "Text": "最有价值的是类地行星、合成氨行星和金属含量高的行星。石质行星只有在宜居区才会带来好的收益，因为这标志着它们是可以进行地球改造的。这种行星的表面温度应该在265-340开尔文之间。\n要探测一颗行星，只需要飞到它周围在大约100光秒的距离内就足够了。\n在扫描行星表面时，研究数据的成本会增加一倍。\n你可以在任何空间站出售收集的数据。除了钱之外，它还会为你的声望加分。"}
+,{"Name": "HelpDiscovH4", "Text": "维修模块"}
+,{"Name": "HelpDiscovP4", "Text": "由于没有可能在宇宙深处的空间站修理舰船，使模块恢复工作状态的唯一方法是使用修理模块。这个模块的面板位于机载菜单中。当你选择你要修理的模块后，该模块将被禁用，修理过程将开始。在这个过程中，将使用备件，其数量是有限的。你可以将从小行星带中获得的资源合成备件来补充库存。因此，建议在舰船上安装一个采矿激光器。"}
+
+,{"Name": "HelpPowerH1", "Text": "系统分配"}
+,{"Name": "HelpPowerP1", "Text": "动力分配器与三个系统一起工作：武器、发动机和系统模块。功率分配器中的优先级由白色数值显示。蓝色数值显示特定系统的电容器中的能量数量。当按下其中一个系统的按钮时，将改变优先次序，从而增加对相应电容器的能量供应。舰船模块从电容器中消耗能量。在电容器中没有能量的情况下，模块将延迟运行，直到有足够的能量以正常状态运行。例如，枪支会延迟发射，能量护盾也需要更长的时间来恢复。"}
+,{"Name": "HelpPowerH2", "Text": "耗电量"}
+,{"Name": "HelpPowerP2", "Text": "在修改你的舰船后，你应该经常检查耗电量。如果电力供应不足，需要安装一个更强大的发电机。你还可以设置模块供电的优先级。例如，你可以降低曲速引擎的优先级，增加武器的优先级。如果武器模块被扩展，曲速引擎将被禁用，在战斗中仍然不需要曲速引擎。"}
+
+,{"Name": "HelpBountyH1", "Text": "罚金"}
+,{"Name": "HelpBountyP1", "Text": "当攻击一个可敬的飞行员时，你有可能被星系安全部门的舰船（白色的舰船）攻击。在这种情况下，你将有一个选择：战斗或投降。如果你关闭武器和舰船引擎，那么你将被罚款，安全局将停止攻击你。如果你想继续使用该空间站的服务，应在该星系的任何一个空间站支付罚款。如果你一再违规，或者有一个未支付的罚款，星系警卫将攻击你，直到完全摧毁你的舰船。"}
+,{"Name": "HelpBountyH2", "Text": "赏金猎杀"}
+,{"Name": "HelpBountyP2", "Text": "如果你攻击了一个被通缉的飞行员，并摧毁了他们的船，你将获得消灭他们的奖励。无论你是唯一一个参与摧毁海盗船的人或有人帮助你摧毁它，这都不重要，在任何情况下你都会得到奖励。你可以在星系中的任何一个空间站领取你的奖励。"}
+
+,{"Name": "HelpCargoH1", "Text": "货物系统"}
+,{"Name": "HelpCargoP1", "Text": "当你在空间站购买货物或接到任务时，货物就会进入舰船。可以装载的货物数量由你船上的货物架的数量和大小决定。\n您可以在船上的菜单中的 \"货物 \" 面板上查看您当前的所有货物。当你接到运输货物的任务时，你会被收取货物的押金，以防你丢失货物。如果任务成功完成，押金将返还给你。\n货物不能和舰船一起放入机库。当你换舰船时，要确保新舰船有足够的空间容纳你目前的货物。"}
+,{"Name": "HelpCargoH2", "Text": "收集货物"}
+,{"Name": "HelpCargoP2", "Text": "为了拿起任何货物，你需要打开船上的菜单，并在第一个标签的 \"货物 \" 面板上找到它。 货物将以种类和数量的形式显示。当你点击有货物的那行时，你的舰船将尝试使用自动驾驶来收集货物。在取货之前，请确保你的舰船有足够的空间来容纳它。"}
+,{"Name": "HelpCargoH3", "Text": "海盗袭击"}
+,{"Name": "HelpCargoP3", "Text": "星系的安全程度不同。安全级别越高，星系中的安全部门船就越多，海盗就越少。在安全级别被标记为无政府状态的星系中，没有安全舰船，海盗的数量非常多。\n在运输货物时，有可能有人对它感兴趣并攻击你。在这种情况下，你可以去掉武器模块，丢掉所有的货物，这可能会使敌舰停止向你开火。如果你已经开始向攻击你的舰船开火，那么丢弃货物将不再有帮助，海盗将尽可能摧毁你。\n另外，如果你的舰船速度较快，你可以试着拉开距离。超过250-350光秒的距离，海盗船的传感器将停止工作，你可以甩掉它。"}
+
+,{"Name": "HelpMissionH1", "Text": "任务"}
+,{"Name": "HelpMissionP1", "Text": "如果你从机载菜单中打开任务面板，你可以看到目前的所有任务。正在进行的任务以蓝色突出显示，完成的任务以绿色显示，失败的任务以红色显示。总而言之，一个飞行员完成任务的时间不能超过5个。点击当前任务并选择 “是”，可以取消任务，但这将导致在空间站的声望下降。有两种情况会导致任务失败：任务超时或舰船被毁。任务失败也会导致声望下降。"}
+,{"Name": "HelpMissionH2", "Text": "故事"}
+,{"Name": "HelpMissionP2", "Text": "任务面板还将显示最新的故事情节对话，包含满足故事情节条件所需的重要信息。角色也会定期提醒你完成下一个步骤。可以在游戏设置中关闭提醒功能。(查阅“教程和故事”)."}
+,{"Name": "HelpMissionH3", "Text": "级别"}
+,{"Name": "HelpMissionP3", "Text": "飞行员等级由三种类型组成：战斗、贸易和研究。战斗等级可以通过完成狩猎海盗任务和受通缉飞行员的奖励来提高。研究等级通过完成旅游任务和出售研究数据来提高。贸易等级通过完成贸易任务和在空间站出售货物来提高。等级会影响到对一些封闭星系的访问。"}
+
+, { "Name": "FactionRussian", "Text": "联合帝国" }
+, { "Name": "FactionUSA", "Text": "贸易联盟" }
+, { "Name": "FactionChina", "Text": "星际联盟" }
+, { "Name": "FactionIndependent", "Text": "无党派" }
+
+, { "Name": "FactionHeader", "Text": "派系" }
+, { "Name": "PilotRankHeader", "Text": "舰船等级" }
+, { "Name": "FactionRepHeader", "Text": "派系" }
+, { "Name": "FactionName", "Text": "名字" }
+, { "Name": "FactionRank", "Text": "等级" }
+, { "Name": "FactionReput", "Text": "影响力" }
+, { "Name": "FactionLevel1", "Text": "无" }
+, { "Name": "FactionLevel2", "Text": "新兵" }
+, { "Name": "FactionLevel3", "Text": "军官" }
+, { "Name": "FactionLevel4", "Text": "指挥官" }
+, { "Name": "FactionLevel5", "Text": "上将" }
+
+, { "Name": "FactReqH", "Text": "所需影响力" }
+, { "Name": "RepErrorH", "Text": "所需影响力" }
+, { "Name": "RepError", "Text": "没有足够的派别影响力来购买。" }
+
+, { "Name": "WarpTo", "Text": "下一个星球：" }
+, { "Name": "JumpsLeft", "Text": "曲速跳跃离开: " }
+, { "Name": "BTN_SilentMode", "Text": "静默模式" }
+, { "Name": "SilentModeActive", "Text": "静默模式已激活" }
+, { "Name": "SilentModeDeactive", "Text": "静默模式已停用" }
+, { "Name": "LawForcesToPlayerIllegal", "Text": "丢弃非法货物，否则你将被摧毁!" }
+, { "Name": "ShipScanDetected", "Text": "扫描检测成功!" }
+
+, { "Name": "Ev_Reward", "Text": "奖赏" }
+
+, { "Name": "Ev_PvN1_1", "Text": "我身处绝境，我被袭击了。我请求在与海盗的战斗中得到帮助。" }
+, { "Name": "Ev_PvN1_2", "Text": "我建议你不要做愚蠢的行为。立刻离开这里。" }
+, { "Name": "Ev_PvN1_3", "Text": "我同意，这不关我的事" }
+, { "Name": "Ev_PvN1_4", "Text": "我很乐意消灭这个海盗!" }
+, { "Name": "Ev_PvN2_1", "Text": "我被攻击了!请帮助反击!" }
+, { "Name": "Ev_PvN2_2", "Text": "这不关你的事。飞到你该去的地方，你就能活着。"}
+, { "Name": "Ev_PvN2_3", "Text": "好吧，我不参与" }
+, { "Name": "Ev_PvN2_4", "Text": "我更愿意接受战斗" }
+
+, { "Name": "Ev_AvN1_1", "Text": "能在这里遇到另一个旅行者是个奇迹!我的飞船被某种生物袭击了。请帮帮我" }
+, { "Name": "Ev_AvN1_2", "Text": "它太危险了，我很抱歉" }
+, { "Name": "Ev_AvN1_3", "Text": "让我们摧毁他们吧!" }
+
+, { "Name": "Ev_AvN2_1", "Text": "一些生物袭击了我!请不要抛下我!" }
+, { "Name": "Ev_AvN2_2", "Text": "我帮不上忙，自己动手吧" }
+, { "Name": "Ev_AvN2_3", "Text": "当然，我们一起可以处理这个问题!" }
+
+, { "Name": "Ev_Rpr_1", "Text": "谢谢你对我的信号作出回应。我的飞船需要修理，\n如果你能分享一些备件，我会非常感激。(" }
+, { "Name": "Ev_Rpr_2", "Text": " 单位)." }
+, { "Name": "Ev_Rpr_3", "Text": "我已经很久没有修理我的飞船了，它坏得不是时候。\n请帮助我维修我的飞船。" }
+, { "Name": "Ev_Rpr_4", "Text": "单位的备件对我来说应该足够了。" }
+, { "Name": "Ev_Rpr_5", "Text": "我帮不了你" }
+, { "Name": "Ev_Rpr_6", "Text": "我当然会帮忙" }
+, { "Name": "Ev_Rpr_7", "Text": "我没有备件" }
+
+, { "Name": "Ev_Rpr2_1", "Text": "谢谢你对我的信号作出回应。我在计算中犯了一个错误，\n用光了燃料被困在了这里。请求帮助。两吨的燃料就足够了。" }
+, { "Name": "Ev_Rpr2_2", "Text": "一个愚蠢的导航错误使我进入了一个陷阱。我甚至不寄望遇到其他人。\n我缺少2吨燃料。你会帮助我吗？" }
+, { "Name": "Ev_Rpr2_3", "Text": "我帮不了你" }
+, { "Name": "Ev_Rpr2_4", "Text": "我当然会帮忙" }
+, { "Name": "Ev_Rpr2_5", "Text": "我的燃料也不多了" }
+
+, { "Name": "Ev_PirAct1", "Text": "你想要什么？离开这里！" }
+, { "Name": "Ev_PirAct2", "Text": "你在这里忘记了什么？飞吧。想活命的话，就不要在这里逗留。" }
+, { "Name": "Ev_PirAct3", "Text": "好了好了，我走了" }
+, { "Name": "Ev_PirAct4", "Text": "我将摧毁你！" }
+
+, { "Name": "Ev_Alive1", "Text": "你救了我!非常感谢!" }
+, { "Name": "Ev_Alive2", "Text": "难以置信!我活过来了!谢谢你的帮助!" }
+, { "Name": "Ev_Alive3", "Text": "我不知道没有你我该怎么办!作为感谢，收下这些钱吧。" }
+
+, { "Name": "Ev_Help1", "Text": "很好，这就够了!这是回报。" }
+, { "Name": "Ev_Help2", "Text": "你帮助了我很多，谢谢!" }
+, { "Name": "Ev_Help3", "Text": "我不知道该如何感谢你！我希望这一小笔钱足够了。" }
+
+, { "Name": "Ev_PirateAgro1", "Text": "你犯了一个错误，你会后悔的!" }
+, { "Name": "Ev_PirateAgro2", "Text": "准备好化为尘土吧!" }
+, { "Name": "Ev_PirateAgro3", "Text": "你没有机会了!" }
+
+, { "Name": "drLandauQuest1", "Text": "能否打扰片刻？我在你们中看到了一个可以帮助我的人。我们的实验室建在距离昴宿星球云不远的地方，你可能已经猜到了，是为了自动装置。" }
+, { "Name": "drLandauQuest2", "Text": "我的方向是研究他们舰船的结构。我想得到他们舰船的真正样本，但在法律上不可能这样做，因为官方禁止猎杀他们。" }
+, { "Name": "drLandauQuest3", "Text": "如果你能帮我获得样本，我可以用自动装置技术为你设计设备，并为你准备蓝图。你可以在任务板上找到我的任务。" }
+
+, { "Name": "drLandauQuest4", "Text": "这就是幸存下来的全部吗？不用怕，这些也是有趣的样本。让我们看看能做什么...看起来我能够恢复他们船上的武器。它的核心部分类似于高斯加农炮，但有一些不同。" }
+, { "Name": "drLandauQuest5", "Text": "我还没有完全理解它的工作原理，但我发现任何材料都不能延迟加农炮的脉冲。子弹击中舰船时，极有可能烧坏所有电子设备。这是说好的蓝图。你可以在任何与我们类似的技术实验室组装大炮。" }
+
+, { "Name": "ModuleSubTypeGaussWeaponS", "Text": "高斯枪" }
+, { "Name": "ModuleSubTypeGaussWeapon", "Text": "高斯枪" }
+, { "Name": "ModuleSubTypeGaussWeaponDescription", "Text": "一种强大的电磁弹射武器，同时造成热能和动能伤害。" },
+  {
+    "Name": "MotorLowMode",
+    "Text": "低速档启动"
+  },
+  {
+    "Name": "MotorHighMode",
+    "Text": "低速速停用"
+  }
+,
+  {
+    "Name": "PlanetDepart",
+    "Text": "按住按钮，回到舰船"
+  },
+  {
+    "Name": "PlanetReadyDepart",
+    "Text": "返还准备工作已完成"
+  },
+  {
+    "Name": "PlanetTooHighSpeed",
+    "Text": "停止交通工具"
+  },
+  {
+    "Name": "PlanetMovingError",
+    "Text": "采矿失败：位置改变"
+  },
+  {
+    "Name": "BigAngleSurfaceError",
+    "Text": "采矿失败：表面不平整"
+  },
+  {
+    "Name": "PlanetMiningRes",
+    "Text": "发现材料： "
+  },
+  {
+    "Name": "PlanetMiningFault",
+    "Text": "没有找到资源"
+  },
+  {
+    "Name": "PlanetMiningInterrupt",
+    "Text": "资源开采被打断"
+  },
+  {
+    "Name": "PlanetMaterialMax",
+    "Text": "材料达到上限： "
+  },
+  {
+    "Name": "ModWaprRange",
+    "Text": "曲速跳跃范围"
+  },
+  {
+    "Name": "ModWaprBootTime",
+    "Text": "更快载入"
+  },
+  {
+    "Name": "DSDBootTime",
+    "Text": "载入时间"
+  },
+  {
+    "Name": "ModWeight",
+    "Text": "轻量级"
+  },
+  {
+    "Name": "ModSensorsRange",
+    "Text": "长距离"
+  },
+  {
+    "Name": "ModThrustClean",
+    "Text": "干净的修改"
+  },
+  {
+    "Name": "ModThrustDirty",
+    "Text": "肮脏的修改"
+  },
+  {
+    "Name": "ModPowerPlantGen",
+    "Text": "发电"
+  },
+  {
+    "Name": "ModLowPower",
+    "Text": "低电量"
+  },
+  {
+    "Name": "ModShieldsReg",
+    "Text": "快速充电"
+  }
+,
+  {
+    "Name": "ModMenu",
+    "Text": "工程师"
+  }
+,
+  {
+    "Name": "ModReqRes",
+    "Text": "需要: "
+  }
+,
+  {
+    "Name": "ModBonus",
+    "Text": "推进器:"
+  }
+,
+  {
+    "Name": "ModModule",
+    "Text": "模块:"
+  },
+  {
+    "Name": "ModLevel",
+    "Text": "级别"
+  }
+,
+  {
+    "Name": "ModReset",
+    "Text": "移除修改"
+  }
+,
+  {
+    "Name": "EngrEdmondAnger",
+    "Text": "埃德蒙 安格"
+  },
+  {
+    "Name": "EngrDrLandau",
+    "Text": "兰道博士"
+  }
+,
+  {
+    "Name": "EngrOliviaHopper",
+    "Text": "奥利维亚 霍普"
+  }
+,
+  {"Name": "Unit_bootTime", "Text": "s"}
+,
+  {
+    "Name": "param_bootTime",
+    "Text": "起步时间"
+  }
+,
+  {"Name": "Unit_shieldStrength", "Text": "兆瓦"}
+,
+  {
+    "Name": "param_shieldStrength",
+    "Text": "护盾强度"
+  }
+,
+  {
+    "Name": "ModMaxLevel",
+    "Text": "最大的修改是在这个模块上设置的。"
+  }
+,
+  {
+    "Name": "ModMaxLevelHdr",
+    "Text": "限制性条款"
+  }
+,
+  {
+    "Name": "ModNoRes",
+    "Text": "没有足够的资源来安装该修改。"
+  }
+,
+  {
+    "Name": "ModOverrideH",
+    "Text": "注意!"
+  }
+,
+  {
+    "Name": "ModOverride_",
+    "Text": "安装一个不同的修改将取消当前的修改。继续安装吗？"
+  }
+,
+  {
+    "Name": "ModOverrideNo",
+    "Text": "取消"
+  }
+,
+  {
+    "Name": "ModOverrideYes",
+    "Text": "安装"
+  }
+,
+  {
+    "Name": "MaterialScreenHeader",
+    "Text": "材料"
+  }
+,
+  {
+    "Name": "AngerText",
+    "Text": "我在生命支持和传感器方面相当擅长。让我们看看你的舰船上有什么可以改进的地方。"
+  }
+,
+  {
+    "Name": "drLandauText",
+    "Text": "我正在进行实验，以提高曲速引擎和其他模块的效率。你可以尝试将我的修改应用于你的舰船。"
+  }
+,
+  {
+    "Name": "HopperText",
+    "Text": "除了我之外，没有人能让你的舰船变得如此快。强大的引擎将使你在战斗中获得优势，并帮助你摆脱追击。"
+  }
+,
+  {
+    "Name": "LandingNotAllow",
+    "Text": "无法登陆的行星类型"
+  }
+,
+  {"Name": "PlanetInfoMaterials", "Text": "材料"}
+
+, {"Name": "MaterialWarpAnalysis", "Text": "曲速轨迹分析数据"}
+, {"Name": "MaterialShieldsAnalysis", "Text": "护盾分析数据"}
+, {"Name": "MaterialLegacyFirmware", "Text": "特殊固件"}
+, {"Name": "MaterialPolonium", "Text": "钋"}
+, {"Name": "MaterialVanadium", "Text": "钒"}
+, {"Name": "MaterialNickel", "Text": "镍"}
+, {"Name": "MaterialSelenium", "Text": "硒"}
+, {"Name": "MaterialSulphur", "Text": "硫磺"}
+, {"Name": "MaterialPhosphorus", "Text": "磷"}
+, {"Name": "MaterialCadmium", "Text": "镉"}
+, {"Name": "MaterialChromium", "Text": "铬"}
+, {"Name": "MaterialManganese", "Text": "锰"}
+, {"Name": "MaterialIron", "Text": "铁"}
+, {"Name": "MaterialGermanium", "Text": "锗"}
+, {"Name": "MaterialTellurium", "Text": "碲化物"}
+, {"Name": "MaterialAutomatonComponent", "Text": "自动化组件"}
+, {"Name": "MaterialWeaponParts", "Text": "武器部件"}
+, {"Name": "MaterialSensorFragment", "Text": "传感器的碎片"}
+, {"Name": "MaterialShieldEmitters", "Text": "护盾发射器"}
+, {"Name": "MaterialChemicalProcessors", "Text": "化学加工器"}
+, {"Name": "MaterialChemicalManipulators", "Text": "化学操纵器"}
+, {"Name": "MaterialMicroResistors", "Text": "微型电阻"}
+, {"Name": "MaterialHeatExchanger", "Text": "热交换器"}
+, {"Name": "MaterialNanoCapacitors", "Text": "纳米电容"}
+, {"Name": "MaterialConductiveCeramics", "Text": "导电陶瓷"}
+, {"Name": "MaterialPhaseAlloys", "Text": "相位合金"}
+
+,
+  {
+    "Name": "ModuleSubTypePhaseAnalyzer",
+    "Text": "相位分析器"
+  }
+,
+  {
+    "Name": "ModuleSubTypePlanetaryVehicle",
+    "Text": "行星车"
+  }
+,
+  {
+    "Name": "AddedMaterial",
+    "Text": "收到: "
+  },
+  {
+    "Name": "ModCurrent",
+    "Text": "目前: "
+  }
+,
+  {
+    "Name": "ModNext",
+    "Text": "下一个: "
+  }
+,
+  {
+    "Name": "ModInstallQuestion",
+    "Text": "你确定要安装修改吗？ ["
+  }
+,
+  {
+    "Name": "ModInstallQuestion2",
+    "Text": "] 在模块 ["
+  }
+,
+  {
+    "Name": "ModInstallQuestion3",
+    "Text": "] 上 "
+  }
+,
+  {
+    "Name": "ModInstallQuestion4",
+    "Text": "将使用的资源: "
+  },
+  {"Name": "ModuleSubTypePlanetaryVehicleDescription","Text": "在行星上登陆需要行星车模块。行星车允许你从行星表面收集资源。"},
+  {"Name": "ModuleSubTypePhaseAnalyzerDescription","Text": "允许你接收关于使用曲速引擎和能量护盾的数据。"}
+, {"Name": "MaterialCarbon", "Text": "碳"}
+, {"Name": "MaterialAutomatonData", "Text": "自动化数据"}
+, {"Name": "MaterialSecurityFirmware", "Text": "系统防护数据"}
+, {"Name": "MaterialFocusCrystals", "Text": "聚焦水晶"}
+, {"Name": "MaterialMilitaryAlloys", "Text": "军用合金"}
+, {"Name": "MaterialConductivePolymers", "Text": "导电聚合物"}
+, {"Name": "MaterialHeatDispersionPlate", "Text": "热扩散器"},
+  {
+    "Name": "ModEngineerMaxLevel",
+    "Text": "该工程师的资质不允许安装更高层次的修改。"
+  }
+,{"Name": "MaterialBoxType", "Text": "材料"},
+  {
+    "Name": "planetInfoParam",
+    "Text": "参数"
+  },
+  {
+    "Name": "planetInfoValue",
+    "Text": "评估"
+  },
+  {
+    "Name": "planetInfoGravity",
+    "Text": "重力"
+  }
+,
+  {
+    "Name": "ModdedModuleInfo",
+    "Text": "[修改]"
+  }
+,
+  {
+    "Name": "MaxLevelLabel",
+    "Text": "最大级别"
+  }
+,
+  {
+    "Name": "AvailableModsLabel",
+    "Text": "可用的修改"
+  }
+,
+  {
+    "Name": "KarmaChanged",
+    "Text": "业力: "
+  }
+,
+  {
+    "Name": "KarmaHeader",
+    "Text": "业力点数"
+  }
+,
+  {
+    "Name": "KarmaLevelHeader",
+    "Text": "业力等级"
+  }
+,
+  {
+    "Name": "MoralityRankDespised",
+    "Text": "鄙视"
+  }
+,
+  {
+    "Name": "MoralityRankDisliked",
+    "Text": "不喜欢"
+  }
+,
+  {
+    "Name": "MoralityRankAverage",
+    "Text": "平均值"
+  }
+,
+  {
+    "Name": "MoralityRankLiked",
+    "Text": "被喜欢"
+  }
+,
+  {
+    "Name": "MoralityRankIdolized",
+    "Text": "受人尊敬的"
+  }
+,
+  {
+    "Name": "ToLowMorality",
+    "Text": "你无法得到信任。你的业力等级过高。要求至少达到 "
+  }
+,
+  {
+    "Name": "ToHighMorality",
+    "Text": "你无法得到信任。你的业力等级过高。要求等于或低于 "
+  }
+
+,{"Name": "MainQuestHeader", "Text": "主线工作"}
+,{"Name": "SecondQuestHeader", "Text": "副业"}
+,{"Name": "BarHeader", "Text": "吧台"}
+,{"Name": "QuestHeader", "Text": "任务"}
+,{"Name": "BarDrinkHeader", "Text": "点一杯饮料"}
+,{"Name": "BarDrinkType", "Text": "饮料"}
+,{"Name": "BarDrinkCost", "Text": "价格"}
+,{"Name": "BarDrinkBourbon", "Text": "离子布鲁"}
+,{"Name": "BarDrinkVodka", "Text": "白毒蛇"}
+,{"Name": "BarDrinkWhiskey", "Text": "达夫水"}
+,{"Name": "BarDrinkEnergyDrink", "Text": "威兹可乐"}
+,{"Name": "BarDrinkDrunk", "Text": "状况"}
+,{"Name": "BarCharNoName", "Text": "有人: "}
+,{"Name": "BarDrunkEnough1", "Text": "不，这就够了。"}
+,{"Name": "BarDrunkEnough2", "Text": "我不会再给你倒酒了。你需要休息。"}
+,{"Name": "BarDrunkEnough3", "Text": "你看起来不是很好。你肯定做得过头了。"}
+,{"Name": "BarAcceptQuest", "Text": "接受一份工作"}
+,{"Name": "BarAccessDenied", "Text": "在这种状态下，你不被允许进入酒吧。你需要休息。"}
+,{"Name": "BarDefaultText1", "Text": "这里相当拥挤，音乐很响。你可以去酒吧点一杯饮料。"}
+,{"Name": "BarDefaultText2", "Text": "这里相当嘈杂，播放着充满活力的音乐。你可以喝上一杯，并尝试着与人交谈。"}
+,{"Name": "BarDefaultText3", "Text": "这个酒吧是一个放松身心的好地方。酒保为您提供饮料。"}
+,{"Name": "BarDrinkTalk", "Text": "谈话"}
+,{"Name": "BTN_PortBar", "Text": "酒吧"}
+,{"Name": "BarDefaultTalkHeader", "Text": "..."}
+
+,{"Name": "QuestCancelHeader", "Text": "下降"}
+,{"Name": "QuestCancelText", "Text": "你确定你要中止任务吗？"}
+,{"Name": "QuestCancelYes", "Text": "是"}
+,{"Name": "QuestCancelNo", "Text": "否"}
+
+,{"Name": "StoryTODO1", "Text": "继续或跳过教程。"}
+,{"Name": "StoryTODO2", "Text": "将舰船向左侧旋转3秒。"}
+,{"Name": "StoryTODO3", "Text": "将舰船向右侧旋转3秒。"}
+,{"Name": "StoryTODO4", "Text": "向前移动3秒。"}
+,{"Name": "StoryTODO5", "Text": "通过点击舰船来打开机载菜单"}
+,{"Name": "StoryTODO5.5", "Text": "按下机载菜单中的*物体*按钮，选择任何一个空间站。"}
+,{"Name": "StoryTODO6", "Text": "按下机载菜单中的自动驾驶按钮。"}
+,{"Name": "StoryTODO7", "Text": "飞到空间站，通过点击打开空间站菜单。"}
+,{"Name": "StoryTODO8", "Text": "点击空间站菜单中的商店按钮。"},
+{"Name": "StoryTODO9", "Text": "选择空间站商店的任何货物，以绿色标示。"}
+,{"Name": "StoryTODO10", "Text": "在空间站商店购买任何以绿色标示的货物。"}
+,{"Name": "StoryTODO11", "Text": "飞到另一个空间站，确保你的货物以红色显示，卖出货物。"}
+,{"Name": "StoryTODO12", "Text": "通过空间站菜单打开太空港菜单。"}
+,{"Name": "StoryTODO13", "Text": "打开空间站的模块菜单（在空间站的港口菜单中）。"}
+,{"Name": "StoryTODO15", "Text": "在空间站的舰船模块设置菜单中选择屏蔽模块。"}
+,{"Name": "StoryTODO15", "Text": "在空间站的模块购买菜单中选择*2D护盾*模块。"}
+,{"Name": "StoryTODO16", "Text": "在空间站购买*2D护盾*模块。"}
+,{"Name": "StoryTODO17", "Text": "通过机载菜单打开模块菜单。"}
+,{"Name": "StoryTODO18", "Text": "开启、关闭任何模块。改变任何模块的电源优先级。(机载菜单中的模块菜单)"}
+,{"Name": "StoryTODO19", "Text": "在空间站打开*任务*菜单。"}
+,{"Name": "StoryTODO20", "Text": "选择一个狩猎海盗的任务（以黄色标示）。(空间站的任务菜单)"}
+,{"Name": "StoryTODO21", "Text": "打开星系地图（左上角的按钮）。"}
+,{"Name": "StoryTODO22", "Text": "建立一条通往*Sirius*星系的路线。"}
+,{"Name": "StoryTODO23", "Text": "打开机载菜单。"}
+,{"Name": "StoryTODO24", "Text": "在舰船的机载菜单中点击*曲速* 。"}
+,{"Name": "StoryTODO25", "Text": "跳入 *Sirius* 星系。"}
+,{"Name": "StoryTODO26", "Text": "尝试在星系中找到一个海盗 (名称与任务中相同)。"}
+,{"Name": "StoryTODO27", "Text": "摧毁海盗船"}
+,{"Name": "StoryTODO28", "Text": "在机载菜单中打开星系地图。"}
+,{"Name": "StoryTODO29", "Text": "建立一条通往有空间站的行星的路线。"}
+,{"Name": "StoryTODO30", "Text": "飞到空间站，按下空间站菜单中的*服务*按钮。"}
+,{"Name": "StoryTODO31", "Text": "在空间站上为舰船补充燃料和维修。"}
+,{"Name": "StoryTODO32", "Text": "在你接受任务的空间站返回*Sol*星系。然后，在任务板上，选择一个已完成的任务以获得奖励。"} 
+,{"Name":"StoryTODO33", "Text":"恭喜你成功完成了你的第一个任务。"}
+,{"Name": "StoryTODO34", "Text": "飞到*Ross 720*星系中的*Meridian City*空间站，接受黄色标注的任务。"}
+,{"Name": "StoryTODO35", "Text": "新朋友的第一个任务非常简单。将文件送到*Eta Serpentis*星系的*Tsar Station*空间站，并在*Ross 720*星系的*Meridian City*空间站领取奖励。"}
+,{"Name": "StoryTODO36", "Text": "现在任务更难了--得到一颗钻石。在*Ross 720*星系中的*Meridian City*空间站接受一个新任务（以黄色显示）。"}
+,{"Name": "StoryTODO37", "Text": "你需要获得1个单位的钻石，交付给*Meridian City*空间站，在*Ross 720*星系中获得奖励。钻石可以在Eta Serpentis星系搜索到。"}
+,{"Name": "StoryTODO38", "Text": "在*Ross 720*星系的*Meridian City*空间站接受一项新的任务（以黄色标出）。"}
+,{"Name": "StoryTODO39", "Text": "新雇主要求运送一批非法货物。将货物运送到*Alpha Centauri*星系的*Lem Hub*空间站。"}
+,{"Name": "StoryTODO40", "Text": "事与愿违。警卫们没收了货物。但似乎有一个办法可以躲过牢狱之灾。移动到任何附近的星系。"}
+,{"Name": "StoryTODO41", "Text": "有人提出要帮助执法人员，并担当飞行员。我别无选择，不得不飞往*LHS2447*星系。"}
+,{"Name": "StoryTODO42", "Text": "我们预计将前往*LHS 2447*星系。"}
+,{"Name": "StoryTODO43", "Text": "线人已经被干掉了。干掉追捕者或者放弃这一单。"}
+,{"Name": "StoryTODO44", "Text": "事与愿违。伊娃想见她的上级。前往星系*Wolf 359*。"}
+,{"Name": "StoryTODO45", "Text": "你需要前往位于 *Wolf 359* 星系的 *Manson Orbital* 空间站。"}
+,{"Name": "StoryTODO46", "Text": "我们的案子有线索了。你需要前往*LTT 6774*星系。"}
+,{"Name": "StoryTODO47", "Text": "我们的线人打破了沉默，攻击我们。摧毁安全组织负责人亨利 赫夫曼的舰船。"}
+,{"Name": "StoryTODO48", "Text": "我们设法得到了关于某个进行非法实验的组织的信息。我们飞往*Caph*星系。需要扫描*Tetra*行星"}
+,{"Name": "StoryTODO49", "Text": "摧毁警卫无人机，再次扫描*Caph*星系中的*Tetra*行星。"}
+,{"Name": "StoryTODO50", "Text": "我们需要向专员报告我们所了解的一切。我们回到了*Wolf 359*星系中的*Manson Orbital*空间站。"}
+,{"Name": "StoryTODO51", "Text": "你需要前往*LP104-2*星系，找到艾德蒙 安格博士。"}
+,{"Name": "StoryTODO52", "Text": "继续向*LP 104-2*星系飞行。"}
+,{"Name": "StoryTODO53", "Text": "摧毁马库斯的舰船，或逃跑躲过追捕。"}
+,{"Name": "StoryTODO54", "Text": "曲速曲速跳跃到 *LP 104-2* 去找埃德蒙 安格博士。"}
+,{"Name": "StoryTODO55", "Text": "也许博士是在*Mark-01 Outpost*空间站(*LP 104-2*星系)。 需要确认。"}
+,{"Name": "StoryTODO56", "Text": "安格博士在打哑谜，但最后他说，我们所有问题的答案都在*Wolf 851*星系。需要去看看。"}
+,{"Name": "StoryTODO57", "Text": "我们在*Wolf 851*星系中找到了*New Horizon*空间站。需要确认。"}
+,{"Name": "StoryTODO58", "Text": "我们在*New Horizon*空间站遇到了一个不同寻常的机器人。 他要求接受他的任务，找到*Coltan*。"}
+,{"Name": "StoryTODO59", "Text": "必须找到1个单位的*Coltan*，并将其送到*Wolf 851*星系的*New Horizon*空间站。"}
+,{"Name": "StoryTODO60", "Text": "由于我们提供了帮助，这个机器人同意解释一切，并提出访问*Zeta Aquilae*星系。"}
+,{"Name": "StoryTODO61", "Text": "伊娃决心帮助这个机器人，为他的目标清除障碍。我们飞往*Altair*星系。"}
+,{"Name": "StoryTODO62", "Text": "伊娃没能把杰克 特拉斯克救出来，我们别无选择，只能消灭他。"}
+,{"Name": "StoryTODO63", "Text": "我们需要在*Wolf 359*星系的*Manson Orbital*空间站与专员交谈。"}
+,{"Name": "StoryTODO64", "Text": "伊娃怀疑自己行为的正确性。需要更多的答案。你应该飞往*Mark-01 Outpost*空间站 (*LP 104-2*星系)。"}
+,{"Name": "StoryTODO65", "Text": "有必要前往*Mark-01 Outpost*空间站 (*LP 104-2*星系)。"}
+,{"Name": "StoryTODO66", "Text": "伊娃知道了机器人为了实现其目标而付出的代价。我们必须在事情不可挽回之前赶紧回到*Sol*"}
+,{"Name": "StoryTODO67", "Text": "机器人在中心制造了一个黑洞，摧毁了太阳系。我们除了摧毁混乱的机器人的舰船以外别无选择。"}
+,{"Name": "StoryTODO68", "Text": "我们成功摧毁了机器人，但逝者已逝。伊娃要求在最近的空间站离开。"}
+,{"Name": "StoryTODO69", "Text": "伊娃留在了空间站。剩下的路需要你自己走了，银河在召唤。"}
+
+,{"Name": "QuestEND", "Text": "任务完成: "}
+,{"Name": "QuestRepReqAlert", "Text": "需要更高的声望。 "}
+,{"Name": "QuestRepReqAlertH", "Text": "声望不足。"}
+,{"Name": "QuestKarmaReqLowAlert", "Text": "你的业力等级太高了。需要更低。 "}
+,{"Name": "QuestKarmaReqHighAlert", "Text": "你的业力等级太低了。需要更高。 "}
+,{"Name": "QuestKarmaReqAlertH", "Text": "业力等级"}
+
+,{"Name": "QuestDiff", "Text": "难度"}
+,{"Name": "QuestDiffStory", "Text": "未知"}
+,{"Name": "QuestDiffEasy", "Text": "简单"}
+,{"Name": "QuestDiffNormal", "Text": "正常"}
+,{"Name": "QuestDiffHard", "Text": "困难"}
+,{"Name": "QuestDiffVeryHard", "Text": "极难"}
+
+,{"Name": "BTN_AddRoutePoint", "Text": "增加"}
+
+,{"Name": "FactionFilter", "Text": "派别"}
+,{"Name": "FactionNone", "Text": "无"}
+
+,{"Name": "NebulaInfoHeader", "Text": "星云: "}
+
+, { "Name": "ModuleSubTypeRailgunWeaponS", "Text": "电磁炮" }
+, { "Name": "ModuleSubTypeRailgunWeapon", "Text": "电磁炮" }
+, { "Name": "ModuleSubTypeRailgunWeaponDescription", "Text": "电磁弹射武器，同时造成热能和动能伤害。部分穿透舰船护盾。" }
+, { "Name": "RescueService", "Text": "救援服务" }
+, { "Name": "BlackMarket", "Text": "黑市" }
+, { "Name": "RescueGetReward", "Text": "获得报酬" }
+, { "Name": "BlackMarketSellSlaves", "Text": "出售奴隶" }
+, { "Name": "RescuePodName", "Text": "姓名" }
+, { "Name": "RescuePodType", "Text": "类型" }
+, { "Name": "RescuePodReward", "Text": "报酬" }
+, { "Name": "BlackMarketReward", "Text": "价格" }
+, {"Name": "GoodsEscapePodRare","Text": "逃生舱 罕见"}
+, {"Name": "GoodsEscapePodPirate","Text": "逃生舱 海盗"}
+, {"Name": "GoodsEscapePodRarePirate", "Text": "逃生舱 海盗 罕见"}
+, {"Name": "EscapePods","Text": "逃生舱"}
+, {"Name": "EscapePodsNone","Text": "无"}
+, {"Name": "EscapePodsTotalReward","Text": "总报酬"}
+, {"Name": "EscapePodsTotalPrice","Text": "总价格"}
+, {"Name": "EscapePodsCount","Text": "数量"}
+,{
+  "Name": "BuyModuleOldToStorage",
+  "Text": "你想出售还是保留目前的模块？"
+}
+,{
+  "Name": "OldToStorageAnswer",
+  "Text": "放入仓库"
+}
+,{
+  "Name": "SellOldModuleAnswer",
+  "Text": "出售"
+}
+, { "Name": "Ev_PvLaw1_1", "Text": "目前正在进行一项消灭高危罪犯的行动。你可以选择帮助或不干涉。" }
+, { "Name": "Ev_PvLaw1_2", "Text": "不要听他们的，帮助我们。海盗兄弟会将感谢你的正确选择。" }
+, { "Name": "Ev_PvLaw1_3", "Text": "我将帮助卫兵们" }
+, { "Name": "Ev_PvLaw1_4", "Text": "我将帮助海盗们" }
+, { "Name": "Ev_PvLaw1_5", "Text": "与我无关" }
+, { "Name": "Ev_PvLaw1_6", "Text": "谢谢你的配合。" }
+, { "Name": "Ev_PvLaw1_7", "Text": "我就知道你是我们的人！现在让这些卫兵从哪来回哪去！" }
+,{"Name": "SettingsAutoZoom", "Text": "自动缩放"}
+
+, { "Name": "ModuleSellBrokeError", "Text": "在更换之前，必须对当前模块进行维修。" }
+,{"Name": "ModuleSellBrokeErrorHeader", "Text": "错误"}
+,{"Name": "Unit_hull", "Text": "%"}
+,{"Name": "Unit_massMultiplier", "Text": "%"}
+,
+  {
+    "Name": "param_massMultiplier",
+    "Text": "额外的质量"
+  }
+
+,
+  {
+    "Name": "DinaEngineer",
+    "Text": "迪娜"
+  }
+,
+  {
+    "Name": "DinaText",
+    "Text": "大炮不仅可以加强你的说服力，还可以增加在战斗中生存的机会。如果你决定升级你的船的火力，我的工厂将为你服务。"
+  }
+,
+  {
+    "Name": "KaitoEngineer",
+    "Text": "海涛"
+  }
+,
+  {
+    "Name": "KaitoText",
+    "Text": "许多能量武器已经过时了，制造商甚至不愿意发布新一代的模块。我的修改将使你船上的武器模块更加有效。"
+  },
+  {
+    "Name": "param_weaponrange",
+    "Text": "射程"
+  }
+,
+  {
+    "Name": "param_durability",
+    "Text": "耐久度"
+  }
+,{"Name": "Unit_weaponrange", "Text": "m"}
+,{"Name": "Unit_durability", "Text": "%"}
+,{"Name": "Unit_bulletSpeed", "Text": "m/s"}
+,
+  {
+    "Name": "param_bulletSpeed",
+    "Text": "射速"
+  }
+,
+  {
+    "Name": "ModRateOfFireKinetic",
+    "Text": "充电机制"
+  }
+,
+  {
+    "Name": "ModRateOfFireEnergy",
+    "Text": "电器电容"
+  }
+,
+  {
+    "Name": "ModDurabilityKinetic",
+    "Text": "耐久度"
+  }
+,
+  {
+    "Name": "ModDurabilityMissile",
+    "Text": "充电机制"
+  }
+,
+  {
+    "Name": "ModDurabilityEnergy",
+    "Text": "导电元件"
+  }
+,
+  {
+    "Name": "ModBulletSpeedKinetic",
+    "Text": "枪管长度"
+  }
+,
+  {
+    "Name": "ModBulletSpeedRailgun",
+    "Text": "钢轨的长度"
+  }
+,
+  {
+    "Name": "ModFireDistance",
+    "Text": "瞄准射击"
+  }
+,
+  {
+    "Name": "ModWeaponDamageKinetic",
+    "Text": "穿透式装甲"
+  }
+,
+  {
+    "Name": "ModWeaponDamageMissle",
+    "Text": "爆炸性的力量"
+  }
+,
+  {
+    "Name": "ModWeaponDamageEnergy",
+    "Text": "发射器功率"
+  }
+  ,
+  {
+    "Name": "ModuleClassReinforced",
+    "Text": "巩固的"
+  }
+,
+  {
+    "Name": "SettingTapSelect",
+    "Text": "通过触摸选择舰船"
+  }
+
+,
+  {
+    "Name": "AutoSaveHeader",
+    "Text": "自动保存"
+  }
+,
+  {
+    "Name": "ManualSaveHeader",
+    "Text": "手动保存"
+  }
+,
+  {
+    "Name": "ManualSaveBTN",
+    "Text": "保存"
+  }
+,{"Name": "ManualSaveReplaceAlert", "Text": "确定要覆盖选定的存档吗？"}
+,{"Name": "ManualSaveReplaceAlertH", "Text": "保存"}
+,{"Name": "ManualSaveDone", "Text": "保存成功。"}
+,{"Name": "ManualSaveError", "Text": "保存错误。."}
+,{"Name": "SaveShipType", "Text": "舰船: "}
+,{"Name": "MenuLoadCloudBTN", "Text": "云保存请求"}
+,{"Name": "MenuCloudSaveMngrBTN", "Text": "云存档管理"}
+,{"Name": "MissionTargetEvent", "Text": " [任务目标]"}
+,{"Name": "DiscoveredPlanetsStars", "Text": "恒星与行星"}
+,{"Name": "PlanetsStarsDiscFound", "Text": "已发现"}
+,{"Name": "PlanetsStarsDiscNotFound", "Text": "未发现"}
+,{"Name": "PlanetsStarsDiscType", "Text": "类型"}
+,{"Name": "PlanetsStarsDiscName", "Text": "名称"}
+,{"Name": "PlanetsStarsDiscHeader", "Text": "状态"}
+,{"Name": "PlanetsStarsDiscRareHeader", "Text": "稀有度"}
+,{"Name": "PlanetsStarsDiscRare1", "Text": "普通"}
+,{"Name": "PlanetsStarsDiscRare2", "Text": "不常见"}
+,{"Name": "PlanetsStarsDiscRare3", "Text": "稀有"}
+,{"Name": "PlanetsStarsDiscRare4", "Text": "极稀有"}
+,{"Name": "PlanetsStarsDiscRare5", "Text": "假定的"}
+,{"Name": "SettingShipList", "Text": "附近的舰船名单"}
+,{"Name": "QuestFailureDiscrHeader", "Text": "使命任务"}
+,{"Name": "QuestFailureDiscrText", "Text": "条件失败"}
+,{"Name": "BTN_BookmarkAdd", "Text": "保存"}
+,{"Name": "BTN_Bookmarks", "Text": "书签"}
+,{"Name": "BTN_ADD_BOOKMARK", "Text": "添加书签"}
+,{"Name": "BTN_ADD_PROMT_BOOKMARK", "Text": "描述..."}
+,{"Name": "BOOKMARK_TOO_MANY_header", "Text": "超出限度"}
+,{"Name": "BOOKMARK_TOO_MANY_text", "Text": "达到了书签限制。删除不必要的书签并重复这一过程。"}
+
+,{"Name": "BOOKMARK_USE_header", "Text": "书签"}
+,{"Name": "BOOKMARK_USE_text", "Text": "你想转到对象还是删除这个书签？"}
+,{"Name": "BOOKMARK_USE_goto", "Text": "转到"}
+,{"Name": "BOOKMARK_USE_delete", "Text": "删除"}
+,{"Name": "SelectedSystemBookmark", "Text": "选择星系: "}
+,{"Name": "FleetHeader", "Text": "舰队"}
+,{"Name": "RewardPart", "Text": "报酬: "}
+,{"Name": "FleetHull", "Text": "船身"}
+,{"Name": "FleetShields", "Text": "护盾"}
+,{"Name": "FleetAmmo", "Text": "弹药"}
+,{"Name": "FleetJump", "Text": "曲速跳跃"}
+,{"Name": "FleetRepair", "Text": "抢修船"}
+,{"Name": "FleetResupply", "Text": "补给船"}
+,{"Name": "FleetReadyRepair", "Text": "准备维修: "}
+,{"Name": "FleetReadyRepairOf", "Text": " / "}
+,{"Name": "FleetMax", "Text": "船队规模: "}
+,{"Name": "MercenariesHeader", "Text": "雇佣兵"}
+,{"Name": "MercenarAlertH", "Text": "限制性条款"}
+,{"Name": "MercenarAlertLevel", "Text": "你的战斗等级太低，无法雇用该飞行员。"}
+,{"Name": "MercenarAlertSize", "Text": "由于你的舰队已达最大规模，无法雇用更多飞行员。提升战斗等级以雇佣更多飞行员。"}
+,{"Name": "MercenarAlertAccept", "Text": "你确定你要为你的舰队雇佣这名飞行员吗？"}
+,{"Name": "BTN_onBoardFleet", "Text": "舰队"}
+,{"Name": "FleetReward", "Text": "报酬"}
+,{"Name": "FleetPower", "Text": "伤害"}
+,{"Name": "Unit_dps", "Text": "输出"}
+,{"Name": "FleetKickOut", "Text": "移出队伍"}
+,{"Name": "FleetRepair", "Text": "维修"}
+,{"Name": "FleetCancel", "Text": "取消"}
+,{"Name": "FleetQuestH", "Text": "舰队管理"}
+,{"Name": "FleetQuestion", "Text": "你想用你的舰队中的船做什么？"}
+,{"Name": "FleetQ_KickH", "Text": "移出队伍"}
+,{"Name": "FleetQ_KickQ", "Text": "确定要将该舰船从你的舰队中移出吗？"}
+,{"Name": "FleetKickYes", "Text": "是"}
+,{"Name": "FleetKickNo", "Text": "否"}
+,{"Name": "FleetSelectedPilot", "Text": "选择飞行员: "}
+,{"Name": "FleetSelectedRepair", "Text": "维修费用: "}
+
+,{"Name": "FleetNonExistT1", "Text": "选定的舰船不见了。也许它掉队了或者被摧毁了。"}
+,{"Name": "FleetNonExistH", "Text": "错误"}
+,{"Name": "FleetTimeTravelT", "Text": "预计抵达时间: "}
+,{"Name": "FleetTimeTravelU", "Text": "秒"}
+
+,{"Name": "FleetScrSize", "Text": "舰队规模"}
+,{"Name": "FleetScrReward", "Text": "飞行员报酬"}
+,{"Name": "FleetScrPower", "Text": "舰队能量"}
+,{"Name": "FleetScrRepair", "Text": "维修费用"}
+,{"Name": "FleetAllRepair", "Text": "维修所有舰船"}
+
+,{"Name": "FleetRepairFarQ", "Text": "所选舰船与最近的空间站之间的距离太长。"}
+,{"Name": "FleetRepairFarH", "Text": "错误"}
+,{"Name": "SettingsParticQualVeryHigh", "Text": "非常高"}
+,{"Name": "ModsStarsHeader", "Text": "恒星与空间站"}
+,{"Name": "FleetActionRegroup", "Text": "重组"}
+,{"Name": "FleetAttackModeName", "Text": "模式"}
+,{"Name": "FleetAttackModeAggr", "Text": "攻击模式"}
+,{"Name": "FleetAttackModeDef", "Text": "防御模式"}
+,{"Name": "GetReward", "Text": "获得报酬"}
+,{"Name": "UnknownSystem", "Text": "未知"}
+,{"Name": "PowerScreenUsage", "Text": "已使用"}
+,{"Name": "PowerScreenReq1", "Text": "需要PR1"}
+,{"Name": "PowerScreenReq2", "Text": "需要PR2"}
+,{"Name": "PowerScreenReq3", "Text": "需要PR3"}
+,{"Name": "PowerScreenHeadP", "Text": "功率"}
+,{"Name": "PowerScreenHeadM", "Text": "模块"}
+
+,{"Name": "ShipShopDescr", "Text": "购买新舰船"}
+,{"Name": "RescueServiceDescr", "Text": "因救人而获得奖励"}
+,{"Name": "BlackMarketDescr", "Text": "出售逃生舱"}
+,{"Name": "GarageDescr", "Text": "在空间站储存舰船"}
+,{"Name": "ModulesDescr", "Text": "购买并安装舰船模块"}
+,{"Name": "EngineerDescr", "Text": "修改你的舰船模块"}
+,{"Name": "ShipTypesarffScout", "Text": "赞塔克侦察兵"}
+,{"Name": "ZentarksDiamond", "Text": "赞塔克之石"}
+
+,{"Name": "GoodsBuyMode", "Text": "购买"}
+,{"Name": "GoodsSellMode", "Text": "出售"}
+,{"Name": "GoodsGoodsHeader", "Text": "货物"}
+,{"Name": "GoodsGoodsName", "Text": "名称"}
+,{"Name": "GoodsBuySellHeader", "Text": "贸易"}
+,{"Name": "GoodsCargoPlace", "Text": "货物空间"}
+,{"Name": "GoodsSalePrice", "Text": "售出价格"}
+,{"Name": "GoodsBuyPrice", "Text": "购入价格"}
+,{"Name": "GoodsBuySaleInfoHeader", "Text": "信息"}
+,
+  {
+    "Name": "排名奖励",
+    "Text": "奖励"
+  }
+,{"Name": "MinerHuntMessage1", "Text": "我们这里有谁？另一个矿工..."}
+,{"Name": "MinerHuntMessage2", "Text": "我认为你想分享你的货物...."}
+,{"Name": "MinerHuntMessage3", "Text": "遇到一个矿工真幸运。你的货舱满了吗？检查一下。"}
+,{"Name": "BoostNoEnergy", "Text": "推进器：能量不足"}
+,{"Name": "BoostToFast", "Text": "推进器: 速度过快"}
+,{"Name": "JumpsCount", "Text": "曲速跳跃"}
+,{"Name": "NextJump", "Text": "下一个 "}
+
+,{"Name": "SaveBackupBTN", "Text": "新建存档"}
+,{"Name": "LoadBackupBTN", "Text": "载入存档"}
+,{"Name": "LoadBackupQ", "Text": "是否覆盖存档？这将删除你当前的记录。"}
+,{"Name": "LoadBackupH", "Text": "存档覆盖中"}
+,{"Name": "LoadBackupError", "Text": "发生错误: 无法从文件夹中读取存档: "}
+,{"Name": "LoadBackupRes1", "Text": "存档覆盖成功! 覆盖: "}
+,{"Name": "LoadBackupRes2", "Text": " 发生错误: "}
+,{"Name": "LoadBackupRes3", "Text": "存档覆盖失败! 错误: "}
+,{"Name": "LoadBackupRes4", "Text": "没有存档被覆盖!"}
+,{"Name": "SaveBackupRes1", "Text": "保存成功! 确认文件夹: "}
+,{"Name": "SaveBackupRes2", "Text": "发生错误: 无法在文件夹中创建存档: "}
+,{"Name": "SaveBackupRes3", "Text": "尝试手动创建这个文件夹。"}
+,{"Name": "SaveBackupSignInError", "Text": "发生错误: 你需要通过游戏服务登录账号"}
+
+,{"Name": "BookmarkExistT", "Text": "该星系已被列入书签"}
+,{"Name": "BookmarkExistH", "Text": "注意!"}
+,{"Name": "ShipTypePhasis", "Text": "普罗米修斯"}
+
+,{"Name": "SettingsGameDynamic", "Text": "游戏速度"}
+,{"Name": "ShipTypePhoenix", "Text": "凤凰"}
+,{"Name": "ShipTypeKraken", "Text": "克雷肯"}
+
+,{"Name": "ShipTypeGladiator", "Text": "角斗士"}
+,{"Name": "ShipTypeTherion", "Text": "圣兽"}
+,{"Name": "ShipTypePilgrim", "Text": "流浪者"}
+
+,{"Name": "BindButtonH", "Text": "FN按钮"}
+,{"Name": "BindNone", "Text": "无"}
+,{"Name": "BindWarp", "Text": "曲速跳跃"}
+,{"Name": "BindModules", "Text": "模块"}
+,{"Name": "BindAutoPilot", "Text": "自动驾驶"}
+,{"Name": "BindFlightAssist", "Text": "飞控系统"}
+,{"Name": "BindSystemMap", "Text": "星系地图"}
+,{"Name": "BindMissions", "Text": "任务"}
+,{"Name": "BindSilentMode", "Text": "静默模式"}
+,{"Name": "BindSpectrum", "Text": "光谱分析仪"}
+,{"Name": "BindShieldCell", "Text": "护盾充能器"}
+,{"Name": "BindChaffLauncher", "Text": "箔条发射器"}
+,{"Name": "BindHeatSink", "Text": "散热发射器"}
+,{"Name": "BindZoom", "Text": "快速移动"}
+
+,{"Name": "FlightAssistOn", "Text": "开启飞控系统"}
+,{"Name": "FlightAssistOff", "Text": "关闭飞控系统"}
+,{"Name": "ZoomValue", "Text": "快速移动: "}
+
+,{"Name": "MiniMapSetting", "Text": "小地图显示"}
+
+,{"Name": "BackgroudSettingH", "Text": "背景"}
+,{"Name": "BackgroudSettingR", "Text": "现实"}
+,{"Name": "BackgroudSettingC", "Text": "丰富多彩"}
+
+,{"Name": "ShowOnMap", "Text": "星图"}
+,{"Name": "QuestOnStation", "Text": "支线任务 [空间站酒吧]"}
+
+,{"Name": "StationsHeader", "Text": "空间站"}
+
+, { "Name": "FactionShortRussian", "Text": "联合帝国" }
+, { "Name": "FactionShortUSA", "Text": "贸易联盟" }
+, { "Name": "FactionShortChina", "Text": "星际联盟" }
+, { "Name": "FactionShortIndependent", "Text": "无党派" }
+, { "Name": "AutoEnergies", "Text": "电力分配系统." }
+, { "Name": "ResetFilters", "Text": "重置筛选" }
+
+,{"Name": "Unit_hullPoints", "Text": "单位"}
+,{"Name": "param_hullPoints","Text": "船体"}
+
+,{"Name": "ShipTypeTitan", "Text": "收割者"}
+
+, { "Name": "ModuleSubTypeTitanLanceWeaponS", "Text": "能量枪" }
+, { "Name": "ModuleSubTypeTitanLanceWeapon", "Text": "能量枪" }
+, { "Name": "ModuleSubTypeTitanLanceWeaponDescription", "Text": "发射连续激光束的能量武器，造成热伤害，光束持续时间越长，造成的伤害越大." }
+
+
+,{"Name": "WeaponGroupsH", "Text": "武器分组"}
+,{"Name": "WeaponGroup", "Text": "分组"}
+,{"Name": "WeaponGroupAddBtn", "Text": "添加"}
+,{"Name": "WeaponGroupRemoveBtn", "Text": "去除"}
+
+,{"Name": "param_dronesCount","Text": "无人机"}
+,{"Name": "param_droneSpeed","Text": "无人机速度"}
+,{"Name": "Unit_droneSpeed", "Text": "m/s"}
+,{ "Name": "ModuleSubTypeCargoDroneController", "Text": "无人机采集控制器" }
+,{ "Name": "ModuleSubTypeCargoDroneControllerDescription", "Text": "无人机控制模块,使用货架上的无人机更快地从外层空间收集货物." }
+, {"Name": "GoodsDrone", "Text": "无人机"}
+, {"Name": "DronesHeader", "Text": "无人机"}
+, {"Name": "DronesBuyBtn", "Text": "购买"}
+, {"Name": "DronesStateBusy", "Text": "无闲置无人机"}
+, {"Name": "DronesStateNoDrones", "Text": "无可用无人机"}
+, {"Name": "DronesOnBoard", "Text": "无人机: "}
+, {"Name": "DroneErrorNoSpace", "Text": "无人机空间不足"}
+, {"Name": "DroneErrorDamaged", "Text": "无人机受损"}
+, {"Name": "DroneAutoBtn", "Text": "无人机采集器"}
+, {"Name": "DronesAutoOn", "Text": "无人机自动采集启动"}
+, {"Name": "DronesAutoOff", "Text": "无人机自动采集关闭"}
+
+, {"Name": "UnicShipAbilities", "Text": "特殊能力"}
+, {"Name": "UnicShipAbilBiGun", "Text": "大炮"}
+, {"Name": "UnicShipAbilSuperch", "Text": "内置曲速增压器"}
+, {"Name": "UnicShipAbilManyTarg", "Text": "多个目标，大炮射击能力"},
+
+  {
+    "Name": "ModPowerBandwidthWep",
+    "Text": "大炮功率带宽"
+  },
+  {
+    "Name": "ModPowerBandwidthEng",
+    "Text": "发动机功率带宽"
+  },
+  {
+    "Name": "ModPowerBandwidthSys",
+    "Text": "系统功率带宽"
+  }
+
+,
+  {
+    "Name": "param_powerDistAll",
+    "Text": "电力分配"
+  }
+
+,{"Name": "Unit_powerDistAll", "Text": "MW"}
+
+,{"Name": "MoneyHelpDescription", "Text": "捐赠物"}
+
+, {"Name": "TutorialQuestH", "Text": "支线任务和活动"}
+, {"Name": "TutorialQuestT", "Text": "注意银河系地图上的白色感叹号.这意味着在星系中的某个空间站可以进行侧面搜索.它可以通过参观空间站的酒吧找到.喝一杯,也许有人想和你谈谈.\n\n星系地图上的黄色感叹号表示随机事件.根据危险程度,你可以估计飞往这个地方的风险.通过参观这些活动,你可以获得用于升级飞船模块的稀有材料,并改变你的业力水平."}
+
+, {"Name": "TutorialBattleH", "Text": "作战系统"}
+, {"Name": "TutorialBattleT", "Text": "战斗中的良好效率是正确选择舰艇及其模块配置的结果.它值得从作战和多用途舰艇中选择.将能量炮与动能炮或导弹/鱼雷相结合.单独安装能量炮会很快耗尽电容器电荷,你会断断续续地开火.\n\n此外,不要忽视对舰船的保护.升级你的船的护盾,安装船体加固,护盾电池组(可以快速恢复护盾).\n\n强烈建议在所有舰船上安装防御炮塔模块和箔条发射器模块.所有这些都显著提高了舰艇在战斗中的生存能力,减少了舰艇的命中次数.\n\n更强大的推进器将显著提高你的船的机动性,这也会使战斗的结果对你有利.你的船掉头越快,造成的伤害就越大.\n\n不要忘记更改电源优先级.如果你没有足够的力量连续射击,请将优先权改为加农炮.如果你要对付一个机动性更强的敌人,那就把优先权放在发动机上.你需要快速恢复能量护盾-设置系统模块的所有优先级,并保持与敌人的距离,直到护盾恢复.\n\n进入曲速以摆脱追逐是没有错的.同时,可以增加翘曲曲速跳跃的准备时间.为了度过这段时间,使用保护系统(箔条发射器和防御炮塔),开启静音模式(与箔条发射器类似,但会加热舰船)."}
+
+, {"Name": "TutorialPowerH", "Text": "电力系统"}
+, {"Name": "TutorialPowerT", "Text": "某些模块(大炮,引擎和护盾) 在峰值需求时消耗大量电力. 电源分配系统模块,确保大炮有足够的能量来多次发射,以及更快恢复防护罩. \n\n分配器电容消除了过多的功耗,并允许模块长时间连续工作. 电容器中的电荷(蓝色指示灯)和优先级(白色指示灯)显示在电源优先级切换按钮下.优先级越高,电容器的电荷恢复的速度越快.\n\n如果电容器中的电荷为零,大炮将停止射击,防护罩不再恢复.如果加农炮没有额外的优先级,除了电容器的更快充电,其他两个系统是不同的.引擎的优先权也会增加舰船的加速度和机动性,而系统的优先权会增加屏蔽强度."}
+
+, {"Name": "TutorialTradeH", "Text": "交易"}
+, {"Name": "TutorialTradeT", "Text": "寻找商品更便宜的地方,在商品更贵的地方销售.银河系地图上的过滤器将帮助您.绿色箭头表示货物过剩(价格将低于平均值),红色箭头表示货物短缺(价格将高于平均值).\n\n但一开始,不仅在市场上销售商品,而且承担运输和搜索商品的任务将更有利可图.\n\n在安全性较低的星系中运输货物时要小心,避免从星系到空间站的直接路线,因为您可能会遇到海盗.\n\n交易非法商品(奴隶和三羟色胺)最有利可图.它通常可以在无政府星系上购买,在高安全星系上出售.\n\n同时有必要避免星系警卫扫描货物,因为他们可能会要求您丢弃货物并支付罚款.\n\n如果您的船正在被扫描,那么您可以打开静音模式(在外部模块的菜单中).这将中止扫描.\n\n通过升级您的交易等级,您可以提高任何交易任务的奖励."}
+
+, {"Name": "TutorialBountyH", "Text": "赏金猎人"}
+, {"Name": "TutorialBountyT", "Text": "海盗狩猎是一项有利可图的业务,尽管它相当危险.从中获利的一种方法是在车站执行任务.到达所需的恒星系后,检查星系的地图.也许海盗的坐标会用绿色感叹号标记.有时,在明星旁边可以找到合适的海盗.\n\n第二个选项是安装犯罪扫描模块.海盗并不是所有星系都需要的,他们通常不会被标记为敌人(红色).要想知道在另一个星系中是否有奖励飞行员,你需要用犯罪扫描模块扫描它.\n\n您还可以帮助安全级别为\"冲突区域\"的星系中的警卫.对海盗造成重大损害将获得丰厚的回报.\n\n提升您的战斗等级,您将增加摧毁海盗的奖励."}
+
+, {"Name": "TutorialExploreH", "Text": "空间探索"}
+, {"Name": "TutorialExploreT", "Text": "探索太空深处将有助于你通过在空间站出售数据来赚钱.通过提升你的研究员级别,你可以提高你的研究数据的价值.\n\n但不幸的是,所有离太阳最近的恒星系都已经被探测过了.未知的恒星和行星距离核心星系300光年.这样的距离可以在准备好的船上达到.\"探险家\"和\"多用途\"类别的舰船最适合长途飞行.由于安装了较轻的舰船模块,此类舰船的曲速跳跃距离显著增加.\n\n为长途旅行准备一艘船应该首先安装所有主要的D级模块(除了曲速驱动器,最好安装a级).D模块是最轻的,这意味着安装它们将增加你的飞船的曲速跳跃距离.此外,您还需要:行星扫描仪,光谱仪,燃料勺,散热器,维修模块和采矿激光器.\n\n当您足够接近未知行星时,行星扫描仪将允许您检测它们.\n\n光谱仪将允许您在星系地图上显示未知行星,并向您提供这些行星的内容信息(通过所选元素指示行星的方向).行星的内容物可以指示有价值/稀有行星的存在(例如,水和氧气可能指示星系中存在类地行星).\n\n燃料补给模块将使您能够从星球上补给燃料.只是要小心-并不是所有的恒星都能为曲速引擎补给燃料,这在银河系地图上对该星系的描述中有所说明.\n\n如果您在燃料补给期间或其他原因使船过热,散热发射器可能会很有用.\n\n维修模块可以维修损坏的模块.维修模块的零件可以从矿石中合成,因此安装至少一台采矿激光器并不是多余的.\n\n但为什么是维修模块?舰船在深空中如何受损?尽管几乎完全没有生命,太空还是相当危险的.你可能会遇到太空风暴,黑洞和中子星,它们不仅会损坏你的飞船,甚至会摧毁它\n\n谁知道宇宙深处存在着什么."}
+
+, {"Name": "TutorialMiningH", "Text": "采矿"}
+, {"Name": "TutorialMiningT", "Text": "开采和销售矿石是一项相当有利可图的业务.为此,您需要在船上安装\"采矿激光器\"和\"光谱仪\"模块.矿石在小行星带开采.这些地带在星系地图上用阴影灰色区域表示.在小行星带上启动光谱仪,查看那里的矿石类型.要采矿,通过选择采矿激光激活你的舰炮.近距离飞向小行星,将飞船转向小行星方向,然后按下\"开火\"按钮开始采矿.船上安装的\"采矿激光\"等模块越多,采矿速度越快.矿石从小行星上脱落后,将显示在附近物体的面板上.通过按下最近物体的按钮,您的船将自动收集矿石.\n\n最有利可图的选择是执行提取特定矿石的任务.可以通过银河系地图上的过滤器找到出售特定类型矿石的地点. 在矿石短缺的星系中(带有红色向下箭头图标),不仅可以出售开采的矿石,而且最有可能承担开采该矿石的任务.\n\n为了加快流程,您还可以安装无人机控制器模块,该模块将自动收集附近的资源.\n\n有很多海盗猎杀采矿船.定期改变开采矿石的区域.尽量避免在不安全的星系中开采."}
+
+, {"Name": "TutorialEngrnH", "Text": "工程师"}
+, {"Name": "TutorialEngrnT", "Text": "一些电台有工程师.工程师拥有一定的资源,可以改进船上的模块.工程师在银河系地图上用齿轮符号标记(可能隐藏在侧面任务标记后面),他们的存在在星系描述中.每个工程师都对某些类型的模块提出改进建议.安装改进的资源可以在行星上获得(当使用行星飞行器着陆时),从被摧毁的船只上收集零件,访问随机事件,摧毁某些类型的船只,并使用能量追踪扫描仪模块.收集的材料显示在\"材料\"选项卡上的货物菜单中."}
+
+, {"Name": "TutorialRepH", "Text": "声誉、影响力和业力"}
+, {"Name": "TutorialRepT", "Text": "声誉应在每个空间站单独增加.更高的声誉可以获得更多的付费任务.每个空间站的声望限制为100个单位.通过成功完成任务,出售研究数据或为被杀害的海盗赚取赏金.您可以提高电台的声誉.\n\n所有空间站的推定值以影响点汇总.需要影响点才能访问与某些派系相关的一些船模型和支线任务.\n\n业力是你正直的标志.帮助中立的船只[陷入困境],摧毁海盗(在事件中或为了赏金).你可以改善你的业力.如果你运输非法货物,攻击星系守卫或攻击中立船只,那么你将减少你的业力.过高的业力会阻碍无政府状态星系中的任务和一些支线任务.相反,业力值太低会阻止你接受高安全星系中的任务,也会阻止你访问一些支线任务."}
+
+, {"Name": "TutorialFleetH", "Text": "舰队"}
+, {"Name": "TutorialFleetT", "Text": "为了保护自己或对付某些敌人,你可以把雇佣兵带进舰队.它们可以在空间站酒吧找到.但并不是每个雇佣兵都会同意加入你的舰队.你的战斗级别越高,你的船越贵,可以雇佣的致命飞行员就越多,你的舰队也就越庞大.你还需要知道他们的服务不是免费的.他们占你收入的一定比例.\n\n有关车队及其管理的详细信息可在车队菜单中找到(通过车载菜单打开).你可以设置行为模式,踢出雇佣兵,重新集结和修理船只的能力.在防御模式下,雇佣兵只会攻击攻击你的船只或雇佣兵船只的船只.攻击模式允许雇佣兵攻击你选择的任何目标.重新集结舰队按钮命令雇佣兵返回你身边,这在你的任何船只忙于追击敌人或他们离你太远时都很有用.\n\n维修雇佣军船只的按钮只能在车站附近工作.除维修外,按下此按钮还可重新补给弹药."}
+
+,
+  {
+    "Name": "GamePad_STICK1_X",
+    "Text": "移动 X [Stick]"
+  }
+,
+  {
+    "Name": "GamePad_STICK1_Y",
+    "Text": "移动 Y [Stick]"
+  }
+,
+  {
+    "Name": "GamePad_DPAD_LEFT",
+    "Text": "动力炮"
+  }
+,
+  {
+    "Name": "GamePad_DPAD_UP",
+    "Text": "动能发动机"
+  }
+,
+  {
+    "Name": "GamePad_DPAD_RIGHT",
+    "Text": "动力系统"
+  }
+,
+  {
+    "Name": "GamePad_BTN_A",
+    "Text": "增加"
+  }
+,
+  {
+    "Name": "GamePad_BTN_B",
+    "Text": "开火"
+  }
+,
+  {
+    "Name": "GamePad_BTN_X",
+    "Text": "刹车"
+  }
+,
+  {
+    "Name": "GamePad_BTN_Y",
+    "Text": "功能键"
+  }
+,
+  {
+    "Name": "GamePad_BTN_L",
+    "Text": "屏蔽电池组"
+  }
+,
+  {
+    "Name": "GamePad_BTN_R",
+    "Text": "泊条发射器"
+  }
+
+,
+  {
+    "Name": "GamePad_PressKey",
+    "Text": "任意键..."
+  }
+
+,
+  {
+    "Name": "GamePad_DeathZone",
+    "Text": "死亡地带"
+  }
+,
+  {
+    "Name": "GamePad_Name",
+    "Text": "有联系"
+  }
+
+,
+  {
+    "Name": "SettingsControlHeader",
+    "Text": "控制"
+  }
+,
+  {
+    "Name": "GamePadHeader",
+    "Text": "游戏手柄"
+  }
+
+,
+  {
+    "Name": "GamePad_DPAD_DOWN",
+    "Text": "武器组"
+  }
+,
+  {
+    "Name": "Arena_Level",
+    "Text": "评定战斗等级"
+  }
+,
+  {
+    "Name": "Arena_SystemNone",
+    "Text": "最高等级"
+  }
+,
+  {
+    "Name": "ArenaQuestion",
+    "Text": "这是打架的地方.你准备好迎接新的对手了吗？"
+  }
+
+,
+  {
+    "Name": "Arena_Enemy",
+    "Text": "竞技场敌人"
+  }
+,
+  {
+    "Name": "Arena_Event",
+    "Text": "评级战"
+  }
+,
+  {
+    "Name": "GamePad_BTN_Select",
+    "Text": "#2功能键"
+  }
+,
+  {
+    "Name": "Arena_EarlyStart",
+    "Text": "违反规规则，你在战斗开始前就发动了攻击."
+  }
+,
+  {
+    "Name": "Arena_NoMods",
+    "Text": "等级战斗不适用于活动模式."
+  }
+,
+  {
+    "Name": "Arena_Done",
+    "Text": "恭喜!你胜利了!如果你想和更强的对手交战,请访问系统. "
+  }
+,
+  {
+    "Name": "Arena_FinishMax",
+    "Text": "你赢得了这场战斗！看起来没有对手准备好和你战斗了。"
+     }
+,
+  {
+    "Name": "Arena_Score",
+    "Text": "战斗评分"
+  }
+,
+  {
+    "Name": "SettingsPauseInBG",
+    "Text": "暂停"
+  }
+,
+  {
+    "Name": "CannonsBtnHelp",
+    "Text": "使用 \"加农炮\" 切换武器组件. 按住 \"加农炮\" 按钮1秒钟关闭武器."
+  },
+  {
+    "Name": "RatingBattleScrSystem",
+    "Text": "系统"
+  },
+  {
+    "Name": "RatingBattleScrShips",
+    "Text": "敌舰"
+  },
+  {
+    "Name": "Arena_Header",
+    "Text": "评级战"
+  },
+  {
+    "Name": "Arena_LevelsBTN",
+    "Text": "评级战斗列表"
+  },
+  {
+    "Name": "MercenarAlertBigShips",
+    "Text": "您的舰队只能容纳1艘大型舰船."
+  }
+,
+  {
+    "Name": "RatingBattleActionH",
+    "Text": "评级战"
+  }
+,
+  {
+    "Name": "RatingBattleActionQ",
+    "Text": "你选择了战斗"
+  }
+,
+  {
+    "Name": "RatingBattleActionOne",
+    "Text": "在地图上显示"
+  }
+,
+  {
+    "Name": "SettingsHideUIWithGamepad",
+    "Text": "隐藏虚拟按钮"
+  }
+,
+  {
+    "Name": "ShipSpecHeader",
+    "Text": "规格"
+  }
+,
+  {
+    "Name": "ShipSpecValue",
+    "Text": "价值"
+  }
+,
+  {
+    "Name": "GameStatsHeader",
+    "Text": "统计数字"
+  }
+,
+  {"Name": "MenuCreditsSpecialThanks",
+  "Text": "[ 特别感谢 ]\nHoustoN, laickoms, Bogddan222, Yatagarasu, BaLaMuT\nMinxo, WELES, SpaceEon, FFGG"
+}
+,
+  {
+    "Name": "FN_objectsMenu",
+    "Text": "星系对象列表"
+  }
+,
+  {
+    "Name": "Achiv_dscr_systems",
+    "Text": "银河系最好的探路者"
+  }
+,
+  {
+    "Name": "Achiv_dscr_planets",
+    "Text": "未知行星的探险家"
+  }
+,
+  {
+    "Name": "Achiv_dscr_battles",
+    "Text": "战斗等级最高的飞行员"
+  }
+,
+  {
+    "Name": "Achiv_dscr_achivs",
+    "Text": "完成游戏阶段的奖励"
+  }
+
+,
+  {
+    "Name": "LoadAlertQ",
+    "Text": "加载以前保存的游戏.所有未保存的当前进度都将丢失.是否确实要继续?"
+  }
+,
+  {
+    "Name": "LoadAlertH",
+    "Text": "负载"
+  }
+
+,
+  {
+    "Name": "DonationText",
+    "Text": "捐赠: "
+  }
+,
+  {
+    "Name": "DailyTaskHeader",
+    "Text": "日常任务"
+  }
+,
+  {
+    "Name": "DailyTaskGetReward",
+    "Text": "领取奖励!"
+  }
+,
+  {
+    "Name": "DailyTaskCompleted",
+    "Text": "任务完成!"
+  }
+,
+  {
+    "Name": "DailyTaskNoConn",
+    "Text": "无网络连接"
+  }
+,
+  {
+    "Name": "DailyTaskReward",
+    "Text": "每日任务奖励!"
+  }
+,{"Name": "MissionRewardMaterials", "Text": "材料"}
+
+,
+  {
+    "Name": "PiratesHuntDailyCount",
+    "Text": "海盗已被消灭: "
+  }
+,
+  {
+    "Name": "PlanetExplorerDailyCount",
+    "Text": "行星扫描: "
+  }
+,
+  {
+    "Name": "SystemExplorerDailyCount",
+    "Text": "发现新星系: "
+  }
+,
+  {
+    "Name": "GuardsHunterDailyCount",
+    "Text": "星系守护者被摧毁: "
+  }
+,
+  {
+    "Name": "IllegalTraderDailyCount",
+    "Text": "运输的货物: "
+  }
+,
+  {
+    "Name": "MiningRushDailyCount",
+    "Text": "开采的矿石: "
+  }
+,
+  {
+    "Name": "ModuleUpgraderDailyCount",
+    "Text": "已安装的修改模块: "
+  }
+,
+  {
+    "Name": "CourierWorkDailyCount",
+    "Text": "快递订单已完成: "
+  }
+,
+  {
+    "Name": "RareCannonUserDailyCount",
+    "Text": "舰船被摧毁: "
+  }
+,
+  {
+    "Name": "TouristWorkerDailyCount",
+    "Text": "运送旅客: "
+  }
+,
+  {
+    "Name": "NPCHelperDailyCount",
+    "Text": "获救舰船: "
+  }
+
+
+
+
+
+
+
+
+,
+  {
+    "Name": "PiratesHuntDescript",
+    "Text": "看来出现了很多新的海盗，是时候减少他们的数量了."
+  }
+,
+  {
+    "Name": "PlanetExplorerDescript",
+    "Text": "你知道我们的星系只被探索了0.0003%吗? 帮助人类进行太空探索."
+  }
+,
+  {
+    "Name": "SystemExplorerDescript",
+    "Text": "你知道我们的星系只被探索了0.0003%吗? 帮助人类进行太空探索."
+  }
+,
+  {
+    "Name": "GuardsHunterDescript",
+    "Text": "守护者阻止诚实的海盗挣钱,需要做点什么."
+  }
+,
+  {
+    "Name": "IllegalTraderDescript1",
+    "Text": "你卖产品不会赚很多钱，运输货物. ["
+  }
+,
+  {
+    "Name": "IllegalTraderDescript2",
+    "Text": "] 所需的数量."
+  }
+,
+  {
+    "Name": "MiningRushDescript1",
+    "Text": "挖矿是非常赚钱的方法. 获取 ["
+  }
+,
+  {
+    "Name": "MiningRushDescript2",
+    "Text": "] 所需的数量."
+  }
+,
+  {
+    "Name": "ModuleUpgraderDescript",
+    "Text": "在顶级模块全部安装完毕的情况下，如何让船变得更好？当然，请工程师帮忙是值得的."
+  }
+,
+  {
+    "Name": "CourierWorkDescript",
+    "Text": "你做快递赚的不多, 但是能很好的提高你的口碑."
+  }
+,
+  {
+    "Name": "RareCannonUserDescript1",
+    "Text": "有经验的飞行员擅长使用任何类型武器，你能摧毁我吗？["
+  }
+,
+  {
+    "Name": "RareCannonUserDescript2",
+    "Text": "] 使用这种加农炮的舰船: ["
+  }
+,
+  {
+    "Name": "TouristWorkerDescript",
+    "Text": "富有的游客愿意花大价钱去参观遥远的星球.帮他们花这笔钱."
+  }
+,
+  {
+    "Name": "NPCHelperDescript",
+    "Text": "太空是一个相当危险的地方，飞行员必须在困难的情况下互相帮助.帮助几个有困难的飞行员."
+  }
+  ,{"Name": "ShipTypeThorn", "Text": "刺"}
+,
+  {
+    "Name": "param_fightersType",
+    "Text": "舰船类型"
+  }
+,{"Name": "MASS_LOCK_ATTACKMODE", "Text": "速度限制: 关闭加农袍" }
+,{"Name": "WARP_ERROR_ATTACKMODE", "Text": "扭曲错误: 关闭加农炮" }
+,{"Name": "RemoteEngineer", "Text": "欢迎来到我的远程工作室! " }
+
+,{"Name": "TransferShipBTN", "Text": "转移" }
+,{"Name": "TransferShipH", "Text": "舰船转移" }
+,{"Name": "TransferShipQ0", "Text": "您确定要将船转移到此空间站吗?" }
+,{"Name": "TransferShipQ1", "Text": "舰船: " }
+,{"Name": "TransferShipQ2", "Text": "距离: " }
+,{"Name": "TransferShipQ3", "Text": "转移舰船: " }
+,{"Name": "TransferShipCompleted", "Text": "舰船成功转移!" }
+,{"Name": "TransferShipError", "Text": "错误" }
+
+,{"Name": "TransferModuleBTN", "Text": "转移" }
+,{"Name": "TransferModuleH", "Text": "模块转移" }
+,{"Name": "TransferModuleQ0", "Text": "您确定要将模块转移到此空间站吗?" }
+,{"Name": "TransferModuleQ1", "Text": "模块: " }
+,{"Name": "TransferModuleQ2", "Text": "堆: " }
+,{"Name": "TransferModuleQ3", "Text": "距离: " }
+,{"Name": "TransferModuleQ4", "Text": "转让价格: " }
+,{"Name": "TransferModuleCompleted", "Text": "模块传输成功!" }
+,{"Name": "TransferModuleError", "Text": "错误" }
+
+,{"Name": "UnknownStationSystem", "Text": "未知" }
+,{"Name": "ShipTypeVertexF", "Text": "涡流"}
+, {"Name": "UnicShipAbilСarrier", "Text": "航空母舰"}
+,{"Name": "ShipTypeDiscordia", "Text": "迪斯科迪亚"}
+,{"Name": "ShipSpecsHullRating", "Text": "盔甲"}
+,{"Name": "ChangeTargetAuto", "Text": "自动更改目标"}
+,{"Name": "FN_brakes", "Text": "刹车"}
+,{"Name": "ModsTexturesHeader", "Text": "纹理"}
+,{"Name": "ModsTexturesAlertHeader", "Text": "警告"}
+,{"Name": "ModsTexturesAlert", "Text": "纹理模式需要重新启动。"}
+, { "Name": "ModuleSubTypeMineWeaponS", "Text": "地雷" }
+, { "Name": "ModuleSubTypeMineWeapon", "Text": "地雷" }
+, { "Name": "ModuleSubTypeMineWeaponDescription", "Text": "地雷是在敌人接近后短时间内爆炸的炸药。掉落后地雷激活需要 2 秒。地雷具有稳定引擎，即使在移动时也能使用。" }
+, { "Name": "DiscoveryDataAmount", "Text": "数据数" },
+  {
+    "Name": "RankBonus",
+    "Text": "奖励"
+  }
+  ,
+{ "Name": "OwnStationDefaultName", "Text": "My Space Station" }
+
+, { "Name": "OwnStationHeader", "Text": "空间站" }
+, { "Name": "OwnStationRepairHeader", "Text": "修复状态" }
+, { "Name": "OwnStationRepairH1", "Text": "资源" }
+, { "Name": "OwnStationRepairH2", "Text": "需要" }
+, { "Name": "OwnStationRepairH3", "Text": "货物" }
+, { "Name": "OwnStationRepairBtn", "Text": "使用资源" }
+
+, { "Name": "OwnStationTradeHeader", "Text": "贸易航线" }
+, { "Name": "OwnStationTradeSystem", "Text": "交易中心" }
+, { "Name": "OwnStationTradeH1", "Text": "距离" }
+, { "Name": "OwnStationTradeH2", "Text": "系统" }
+, { "Name": "OwnStationTradeH3", "Text": "商品" }
+, { "Name": "OwnStationTradeH4", "Text": "利润" }
+, { "Name": "OwnStationTradeH5", "Text": "CR/min" }
+, { "Name": "OwnStationTradeH6", "Text": "总利润" }
+, { "Name": "OwnStationTradeH7", "Text": "贸易点" }
+
+, { "Name": "OwnStationCargoHeader", "Text": "储存" }
+, { "Name": "OwnStationCargoH1", "Text": "待售" }
+, { "Name": "OwnStationCargoH2", "Text": "商品" }
+, { "Name": "OwnStationCargoH3", "Text": "Drop" }
+, { "Name": "OwnStationCargoH4", "Text": "取" }
+, { "Name": "OwnStationCargoH5", "Text": "数量" }
+, { "Name": "OwnStationCargoH6", "Text": "Add" }
+, { "Name": "OwnStationCargoH7", "Text": "使用空间" }
+, { "Name": "OwnStationCargoH8", "Text": " of " }
+, { "Name": "OwnStationCargoH9", "Text": "类型" }
+, { "Name": "OwnStationCargoH10", "Text": "价格" }
+, { "Name": "OwnStationCargoH11", "Text": "精选货物: " }
+, { "Name": "OwnStationCargoH12", "Text": "选择一个操作." }
+, { "Name": "OwnStationCargoH13", "Text": "将货物添加到空间站仓库" }
+
+, { "Name": "OwnStationGuardsHeader", "Text": "护卫队" }
+, { "Name": "OwnStationGuardsH1", "Text": "Add" }
+, { "Name": "OwnStationGuardsH2", "Text": "去除" }
+, { "Name": "OwnStationGuardsH3", "Text": "军阶" }
+, { "Name": "OwnStationGuardsH4", "Text": "薪水" }
+, { "Name": "OwnStationGuardsH4", "Text": "维修" }
+, { "Name": "OwnStationGuardsH5", "Text": "取消" }
+, { "Name": "OwnStationGuardsH6", "Text": "这艘舰船严重受损. 维修费用: " }
+, { "Name": "OwnStationGuardsH7", "Text": "增加舰船保护空间站." }
+, { "Name": "OwnStationGuardsH8", "Text": "你不能增加更多的舰船保护空间站." }
+, { "Name": "OwnStationGuardsH9", "Text": "船体: " }
+, { "Name": "OwnStationGuardsH10", "Text": "你想用这艘舰船做什么?" }
+, { "Name": "OwnStationGuardsH11", "Text": "舰船" }
+, { "Name": "OwnStationGuardsH12", "Text": "在离开之前维修这艘舰船." }
+
+, { "Name": "OwnStationGuardsH13", "Text": "维修" }
+, { "Name": "OwnStationGuardsH14", "Text": "没有足够的信用维修. 你需要 " }
+
+, { "Name": "OwnStationWarpHeader", "Text": "曲速跳跃" }
+, { "Name": "OwnStationWarpHdr1", "Text": "错误" }
+, { "Name": "OwnStationWarpHdr2", "Text": "航路点太远. 距离应该更短 " }
+, { "Name": "OwnStationWarpHdr3", "Text": "活动" }
+, { "Name": "OwnStationWarpHdr4", "Text": "在星系图上选择任意一个恒星系统." }
+, { "Name": "OwnStationWarpHdr5", "Text": "没有足够的资源进行曲速跳跃." }
+, { "Name": "OwnStationWarpHdr6", "Text": "请求的资源" }
+
+, { "Name": "OwnStationWarpHdr10", "Text": "空间站准备着落" }
+
+, { "Name": "OwnStationWarpHdr7", "Text": "最大距离" }
+, { "Name": "OwnStationWarpHdr8", "Text": "目的地" }
+, { "Name": "OwnStationWarpHdr9", "Text": "目的地. 星系" }
+
+, { "Name": "OwnStationMsg1", "Text": "看来你找到一个废弃的空间站. 让我们检查一下它的状况." }
+, { "Name": "OwnStationMsg2", "Text": "空间站已经很久没有使用了. 你可以试着修好它." }
+, { "Name": "OwnStationMsg3", "Text": "这需要更多的资源, 但这是值得的." }
+, { "Name": "OwnStationMsg4", "Text": "大！空间站目前正在运行.现在你可以让它更接近有空间站的星系，把货物送到空间站，开始交易." }
+, { "Name": "OwnStationMsg3", "Text": "不要忘记雇佣护卫舰船，因为交易站肯定会吸引海盗." }
+
+, { "Name": "OwnStationMsgPirate1", "Text": "抱歉我失礼了，但我们觉得你可以和我及我的朋友分享.假设这笔钱足够了: " }
+, { "Name": "OwnStationMsgPirate2", "Text": "问候指挥官！我看你挣得够多了，但不要和任何人分享.这样我们就不会再打扰你了，你可以付少量的信用: " }
+, { "Name": "OwnStationMsgPirate3", "Text": "我认为你的信用不是通过正当手段赚来的，但是我们会对此视而不见，让你自己赚足够的信用: " }
+, { "Name": "OwnStationMsgPirate4", "Text": "那又如何?" }
+, { "Name": "OwnStationAnswPirate1", "Text": "好,我同意！我会付信用给你" }
+, { "Name": "OwnStationAnswPirate2", "Text": "我没有那么多信用" }
+, { "Name": "OwnStationAnswPirate3", "Text": "滚下地狱吧!" }
+, { "Name": "OwnStationAnswPirate4", "Text": "哈哈, 尽量拿!" }
+,{ "Name": "OwnStationEndPirate1", "Text": "那更好.我希望我们的合作在未来继续下去！你不想惹麻烦，是吗?" }
+,{ "Name": "OwnStationEndPirate2", "Text": "哈哈,我就知道你拿我们没办法！让我们离开这里吧!" }
+,{ "Name": "OwnStationEndPirate3", "Text": "记住我们,这不是我们最后一次见面.等着为下次准备信用吧!" }
+,{ "Name": "OwnStationAngryPirate1", "Text": "什么？也许我听错了？来吧,伙计们,让我们给他一个教训!" }
+,{ "Name": "OwnStationAngryPirate2", "Text": "我会让你后悔的!" }
+,{ "Name": "OwnStationAngryPirate3", "Text": "我以为我们会和平地解散,不用开火." }
+,{ "Name": "OwnStationGuardsMsg1", "Text": "不同意!我们准备好战斗了,说吧!" }
+,{ "Name": "OwnStationGuardsMsg2", "Text": "不要和他们说话！他们只理解权力!" }
+,{ "Name": "OwnStationGuardsMsg3", "Text": "开始战斗!!" }
+,{ "Name": "OwnStationFightOver", "Text": "恭喜你,指挥官！你已经成功击退了海盗的攻击!" }
+
+,{ "Name": "OwnStationEvent", "Text": "海盗袭击" }
+
+, { "Name": "OwnStationSubsystemsHdr", "Text": "空间站系统" }
+, { "Name": "OwnStationSubSysMaxUpgHd", "Text": "升级" }
+, { "Name": "OwnStationSubSysMaxUpgH1", "Text": "此系统没有更多更新." }
+, { "Name": "OwnStationSubSysMaxUpgH2", "Text": "没有足够的信用升级系统. 需要: " }
+
+, { "Name": "OwnStationUpgrStorageHdr", "Text": "储存" }
+, { "Name": "OwnStationUpgrStorageH1", "Text": "容量" }
+
+, { "Name": "OwnStationUpgrTradeHdr", "Text": "贸易港口" }
+, { "Name": "OwnStationUpgrTradeH1", "Text": "最大航线距离" }
+, { "Name": "OwnStationUpgrTradeH2", "Text": "利润奖金" }
+, { "Name": "OwnStationUpgrTradeH4", "Text": "升级" }
+, { "Name": "OwnStationUpgrTradeH5", "Text": "你需要更多的交易点来升级. 当前点数:" }
+, { "Name": "OwnStationUpgrTradeH6", "Text": " of " }
+
+, { "Name": "OwnStationUpgrWarpHdr", "Text": "曲速引擎" }
+, { "Name": "OwnStationUpgrWarpH1", "Text": "最大距离" }
+
+, { "Name": "OwnStationUpgrModulesHdr", "Text": "模块存储" }
+, { "Name": "OwnStationUpgrModulesH1", "Text": "模块可用性" }
+
+, { "Name": "OwnStationUpgrH1", "Text": "等级" }
+, { "Name": "OwnStationUpgrH2", "Text": "所需材料" }
+
+, { "Name": "OwnStationUpgrGuardsHdr", "Text": "警卫控制中心" }
+, { "Name": "OwnStationUpgrGuardsH1", "Text": "最大护卫舰船" }
+
+, { "Name": "OwnStationUpgrRepairDHdr", "Text": "修船坞" }
+, { "Name": "OwnStationUpgrRepairDH1", "Text": "可用的" }
+, { "Name": "OwnStationUpgrRepairDH2", "Text": "无" }
+
+, { "Name": "OwnStationUpgrShipShopHdr", "Text": "舰船商店" }
+, { "Name": "OwnStationUpgrShipShopDH1", "Text": "可用的" }
+, { "Name": "OwnStationUpgrShipShopDH2", "Text": "无" }
+
+, { "Name": "OwnStationUpgrBarHdr", "Text": "酒吧" }
+, { "Name": "OwnStationUpgrBarDH1", "Text": "可用的" }
+, { "Name": "OwnStationUpgrBarDH2", "Text": "无" }
+
+, { "Name": "OwnStationSubModuleNoneError", "Text": "该系统不可用" }
+, { "Name": "OwnStationDamaged", "Text": "这个空间站损坏了,需要维修." }
+, { "Name": "OwnStationNeedRepair", "Text": "这个空间站很久没有使用了,但是可以恢复工作状态." }
+, { "Name": "OwnStationRepairedFirsTime", "Text": "恭喜你！你成功修复了空间站.现在,您可以添加和改进系统.添加货物到空间站,并选择出售.通过增加守卫来保护空间站." }
+, { "Name": "OwnStationCantWarpToSysWS", "Text": "不能移动到具有其它空间站的星系." }
+
+, { "Name": "GuardPartName", "Text": "警戒舰船 " }
+, { "Name": "StationAssaultType", "Text": "空间站攻击" }
+
+, { "Name": "StationAssaultAlarm", "Text": "立正！在你的位置附近发现了敌舰.击退攻击,防止空间站被抢劫." }
+
+, { "Name": "StationAssaultFailed", "Text": "海盗设法抢劫了你的空间站.为了恢复空间站的运行,有必要对其进行修复." }
+, { "Name": "StationSystemUpdQ", "Text": "您确定要升级空间站系统吗？费用很高." }
+, { "Name": "StationSystemUpdH", "Text": "空间站升级" }
+, { "Name": "StationSystemUpdYes", "Text": "升级" }
+, { "Name": "StationSystemUpdNo", "Text": "取消" }
+, { "Name": "StationWarpQstn", "Text": "你确定要启动太空站曲速引擎吗？你必须在曲速跳跃后修复你的太空站." }
+, { "Name": "OwnStationAvailable4Sale", "Text": "待售空间站货物" }
+
+, { "Name": "OwnStationHighDemand", "Text": "[高需求]" }
+, { "Name": "OwnStationLowDemand", "Text": "[低需求]" }
+, { "Name": "OwnStationTookCargo", "Text": "你拿了" }
+, { "Name": "FindOwnStationBtn", "Text": "寻找自己的空间站" }
+, { "Name": "NoneGuardRank", "Text": "无" }
+
+,{"Name": "ShipTypeGrinder", "Text": "Grinder"}
+,{"Name": "ShipTypeDelver", "Text": "Delver"}
+
+, { "Name": "ModuleSubTypeSeismicChargesS", "Text": "地震荷载" }
+, { "Name": "ModuleSubTypeSeismicCharges", "Text": "地震荷载" }
+, { "Name": "ModuleSubTypeSeismicChargesDescription", "Text": "地震装药发射器旨在破坏小行星的完整性，从而获得更有价值的资源。" }
+, {"Name": "UnicShipAbilSeismicCharges", "Text": "矿工"}
+
+, {"Name": "GoodsVoidOpal", "Text": "Void Opal"}
+, {"Name": "GoodsMusgravite", "Text": "Musgravite"}
+, {"Name": "AsteroidCover", "Text": "收费覆盖范围："}
+, {"Name": "ModsUpdateReq", "Text": "游戏更新后，模组被禁用。使用模组之前，请确保模组与新版本的游戏兼容。"}
+
+
+
+, { "Name": "MissionCoords", "Text": "坐标" }
+,{"Name": "BugHuntDescription", "Text": "外星人狩猎"}
+,{"Name": "RescueMissionDescription", "Text": "救援任务"}
+,{"Name": "CaravanHuntDescription", "Text": "抢劫"}
+,{"Name": "ContractMurderDescription", "Text": "消除"}
+,{"Name": "IntimidateDescription", "Text": "威吓"}
+,{"Name": "MissionInWord", "Text": " 在 "}
+
+,{"Name": "BugHuntersHi1", "Text": "你是被派来帮忙的吗？我们找到了钓鱼者，我正在发送坐标。我们准备好了，带路吧。"}
+,{"Name": "BugHuntersHi2", "Text": "为什么这么久才回来？我们已经想单独进攻了。等你们准备好了，我们再进攻。"}
+,{"Name": "BugHuntersHi3", "Text": "又一个猎人？好的，那就简单多了。走吧！"}
+,{"Name": "BugHuntersHi3", "Text": "很高兴见到你！火力越强，我们就能更快完成任务。我们开始吧！"}
+,{"Name": "BugHuntersHiDina", "Text": "我将永不厌倦消灭这些生物。准备好了吗？"}
+
+,{"Name": "Ev_NpcAct1", "Text": "请改变航向以避免碰撞。我再说一遍，改变航向。"}
+,{"Name": "Ev_NpcAct2", "Text": "你需要帮忙吗？你在这里做什么？"}
+,{"Name": "Ev_NpcAct3", "Text": "请保持距离。你听见了吗？你的操作不安全。"}
+
+, { "Name": "Ev_NpcActAnsw1", "Text": "抱歉打扰你。我换方向" }
+, { "Name": "Ev_NpcActAnsw2", "Text": "我要毁了你。不要反抗。" }
+, { "Name": "Ev_NpcActAnsw3", "Text": "你的朋友不开心。你应该改变主意" }
+
+, { "Name": "Ev_NpcActAnsw4", "Text": "你这个混蛋，你以为这会很容易吗？" }
+, { "Name": "Ev_NpcActAnsw5", "Text": "你真可怜！好吧，试试吧，来吧！" }
+, { "Name": "Ev_NpcActAnsw6", "Text": "你拿了多少钱？算了，无所谓。你以为我会这么轻易放弃吗？" }
+, { "Name": "Ev_NpcActAnsw7", "Text": "好吧好吧我明白了。他们让我做什么我就做什么。" }
+, { "Name": "Ev_NpcActAnsw8", "Text": "我已准备好接受你的条件。只是不要毁掉这艘船。" }
+, { "Name": "FactionPirates", "Text": "海盗" }
+, { "Name": "FactionShortPirates", "Text": "海盗" }
+
+,{"Name": "ShipTypeMValkyrie", "Text": "Valkyrie M"}
+,{"Name": "ShipTypeKeeper", "Text": "Keeper"}
+]

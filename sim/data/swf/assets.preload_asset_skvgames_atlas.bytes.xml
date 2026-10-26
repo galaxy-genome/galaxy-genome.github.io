@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath='skvgames.png'>
+<SubTexture name="skvgames" x="0" y="0" width="1451" height="985"/>
+</TextureAtlas>

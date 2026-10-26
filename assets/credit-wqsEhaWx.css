@@ -1,0 +1,1 @@
+.wcredit{border-top:1px solid var(--color-edge);font:var(--text-xs)/1.6 var(--font-mono);color:var(--color-dim);margin-top:20px;padding-top:12px}.wcredit p{margin:0 0 6px}.wcredit a{color:#5bd0e6}.wcredit-stores{grid-template-columns:auto 1fr;place-items:baseline start;gap:2px 8px;display:grid}.wcredit-stores>span{grid-row:span 2}.wcredit-fine{opacity:.8}

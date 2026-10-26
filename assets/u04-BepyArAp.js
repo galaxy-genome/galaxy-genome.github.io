@@ -1,0 +1,1 @@
+import{t as e}from"./unit-DOc6skV4.js";var t=e({id:`u04`,scenarios:[{id:`map-system`,group:`Map`,label:`Selected system at peek`,note:`A tap selects; three lines at peek, drag for more`,run:async({go:e})=>e(`/map?system=Wolf+1462&at=-32,83&ly=50&panel=system`)}]});export{t as default};

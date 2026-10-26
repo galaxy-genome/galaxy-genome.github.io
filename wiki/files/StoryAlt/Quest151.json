@@ -1,0 +1,269 @@
+{
+  "settings": {
+    "QuestName": "По следу Маркуса",
+    "QuestDescription": "Маркус залёг на дно, и нам нужно найти его раньше остальных.",
+    "ID": 9001,
+    "StationName": "Thunder Station",
+    "Lang": "ru",
+    "isRandomStationQuest": false,
+    "isRandomSpaceQuest": false,
+    "RandomQuestX": 0,
+    "RandomQuestY": 0,
+    "RandomQuestRadius": 0,
+    "RandomSpaceQuestChance": 0.0,
+    "CharName": "Edmond Anger",
+    "CharImage": "Edmond Anger",
+    "MinKarma": -101,
+    "MaxKarma": 101,
+    "Faction": "none",
+    "FactionMinRep": 0,
+    "RandomSpaceQuestTrigger": null,
+    "RequestedQuestIDCompleted": null,
+    "Reward": 0,
+    "KarmaReward": 0
+  },
+  "BarRumors": [
+    {
+      "text": "Говорят, на Manson Orbital хорошо платят курьерам, которые не спрашивают, что везут.",
+      "type": "global"
+    }
+  ],
+  "questParts": [
+    {
+      "name": "Briefing",
+      "TODO": "Решить, где сначала искать Маркуса.",
+      "questID": 1,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Edmond Anger",
+          "showTimeSec": 6,
+          "text": "Точное местонахождение объекта неизвестно.",
+          "character": "Edmond Anger",
+          "options": ""
+        },
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Но у нас нет времени на поиски.",
+          "character": "Eva",
+          "options": ""
+        },
+        {
+          "Name": "Edmond Anger",
+          "showTimeSec": 99999999,
+          "text": "Тогда вам нужно будет выбрать, куда лететь в первую очередь.",
+          "character": "Edmond Anger",
+          "options": "2=Летим к Wolf 359;10=Сначала проверим Ross 720;"
+        }
+      ],
+      "completeAction": "ACTION_DIALOG_COMPLETE",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    },
+    {
+      "name": "Detour to Ross 720",
+      "TODO": "Лететь в Ross 720 и искать следы Маркуса.",
+      "questID": 10,
+      "isCheckPoint": true,
+      "dialogText": [],
+      "completeAction": "ACTION_WARP_END_SYSTEM_Ross 720",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    },
+    {
+      "name": "Nothing at Ross 720",
+      "TODO": "В Ross 720 Маркуса нет. Летим к Wolf 359.",
+      "questID": 11,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 99999999,
+          "text": "Здесь ничего. Он не проходил этим путём.",
+          "character": "Eva",
+          "options": "2=Тогда летим к Wolf 359;"
+        }
+      ],
+      "completeAction": "ACTION_DIALOG_COMPLETE",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    },
+    {
+      "name": "Fly to Wolf 359",
+      "TODO": "Лететь в систему Wolf 359.",
+      "questID": 2,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Нам нужно попасть в систему Wolf 359.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "completeAction": "ACTION_WARP_END_SYSTEM_Wolf 359",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Нам нужно попасть в систему Wolf 359.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240
+    },
+    {
+      "name": "Ambush",
+      "TODO": "Уничтожить охотника за головами, который шёл за нами.",
+      "questID": 3,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "За нами следили. Нам нужно уничтожить этого охотника за головами.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "completeAction": "ACTION_SHIP_DESTROYED_Hunter",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Нам нужно поспешить!",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240,
+      "shipSpawn": [
+        {
+          "Name": "Hunter",
+          "shipModel": "atom",
+          "shipLevel": "Master",
+          "shipBehavior": "Enemy",
+          "autoLVL": false,
+          "spawnX": 0,
+          "spawnY": 0,
+          "distanceFromPlayer": 300
+        }
+      ],
+      "shipControl": [
+        {
+          "ShipName": "Hunter",
+          "SetTarget": "player",
+          "Attack": true,
+          "Destroy": false,
+          "shipBehavior": "Enemy"
+        }
+      ]
+    },
+    {
+      "name": "Dock at Manson Orbital",
+      "TODO": "Пристыковаться к Manson Orbital в системе Wolf 359.",
+      "questID": 4,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Похоже, что наша цель - это станция Manson Orbital.",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "completeAction": "ACTION_CLICK_STATION_Manson Orbital",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "Нельзя медлить, летим на станцию Manson Orbital!",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240
+    },
+    {
+      "name": "Marcus's job",
+      "TODO": "Принять задание Маркуса на Manson Orbital.",
+      "questID": 5,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Marcus",
+          "showTimeSec": 6,
+          "text": "Вы всё-таки нашли меня! Хорошо, тогда для вас есть работа. Я вам расскажу всё после выполнения задания!",
+          "character": "Marcus",
+          "options": ""
+        }
+      ],
+      "completeAction": "CLICK_ACCEPT_STORY_MISSION",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999,
+      "task_on_station": {
+        "Type": "TransferGoods",
+        "Level": "Low",
+        "HomeStation": "Manson Orbital",
+        "TargetSystem": "Sirius",
+        "TargetStation": "Cooper City",
+        "TargetShipType": "Ion",
+        "TargetShipName": "",
+        "TargetShipHull": 1,
+        "TargetGoods": "Narcotics",
+        "TargetGoodsCount": 2,
+        "Reward": 100000,
+        "Reputation": 2,
+        "Story": true
+      }
+    },
+    {
+      "name": "Deliver the cargo",
+      "TODO": "Доставить груз в Cooper City в системе Sirius и получить награду.",
+      "questID": 6,
+      "isCheckPoint": true,
+      "dialogText": [
+        {
+          "Name": "Marcus",
+          "showTimeSec": 6,
+          "text": "Отлично, я знал, что вы не откажетесь! А теперь прочь!",
+          "character": "Marcus",
+          "options": ""
+        }
+      ],
+      "completeAction": "GET_STORY_REWARD",
+      "dialogTextRepeat": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 6,
+          "text": "У нас нет времени, нужно доставить груз!",
+          "character": "Eva",
+          "options": ""
+        }
+      ],
+      "repeatTextTimeSec": 240
+    },
+    {
+      "name": "Goodbye",
+      "TODO": "Мы справились.",
+      "questID": 7,
+      "isCheckPoint": false,
+      "dialogText": [
+        {
+          "Name": "Eva",
+          "showTimeSec": 99999999,
+          "text": "Мы справились! Время прощаться!",
+          "character": "Eva",
+          "options": "-1=Ок, пока!;"
+        }
+      ],
+      "completeAction": "ACTION_DIALOG_COMPLETE",
+      "dialogTextRepeat": null,
+      "repeatTextTimeSec": 999999999
+    }
+  ]
+}

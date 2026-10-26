@@ -1,0 +1,1258 @@
+{
+  "stations": [
+    {
+      "Name": "Thunder Station",
+      "system": "Sol",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 1
+    },
+    {
+      "Name": "Gamma Orbital",
+      "system": "Sol",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 3
+    },
+    {
+      "Name": "Vertex Terminal",
+      "system": "Barnard's Star",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 1
+    },
+    {
+      "Name": "Nexus Station",
+      "system": "Barnard's Star",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 3
+    }
+    ,
+    {
+      "Name": "Cooper City",
+      "system": "Sirius",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "The Bridge",
+      "system": "Ross 248",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 1
+    }
+  ,
+    {
+      "Name": "Nest Platform",
+      "system": "61 Cygni",
+      "type": "FarmStation",
+      "fraction": "Russian",
+      "planetID": 1
+    }
+  ,
+    {
+      "Name": "Phoenix lab",
+      "system": "61 Cygni",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 3
+    },
+    {
+      "Name": "Marussia Station",
+      "system": "Ross 154",
+      "type": "OrbitalDark",
+      "fraction": "Russian",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Octa Lab",
+      "system": "Altair",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "YongJi Platform",
+      "system": "Altair",
+      "type": "OrbitalDark",
+      "fraction": "China",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Huton Orbital",
+      "system": "Altair",
+      "type": "StationHighTech",
+      "fraction": "USA",
+      "planetID": 4
+    }
+
+
+  ,
+    {
+      "Name": "DKS Station",
+      "system": "Alpha Centauri",
+      "type": "FarmStation",
+      "fraction": "Russian",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Quark Station",
+      "system": "Alpha Centauri",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 6
+    }
+  ,
+    {
+      "Name": "Lem Hub",
+      "system": "Alpha Centauri",
+      "type": "OrbitalDark",
+      "fraction": "Russian",
+      "planetID": 9
+    }
+  ,
+    {
+      "Name": "Manson Orbital",
+      "system": "Wolf 359",
+      "type": "StationHighTech",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Popov Station",
+      "system": "Wolf 1061",
+      "type": "NovaStation",
+      "fraction": "Russian",
+      "planetID": 4
+    }
+
+  ,
+    {
+      "Name": "IO Hub",
+      "system": "36 Ophiuchi",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 1
+    }
+  ,
+    {
+      "Name": "Bell's City",
+      "system": "36 Ophiuchi",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "TT Orbital",
+      "system": "36 Ophiuchi",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Uma Hub",
+      "system": "Procyon",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "FS-01 Platform",
+      "system": "Luyten's Star",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Simbad Orbital",
+      "system": "Wolf 1453",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Yorion Station",
+      "system": "LP 658-2",
+      "type": "StationHighTech",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Eldra Hub",
+      "system": "Ross 47",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Rimas Station",
+      "system": "Ross 47",
+      "type": "StationHighTech",
+      "fraction": "USA",
+      "planetID": 7
+    }
+  ,
+    {
+      "Name": "GIF Orbital",
+      "system": "Stein 2051",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 1
+    }
+
+
+  ,
+    {
+      "Name": "Miju Platform",
+      "system": "Eta Cassiopeiae",
+      "type": "OrbitalWhite",
+      "fraction": "China",
+      "planetID": 6
+    }
+  ,
+    {
+      "Name": "Baidu Station",
+      "system": "Eta Cassiopeiae",
+      "type": "FarmStation",
+      "fraction": "China",
+      "planetID": 4
+    }
+  ,
+    {
+      "Name": "Vendu Terminal",
+      "system": "Eta Cassiopeiae",
+      "type": "StationHighTech",
+      "fraction": "China",
+      "planetID": 9
+    }
+
+  ,
+    {
+      "Name": "Kexue Hub",
+      "system": "LHS 71",
+      "type": "StationHighTech",
+      "fraction": "China",
+      "planetID": 4
+    }
+  ,
+    {
+      "Name": "Baolei Orbital",
+      "system": "LHS 71",
+      "type": "OrbitalDark",
+      "fraction": "China",
+      "planetID": 8
+    }
+  ,
+    {
+      "Name": "Kuaku Station",
+      "system": "LHS 3595",
+      "type": "NovaStation",
+      "fraction": "China",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Tua-XE Platform",
+      "system": "LHS 3595",
+      "type": "OrbitalDark",
+      "fraction": "China",
+      "planetID": 9
+    }
+
+  ,
+    {
+      "Name": "Wo-90 Terminal",
+      "system": "LFT 90",
+      "type": "FarmStation",
+      "fraction": "China",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Shangpin Orbital",
+      "system": "LFT 90",
+      "type": "OrbitalWhite",
+      "fraction": "China",
+      "planetID": 6
+    }
+
+  ,
+    {
+      "Name": "Huo Hub",
+      "system": "Theta Persei",
+      "type": "NovaStation",
+      "fraction": "China",
+      "planetID": 10
+    }
+  ,
+    {
+      "Name": "Zeon City",
+      "system": "Iota Persei",
+      "type": "StationHighTech",
+      "fraction": "China",
+      "planetID": 2
+    }
+
+  ,
+    {
+      "Name": "Qiufen Platform",
+      "system": "Capella",
+      "type": "OrbitalDark",
+      "fraction": "China",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Kuyi Station",
+      "system": "Capella",
+      "type": "FarmStation",
+      "fraction": "China",
+      "planetID": 3
+    }
+
+  ,
+    {
+      "Name": "Alex Starport",
+      "system": "OU Geminorum",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Darkhorse City",
+      "system": "OU Geminorum",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 5
+    }
+  ,
+    {
+      "Name": "Denza Hub",
+      "system": "OU Geminorum",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 6
+    }
+  ,
+    {
+      "Name": "Jack Outpost",
+      "system": "LHS 1920",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Avalon Outpost",
+      "system": "LHS 235",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 6
+    }
+
+  ,
+    {
+      "Name": "Viven Inn Starport",
+      "system": "LHS 2447",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 5
+    }
+  ,
+    {
+      "Name": "Storm Hub",
+      "system": "LHS 2447",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 11
+    }
+  ,
+    {
+      "Name": "Mark-01 Outpost",
+      "system": "LP 104-2",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 10
+    }
+  ,
+    {
+      "Name": "Zenit-A Orbital",
+      "system": "Beta Trianguli Australis",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Zenit-B Starport",
+      "system": "Beta Trianguli Australis",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 4
+    }
+
+  ,
+    {
+      "Name": "Sokol Platform",
+      "system": "LTT 6774",
+      "type": "OrbitalDark",
+      "fraction": "Russian",
+      "planetID": 3
+    }
+
+  ,
+    {
+      "Name": "Aster 17",
+      "system": "LP 920-69",
+      "type": "AsteroidStation",
+      "fraction": "Russian",
+      "planetID": 1
+    }
+  ,
+    {
+      "Name": "Ostrov Outpost",
+      "system": "LP 920-69",
+      "type": "FarmStation",
+      "fraction": "Russian",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Polus City",
+      "system": "LP 920-69",
+      "type": "NovaStation",
+      "fraction": "Russian",
+      "planetID": 4
+    }
+
+
+  ,
+    {
+      "Name": "Gromov Platform",
+      "system": "58 Ophiuchi",
+      "type": "OrbitalDark",
+      "fraction": "Russian",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Yar Hub",
+      "system": "58 Ophiuchi",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 11
+    }
+  ,
+    {
+      "Name": "Meridian Station",
+      "system": "58 Ophiuchi",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 18
+    }
+  ,
+    {
+      "Name": "Meridian City",
+      "system": "Ross 720",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 5
+    }
+
+
+  ,
+    {
+      "Name": "Shahta Outpost",
+      "system": "Eta Serpentis",
+      "type": "OrbitalDark",
+      "fraction": "Russian",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Tsar Station",
+      "system": "Eta Serpentis",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 7
+    }
+  ,
+    {
+      "Name": "Oplot Hub",
+      "system": "Eta Serpentis",
+      "type": "NovaStation",
+      "fraction": "Russian",
+      "planetID": 11
+    }
+
+  ,
+    {
+      "Name": "Ferma Platform",
+      "system": "LTT 7448",
+      "type": "FarmStation",
+      "fraction": "Russian",
+      "planetID": 1
+    }
+
+  ,
+    {
+      "Name": "Sovhoz City",
+      "system": "V1285 Aquilae",
+      "type": "FarmStation",
+      "fraction": "Russian",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Major Hub",
+      "system": "V1285 Aquilae",
+      "type": "OrbitalDark",
+      "fraction": "Russian",
+      "planetID": 7
+    }
+
+  ,
+    {
+      "Name": "Skolkovo Orbital",
+      "system": "V816 Herculis",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 2
+    }
+
+  ,
+    {
+      "Name": "Urta Outpost",
+      "system": "LHS 3356",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 2
+    }
+
+  ,
+    {
+      "Name": "Haven Station",
+      "system": "Zeta Aquilae",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Freedom Hub",
+      "system": "Zeta Aquilae",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Mercy Orbital",
+      "system": "Zeta Aquilae",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 4
+    }
+
+  ,
+    {
+      "Name": "New Horizon",
+      "system": "Wolf 851",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 2
+    }
+
+  ,
+    {
+      "Name": "MimiDe Hub",
+      "system": "V1581 Cygni",
+      "type": "OrbitalDark",
+      "fraction": "China",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Mellow Station",
+      "system": "V1581 Cygni",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 3
+    }
+
+  ,
+    {
+      "Name": "Sheku Orbital",
+      "system": "LHS 223",
+      "type": "NovaStation",
+      "fraction": "China",
+      "planetID": 1
+    }
+
+  ,
+    {
+      "Name": "Community Outpost",
+      "system": "LHS 223",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 2
+    }
+
+  ,
+    {
+      "Name": "Odyssey Colony",
+      "system": "Xur",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 2
+    }
+
+  ,
+    {
+      "Name": "Tartarus Station",
+      "system": "Caeda",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "Arcadia Terminal",
+      "system": "Caeda",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 4
+    }
+
+  ,
+    {
+      "Name": "Nemo Hub",
+      "system": "Oku",
+      "type": "FarmStation",
+      "fraction": "None",
+      "planetID": 4
+    }
+  ,
+    {
+      "Name": "Hyperion Station",
+      "system": "Oku",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 3
+    }
+
+  ,
+    {
+      "Name": "Ave Base",
+      "system": "Kreil",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Huo Orbital",
+      "system": "Kreil",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 9
+    }
+
+  ,
+    {
+      "Name": "Guti Hub",
+      "system": "Klinliod",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 3
+    }
+
+  ,
+    {
+      "Name": "Souz Station",
+      "system": "Negen",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Sovhoz Platform",
+      "system": "Negen",
+      "type": "FarmStation",
+      "fraction": "None",
+      "planetID": 4
+    }
+  ,
+    {
+      "Name": "Olymp City",
+      "system": "Ibre",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 6
+    }
+
+
+  ,
+    {
+      "Name": "Parnik Platform",
+      "system": "J3571",
+      "type": "FarmStation",
+      "fraction": "None",
+      "planetID": 3
+    }
+  ,
+    {
+      "Name": "Astro City",
+      "system": "J3571",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 4
+    }
+  ,
+    {
+      "Name": "X-Ray Lab",
+      "system": "J3571",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 6
+    }
+
+    ,
+    {
+      "Name": "Mayak City",
+      "system": "Huxane",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 3
+    },
+    {
+      "Name": "Ostrov Station",
+      "system": "Huxane",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 6
+    },
+
+
+
+    {
+      "Name": "Mining Platform",
+      "system": "HR 1163",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 2
+    },
+    {
+      "Name": "Farm Station",
+      "system": "HR 1163",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 10
+    },
+
+    {
+      "Name": "Neumann Hub",
+      "system": "Holu 42",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 3
+    },
+
+
+    {
+      "Name": "Boyce Hub",
+      "system": "Rakdos",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 5
+    },
+
+    {
+      "Name": "Kowald Station",
+      "system": "Isar",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 5
+    }
+    ,
+
+    {
+      "Name": "Jingpian Observatory",
+      "system": "Groombridge 34",
+      "type": "OrbitalWhite",
+      "fraction": "China",
+      "planetID": 2
+    },
+    {
+      "Name": "Yaoyan Station",
+      "system": "Groombridge 34",
+      "type": "NovaStation",
+      "fraction": "China",
+      "planetID": 8
+    },
+
+    {
+      "Name": "Ren City",
+      "system": "Ross 318",
+      "type": "StationHighTech",
+      "fraction": "China",
+      "planetID": 2
+    },
+    {
+      "Name": "Ziran Station",
+      "system": "Ross 318",
+      "type": "FarmStation",
+      "fraction": "China",
+      "planetID": 11
+    },
+
+    {
+      "Name": "Megalopolis City",
+      "system": "LHS 1827",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 3
+    },
+    {
+      "Name": "Greenhouse Station",
+      "system": "LHS 1827",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 5
+    }
+    ,
+    {
+      "Name": "Mariana Orbital",
+      "system": "V1201 Orionis",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 2
+    }
+  ,
+    {
+      "Name": "New Abode Orbital",
+      "system": "Guang",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 9
+    },
+    {
+      "Name": "Laickoms Station",
+      "system": "Lone Star",
+      "type": "FarmStation",
+      "fraction": "None",
+      "planetID": 3
+    },
+    {
+      "Name": "Scibase Station",
+      "system": "Pyrenanis",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 4
+    },
+    {
+      "Name": "Januplex Hub",
+      "system": "Pyrenanis",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 5
+    },
+    {
+      "Name": "Stelent Orbital",
+      "system": "Lethya",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 3
+    },
+    {
+      "Name": "Biothech Station",
+      "system": "Hyota",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 3
+    },
+    {
+      "Name": "Namannic U9 Hub",
+      "system": "Hyota",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 6
+    },
+    {
+      "Name": "Ark Station",
+      "system": "HIP 9009",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 8
+    },
+    {
+      "Name": "Object 42 Station",
+      "system": "Object 42",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 2
+    },
+
+    {
+      "Name": "Faos Station",
+      "system": "Ross 302",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 7
+    },
+    {
+      "Name": "Saraf Station",
+      "system": "GD 69",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 2
+    },
+    {
+      "Name": "Nova Citadel",
+      "system": "71 Orionis",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 2
+    },
+    {
+      "Name": "Valki's Hotel",
+      "system": "Voxx",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 2
+    },
+
+    {
+      "Name": "ABBYY Station",
+      "system": "31 ABY",
+      "type": "NovaStation",
+      "fraction": "None",
+      "planetID": 3
+    },
+    {
+      "Name": "Vita Memori Platform",
+      "system": "31 ABY",
+      "type": "FarmStation",
+      "fraction": "None",
+      "planetID": 4
+    }
+,
+    {
+      "Name": "Invenzione Lab",
+      "system": "31 ABY",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 12
+    },
+
+    {
+      "Name": "Rivenditore Hub",
+      "system": "27 ABY",
+      "type": "OrbitalWhite",
+      "fraction": "None",
+      "planetID": 2
+    }
+    ,{
+      "Name": "Influente Station",
+      "system": "27 ABY",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 4
+    }
+
+  ,{
+      "Name": "Frontier Lab",
+      "system": "93 Ceti",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 2
+    }
+
+  ,{
+      "Name": "Abyss Station",
+      "system": "Breya",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 2
+    },
+    {
+      "Name": "Terminus Starport",
+      "system": "Terminus",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 1
+    },
+
+
+    {
+      "Name": "Mir Station",
+      "system": "LHS 3384",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 2
+    },
+
+
+    {
+      "Name": "Prometheus Station",
+      "system": "HR 2251",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 3
+    },
+    {
+      "Name": "Florida Arklab",
+      "system": "HR 2251",
+      "type": "FarmStation",
+      "fraction": "USA",
+      "planetID": 5
+    }
+    ,
+
+    {
+      "Name": "The Wheel",
+      "system": "LHS 1857",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 3
+    },
+
+    {
+      "Name": "Gamma 3",
+      "system": "Ross 79",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 3
+    },
+
+
+    {
+      "Name": "Tiangong Station",
+      "system": "V546 Persei",
+      "type": "StationHighTech",
+      "fraction": "China",
+      "planetID": 4
+    },
+    {
+      "Name": "Thunderbird 5",
+      "system": "V546 Persei",
+      "type": "NovaStation",
+      "fraction": "China",
+      "planetID": 10
+    },
+
+
+    {
+      "Name": "Salyut 7 Station",
+      "system": "LHS 6031",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 2
+    },
+    {
+      "Name": "Station 42",
+      "system": "LHS 6031",
+      "type": "NovaStation",
+      "fraction": "Russian",
+      "planetID": 9
+    },
+
+    {
+      "Name": "Huashi Base",
+      "system": "SPOCS 253",
+      "type": "AsteroidStation",
+      "fraction": "China",
+      "planetID": 1
+    },
+    {
+      "Name": "C.A.V.E. Station",
+      "system": "BD+08 1303",
+      "type": "AsteroidStation",
+      "fraction": "USA",
+      "planetID": 1
+    },
+    {
+      "Name": "Buran Station",
+      "system": "70 Ophiuchi",
+      "type": "AsteroidStation",
+      "fraction": "Russian",
+      "planetID": 5
+    },
+    {
+      "Name": "Kenway Station",
+      "system": "LHS 253",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 4
+    }
+  ,
+    {
+      "Name": "Frost Base",
+      "system": "LHS 253",
+      "type": "AsteroidStation",
+      "fraction": "USA",
+      "planetID": 9
+    },
+
+
+
+    {
+      "Name": "Echo Station",
+      "system": "Rho 667",
+      "type": "NovaStation",
+      "fraction": "USA",
+      "planetID": 6
+    },
+    {
+      "Name": "Galactic Starport",
+      "system": "Rho 667",
+      "type": "OrbitalWhite",
+      "fraction": "USA",
+      "planetID": 2
+    },
+    {
+      "Name": "Galar Orbital",
+      "system": "Galar",
+      "type": "OrbitalDark",
+      "fraction": "USA",
+      "planetID": 3
+    },
+    {
+      "Name": "Babylon Station",
+      "system": "Rho Ax-8b",
+      "type": "StationHighTech",
+      "fraction": "USA",
+      "planetID": 3
+    },
+
+
+    {
+      "Name": "Lutik Station",
+      "system": "Vega 6",
+      "type": "FarmStation",
+      "fraction": "Russian",
+      "planetID": 2
+    },
+    {
+      "Name": "Druzhba Station",
+      "system": "Vega 6",
+      "type": "NovaStation",
+      "fraction": "Russian",
+      "planetID": 1
+    },
+    {
+      "Name": "Avanpost Hub",
+      "system": "Vega 6",
+      "type": "AsteroidStation",
+      "fraction": "Russian",
+      "planetID": 8
+    },
+    {
+      "Name": "Expo Station",
+      "system": "Merida",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 3
+    },
+    {
+      "Name": "Element Orbital",
+      "system": "Octanur",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 2
+    },
+
+
+    {
+      "Name": "Chuangxin Orbital",
+      "system": "Effa",
+      "type": "StationHighTech",
+      "fraction": "China",
+      "planetID": 1
+    },
+    {
+      "Name": "Shiwu Platform",
+      "system": "Effa",
+      "type": "FarmStation",
+      "fraction": "China",
+      "planetID": 2
+    },
+    {
+      "Name": "Huaisi Starport",
+      "system": "Hauron",
+      "type": "NovaStation",
+      "fraction": "China",
+      "planetID": 4
+    },
+
+
+    {
+      "Name": "Ziyou Base",
+      "system": "Z-635",
+      "type": "OrbitalDark",
+      "fraction": "None",
+      "planetID": 3
+    },
+
+    {
+      "Name": "Marks Station",
+      "system": "LHS 463",
+      "type": "StationHighTech",
+      "fraction": "Russian",
+      "planetID": 3
+    },
+    {
+      "Name": "Ikar Station",
+      "system": "LTT 7421",
+      "type": "OrbitalWhite",
+      "fraction": "Russian",
+      "planetID": 2
+    },
+    {
+      "Name": "Ferbean Station",
+      "system": "LPM 616",
+      "type": "OrbitalDark",
+      "fraction": "Pirates",
+      "planetID": 4
+    },
+    {
+      "Name": "Knowhere",
+      "system": "Lalande 10797",
+      "type": "NovaStation",
+      "fraction": "Pirates",
+      "planetID": 4
+    },
+    {
+      "Name": "Xandar",
+      "system": "GD 219",
+      "type": "OrbitalWhite",
+      "fraction": "Pirates",
+      "planetID": 4
+    },
+
+    {
+      "Name": "Echo Science Hub",
+      "system": "HIP 1296",
+      "type": "StationHighTech",
+      "fraction": "None",
+      "planetID": 5
+    }
+  ]
+}

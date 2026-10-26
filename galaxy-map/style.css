@@ -1,0 +1,361 @@
+:root{
+  --void:#04060e; --deep:#080f1e; --panel:rgba(8,18,34,.92);
+  --grid:#177180; --grid-strong:#1e93a6;
+  --cyan:#35e0f5; --amber:#ffab3d; --danger:#ff5a5a;
+  --ink:#bcdbe6; --dim:#5f7f8e; --edge:#16455a;
+  --mono:"JetBrains Mono","Noto Sans SC",ui-monospace,Menlo,monospace;
+  --ui:"Oxanium","Noto Sans SC","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--void);color:var(--ink);font-family:var(--ui);overflow:hidden}
+/* The map sits beside the sidebar rather than under it: `left` is set from the
+   rail's real width, which is zero while the rail is an overlay on a phone. */
+canvas{display:block;cursor:crosshair;touch-action:none;position:fixed;top:0;left:0}
+canvas:active{cursor:grabbing}
+
+.rail{position:fixed;top:0;left:0;bottom:0;width:250px;padding:18px 16px;
+  background:var(--deep);
+  display:flex;flex-direction:column;gap:18px;overflow-y:auto;z-index:3}
+.brand{font-weight:700;letter-spacing:.16em;font-size:13px;color:var(--cyan);
+  text-transform:uppercase;text-wrap:nowrap}
+.brand .name{display:flex;align-items:center;gap:6px}
+/* A longer translated title wraps to two lines rather than running under the icons. */
+#brandTitle{min-width:0;letter-spacing:.06em;font-size:11.5px;text-wrap:balance;line-height:1.25}
+/* The game's name in white, what this tool adds to it in the accent, as the
+   wiki's title does. */
+.brand .game{color:#fff}
+/* The brand opens the product switcher; the map itself is the ticked entry. */
+.apps{position:relative;flex:none}
+.apps summary{list-style:none;cursor:pointer;display:grid;place-items:center;width:26px;height:26px;
+  margin-left:-5px;border:1px solid transparent;border-radius:4px;color:var(--cyan)}
+.apps summary::-webkit-details-marker{display:none}
+.apps summary:hover,.apps summary:focus-visible,.apps[open] summary{color:#fff;border-color:var(--edge);
+  background:rgba(255,255,255,.04);outline:none}
+.appList{position:absolute;top:100%;left:0;z-index:5;margin-top:6px;display:flex;
+  flex-direction:column;min-width:160px;background:var(--deep);border:1px solid var(--cyan);
+  border-radius:2px;font-family:var(--mono);font-size:12px;font-weight:400;
+  letter-spacing:.04em;text-transform:none}
+.appList>*{padding:6px 10px;color:var(--cyan);text-decoration:none}
+.appList a:hover,.appList a:focus-visible{color:#fff;background:rgba(255,255,255,.04);outline:none}
+.appList [aria-current]{color:#fff}
+.appList [aria-current]::before{content:"\2713  "}
+.planFit{display:inline-block;margin-top:6px;color:var(--cyan);font-size:12px}
+.brand .tools{margin-left:auto;padding-left:4px;display:flex;align-items:center;gap:2px}
+.brand .tools #findBtn{padding:2px}
+#langFlag{background:none;border:0;padding:0 2px;font-size:15px;
+  line-height:1;cursor:pointer;filter:saturate(.8)}
+#langFlag:hover,#langFlag:focus-visible{filter:none;outline:none}
+.brand small{display:block;font-family:var(--mono);font-size:11px;color:var(--dim);
+  letter-spacing:.04em;margin-top:4px;text-transform:none}
+/* The subtitle and the spoilers switch share the second row. */
+.brand .sub{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 8px;margin-top:5px}
+.brand .sub .unofficial,.brand .sub .spoil{margin-top:0}
+.grp{display:flex;flex-direction:column;gap:7px}
+.grp h2{margin:0;font-size:10px;letter-spacing:.18em;color:var(--dim);
+  text-transform:uppercase;font-weight:600}
+.chip{display:flex;align-items:center;gap:9px;padding:6px 9px;border:1px solid var(--edge);
+  background:rgba(10,24,40,.6);color:var(--ink);font-family:var(--mono);font-size:12px;
+  cursor:pointer;text-align:left;border-radius:2px;transition:border-color .12s,color .12s}
+.chip:hover{border-color:var(--grid-strong)}
+.chip:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.chip .box{width:9px;height:9px;border:1px solid var(--dim);flex:none}
+.chip[aria-pressed="true"]{border-color:var(--cyan);color:var(--cyan)}
+.chip[aria-pressed="true"] .box{background:var(--cyan);border-color:var(--cyan)}
+.chip .n{margin-left:auto;color:var(--dim);font-size:11px}
+.chip[aria-pressed="true"] .n{color:var(--cyan)}
+
+#find{width:100%;padding:7px 9px;background:rgba(4,12,22,.9);border:1px solid var(--edge);
+  color:var(--ink);font-family:var(--mono);font-size:12px;border-radius:2px}
+#find:focus{outline:none;border-color:var(--cyan)}
+/* The search opens under the header, as the language picker does. */
+#findBtn,#findGo{background:none;border:0;padding:2px 4px;color:var(--cyan);cursor:pointer;
+  line-height:0}
+#findBtn:hover,#findBtn:focus-visible,#findGo:hover,#findGo:focus-visible{color:#fff;outline:none}
+#findBox{margin-top:6px;text-transform:none;letter-spacing:normal;font-weight:400;text-wrap:wrap}
+#findBox .findWrap{position:relative}
+#findBox #find{padding-right:28px}
+#findBox #findGo{position:absolute;right:4px;top:50%;transform:translateY(-50%)}
+.hits li.sub em.sec{margin-left:auto}
+.hits{list-style:none;margin:0;padding:0;max-height:150px;overflow-y:auto}
+/* Deep ore: rare, so it leads the tooltip in its own opalescent band. */
+.tip .deep{display:flex;flex-direction:column;gap:2px;margin:6px 0 8px;padding:7px 10px;
+  border:1px solid transparent;border-radius:3px;
+  background:linear-gradient(var(--deep),var(--deep)) padding-box,
+             linear-gradient(110deg,#7cf5ff,#b48bff,#ff8bd8,#ffe08a) border-box;
+  box-shadow:0 0 14px rgba(180,139,255,.35)}
+.tip .deep b{font-size:15px;letter-spacing:.04em;color:var(--amber)}
+.tip .deep span{font-size:11px;color:var(--dim)}
+.hits li{padding:5px 9px;font-family:var(--mono);font-size:12px;cursor:pointer;
+  border-left:2px solid transparent}
+.hits li:hover{background:rgba(53,224,245,.09);border-left-color:var(--cyan)}
+.hits li.sub{padding-left:22px;color:var(--dim);display:flex;gap:6px;align-items:baseline}
+.hits li.sub b{color:var(--ink);font-weight:400}
+.hits li.sub em{font-style:normal;font-size:10px;color:var(--grid-strong);
+  margin-left:auto;text-transform:uppercase;letter-spacing:.06em}
+.hits li .ly{color:var(--dim);font-size:11px;margin-left:6px}
+#clearRoute{width:100%;padding:6px;background:transparent;border:1px solid var(--edge);
+  color:var(--dim);font-family:var(--mono);font-size:11px;cursor:pointer;border-radius:2px}
+#clearRoute:hover{border-color:var(--amber);color:var(--amber)}
+#jump{width:64px}
+label.f:has(#jump){justify-content:flex-start;gap:6px}
+
+.legend{display:flex;flex-direction:column;gap:5px;font-family:var(--mono);font-size:11px}
+.legend div{display:flex;align-items:center;gap:8px;color:var(--dim)}
+.legend div[hidden]{display:none}
+.legend i{width:10px;height:10px;flex:none;border-radius:50%}
+/* the faction rows are built into a holder; it must not become a row itself */
+#facLegend{display:contents}
+
+.readout{position:fixed;left:266px;bottom:16px;font-family:var(--mono);font-size:12px;
+  color:var(--dim);z-index:3;line-height:1.7;pointer-events:none}
+.readout b{color:var(--cyan);font-weight:400}
+
+.tip{position:fixed;z-index:5;pointer-events:none;display:none;min-width:210px;
+  background:var(--panel);border:1px solid var(--cyan);padding:9px 11px;
+  font-family:var(--mono);font-size:12px;line-height:1.55;
+  box-shadow:0 0 0 1px rgba(4,8,16,.9),0 8px 28px rgba(0,0,0,.6)}
+.tip.live{pointer-events:auto}
+.tip a{color:var(--accent,#5ec8e5)}
+#gatesDlg{background:#0b1422;color:var(--ink);border:1px solid var(--edge);border-radius:8px;max-width:340px}
+#gatesDlg::backdrop{background:rgba(0,0,0,.5)}
+#gatesDlg h3{margin:0 0 6px;font-size:14px}
+#gatesDlg fieldset{border:1px solid var(--edge);border-radius:6px;margin:6px 0;padding:4px 10px 8px}
+#gatesDlg legend{color:var(--dim);font-size:12px}
+#gatesDlg label{display:block;padding:3px 0}
+#gatesDlg a{color:var(--accent,#5ec8e5)}
+.tip h3{margin:0 0 5px;font-size:13px;color:#fff;font-family:var(--ui);font-weight:600;
+  letter-spacing:.03em;display:flex;align-items:baseline;gap:12px}
+.tip h3 .coords{margin-left:auto;font-family:var(--mono);font-size:10px;font-weight:400;
+  color:var(--dim);letter-spacing:0;white-space:nowrap}
+.tip dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:1px 10px}
+.tip dt{color:var(--dim);text-transform:uppercase;font-size:11px}
+.tip dd{margin:0;color:var(--ink)}
+.tip dt.rule,.tip dd.rule{height:1px;background:var(--edge);margin:5px 0}
+.tip .ore{margin-top:6px;padding-top:6px;border-top:1px solid var(--edge);color:var(--amber);
+  display:grid;grid-template-columns:repeat(3,auto);gap:2px 14px;justify-content:start}
+.tip .flown{margin:0 0 6px;padding-bottom:6px;border-bottom:1px solid var(--edge);
+  color:var(--amber);font-family:var(--mono);font-size:11px}
+.tip .muted{color:var(--dim)}
+.tip dd.stn{grid-column:2}
+.tip .chev{color:#6ee7a8;font-weight:700}
+.chip .rev{margin-left:auto;padding:0 2px;color:var(--dim);font-size:13px;line-height:1}
+.chip .rev:hover,.chip .rev:focus-visible{color:var(--amber);outline:none}
+.legend i.diamond{border-radius:2px;transform:rotate(45deg);width:8px;height:8px}
+
+.zoom{position:fixed;right:16px;top:16px;z-index:3;display:flex;flex-direction:column;gap:6px;
+  transition:right .18s ease-out}
+/* With the wiki open beside the map, the buttons move to its left edge so they
+   stay reachable; where the wiki is the whole screen there is nowhere to go. */
+body.wikiOpen .zoom{right:calc(min(420px,100vw) + 16px)}
+body.touch.wikiOpen .zoom{right:10px}
+@media (max-width:480px){body.wikiOpen .zoom{right:16px}}
+@media (prefers-reduced-motion:reduce){.zoom{transition:none}}
+.zoom button{width:38px;height:34px;background:rgba(8,18,34,.85);border:1px solid var(--edge);
+  color:var(--ink);font-family:var(--mono);font-size:13px;cursor:pointer;border-radius:2px}
+.zoom button:hover{border-color:var(--cyan);color:var(--cyan)}
+.zoom button:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.help{position:fixed;z-index:6;pointer-events:none;display:none;max-width:340px;
+  background:var(--panel);border:1px solid var(--grid-strong);padding:10px 12px;
+  font-family:var(--mono);font-size:11px;line-height:1.55;
+  box-shadow:0 8px 28px rgba(0,0,0,.65)}
+.help h4{margin:0 0 6px;font-family:var(--ui);font-size:12px;font-weight:600;
+  color:var(--cyan);letter-spacing:.04em}
+.help dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px}
+.help dt{color:var(--dim);white-space:nowrap}
+.help dd{margin:0;color:var(--ink);overflow-wrap:anywhere}
+.unofficial{display:block;margin-top:3px;font-family:var(--mono);font-size:10px;
+  letter-spacing:.02em;text-transform:none;color:var(--amber);font-weight:400}
+.credit{border-top:1px solid var(--edge);padding-top:12px;margin-top:4px;
+  font-family:var(--mono);font-size:10px;line-height:1.6;color:var(--dim)}
+.credit p{margin:0 0 6px}
+/* The label on the left and the two stores stacked on one edge beside it, so
+   they line up with each other whatever the rail's width. */
+.credit .stores{display:grid;grid-template-columns:auto 1fr;column-gap:8px;
+  row-gap:2px;align-items:baseline;justify-items:start}
+.credit .stores>span{grid-row:span 2}
+.credit a{color:var(--cyan);text-decoration:none;border-bottom:1px solid transparent}
+.credit a:hover,.credit a:focus-visible{border-bottom-color:var(--cyan)}
+.credit .fine{color:#46606d;margin-bottom:0}
+#lang{width:100%;padding:5px 7px;background:rgba(4,12,22,.9);border:1px solid var(--edge);
+  color:var(--dim);font-family:var(--mono);font-size:11px;border-radius:2px;margin-top:7px}
+#lang:focus{outline:none;border-color:var(--cyan)}
+.spoil{display:flex;align-items:center;gap:5px;margin-top:7px;font-family:var(--mono);
+  font-size:10px;color:var(--dim);letter-spacing:0;text-transform:none;cursor:pointer;
+  font-weight:400}
+.spoil input{width:11px;height:11px;accent-color:var(--amber);margin:0}
+.spoil:hover{color:var(--amber)}
+.hidden{display:none!important}
+.ask{border-bottom:1px dotted var(--grid-strong);cursor:help}
+.ask::after{content:"?";display:inline-block;margin-left:5px;width:12px;height:12px;
+  line-height:12px;text-align:center;border:1px solid var(--grid-strong);border-radius:50%;
+  font-size:9px;color:var(--grid-strong)}
+.ask:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.calcOut{margin:8px 0 0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;
+  font-family:var(--mono);font-size:11px}
+.calcOut dt{color:var(--dim)}
+.calcOut dd{margin:0;color:var(--cyan);text-align:right;font-variant-numeric:tabular-nums}
+.calcOut .muted{color:var(--dim)}
+.wikiGo select{flex:1;min-width:0}
+/* The wiki slides in over the right of the map: 420px where there is room for
+   the map beside it, the whole screen where there is not. */
+.wikiPanel{position:fixed;top:0;right:0;bottom:0;z-index:6;width:min(420px,100vw);
+  background:var(--deep);border-left:1px solid var(--edge);
+  box-shadow:-12px 0 30px rgba(0,0,0,.45);transition:transform .18s ease-out}
+.wikiPanel[hidden]{display:block;transform:translateX(100%);visibility:hidden;
+  transition:transform .18s ease-in,visibility 0s .18s}
+.wikiPanel{display:flex;flex-direction:column}
+.wikiPanel[hidden]{display:flex}
+.wikiBar{flex:none;display:flex;justify-content:flex-end;padding:6px 8px;
+  border-bottom:1px solid var(--edge)}
+.wikiPanel iframe{flex:1;width:100%;min-height:0;border:0;display:block;background:var(--deep)}
+.wikiClose{width:30px;height:28px;display:grid;place-items:center;background:transparent;
+  border:1px solid var(--edge);border-radius:3px;color:var(--dim);font-size:20px;
+  line-height:1;cursor:pointer}
+.wikiClose:hover,.wikiClose:focus-visible{border-color:var(--cyan);color:var(--cyan);outline:none}
+/* A phone lays the page out wider than its screen, so width alone never reaches
+   420px there: on touch the wiki is the whole screen, as the rail is. */
+@media (max-width:420px){.wikiPanel{border-left:0;box-shadow:none}}
+body.touch .wikiPanel{width:100vw;border-left:0;box-shadow:none}
+@media (prefers-reduced-motion:reduce){.wikiPanel,.wikiPanel[hidden]{transition:none}}
+#wikiGo{padding:5px 12px;background:transparent;border:1px solid var(--edge);
+  border-radius:2px;color:var(--ink);font-family:var(--mono);font-size:11px;cursor:pointer}
+#wikiGo:hover,#wikiGo:focus-visible{border-color:var(--cyan);color:var(--cyan);outline:none}
+.calcOut dd.wide{grid-column:1 / -1;text-align:left}
+.calcOut .cliff{color:var(--danger);font-size:10px;line-height:1.5;display:block}
+.calcOut .setJump{margin-left:6px;padding:1px 6px;background:transparent;
+  border:1px solid var(--edge);border-radius:2px;color:var(--dim);
+  font-family:var(--mono);font-size:10px;cursor:pointer}
+.calcOut .setJump:hover,.calcOut .setJump:focus-visible{border-color:var(--cyan);
+  color:var(--cyan);outline:none}
+.note{margin:2px 0 0;font-family:var(--mono);font-size:10px;line-height:1.5;color:var(--dim)}
+.note b{color:var(--danger);font-weight:400}
+
+
+/* The collapsible sections space themselves, rather than taking the rail's gap:
+   a run of closed ones should read as a list, not as eight separate blocks. */
+.sections{display:flex;flex-direction:column;gap:6px}
+details.grp{border-top:1px solid var(--edge);padding-top:5px}
+details.grp>summary{list-style:none;cursor:pointer;font-size:10px;letter-spacing:.18em;
+  color:var(--dim);text-transform:uppercase;font-weight:600;display:flex;
+  align-items:center;gap:6px;padding-bottom:8px}
+details.grp>summary::-webkit-details-marker{display:none}
+/* The wiki mark shows on hover where there is hover, and always where there is not. */
+.secWiki{margin-left:auto;font:700 10px/1 var(--mono);letter-spacing:0;color:var(--cyan);
+  background:none;border:1px solid var(--cyan);border-radius:2px;padding:2px 3px;cursor:pointer;
+  visibility:hidden}
+details.grp>summary:hover .secWiki,.secWiki:focus-visible,body.touch .secWiki{visibility:visible}
+.secWiki:hover,.secWiki:focus-visible{color:#fff;border-color:#fff;outline:none}
+/* A chevron the same weight as the heading, turned down when the section is
+   open: the old + was a mono glyph in the border colour and read as nothing. */
+details.grp>summary::before{content:"";width:7px;height:7px;flex:none;
+  border-right:1.5px solid var(--cyan);border-bottom:1.5px solid var(--cyan);
+  transform:rotate(-45deg);margin:0 3px 2px 1px;transition:transform .12s}
+details.grp[open]>summary::before{transform:rotate(45deg);margin:0 3px 4px 1px}
+/* Open reads brighter than closed, so the state is legible without reading the
+   chevron. */
+details.grp[open]>summary{color:var(--ink)}
+details.grp[closed]>summary::before{border-color:var(--dim)}
+/* A closed section is a line of text, so it takes a line of room. */
+details.grp[closed]{gap:0}
+details.grp[closed]>summary{padding-bottom:0}
+details.grp>summary:hover{color:var(--ink)}
+details.grp>summary:hover::before{border-color:var(--cyan)}
+details.grp>summary:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+details.grp .body{display:flex;flex-direction:column;gap:6px;padding-bottom:6px}
+.row{display:flex;gap:6px;align-items:center}
+.pill{flex:1;padding:5px 6px;border:1px solid var(--edge);background:rgba(10,24,40,.6);
+  color:var(--dim);font-family:var(--mono);font-size:11px;cursor:pointer;border-radius:2px;
+  text-align:center}
+.pill[aria-pressed="true"]{border-color:var(--cyan);color:var(--cyan);
+  background:rgba(53,224,245,.1)}
+.pill:focus-visible{outline:2px solid var(--cyan);outline-offset:1px}
+.pill.rep{display:block;width:100%;text-align:left;margin-bottom:3px}
+select,input[type=number]{width:100%;padding:6px 7px;background:rgba(4,12,22,.9);
+  border:1px solid var(--edge);color:var(--ink);font-family:var(--mono);font-size:12px;
+  border-radius:2px}
+select:focus,input[type=number]:focus{outline:none;border-color:var(--cyan)}
+label.f{font-family:var(--mono);font-size:11px;color:var(--dim);display:flex;
+  justify-content:space-between;align-items:center;gap:8px}
+label.f span{white-space:nowrap}
+/* The destination's label, box and note are wrapped so they can be hidden
+   together, and the wrapper has to carry the spacing the rail would have given
+   them individually. */
+#toBox:not([hidden]){display:flex;flex-direction:column;gap:7px}
+#reset{width:100%;padding:7px;background:transparent;border:1px solid var(--edge);
+  color:var(--dim);font-family:var(--mono);font-size:11px;cursor:pointer;border-radius:2px}
+#reset:hover{border-color:var(--danger);color:var(--danger)}
+
+
+/* Touch layout. Landscape phones are wide enough for the rail to stay put. */
+#menuBtn{display:none}
+@media (max-width:720px){
+  .rail{width:min(80vw,320px);background:var(--deep);padding-top:60px;
+    transform:translateX(-101%);transition:transform .22s ease;
+    box-shadow:0 0 40px rgba(0,0,0,.75)}
+  body.menu .rail{transform:none}
+  #menuBtn{display:flex;position:fixed;top:10px;left:10px;z-index:5;padding:0;
+    width:44px;height:44px;align-items:center;justify-content:center;border-radius:3px;
+    background:rgba(8,18,34,.92);border:1px solid var(--edge);color:var(--cyan);cursor:pointer}
+  body.menu #menuBtn{left:auto;right:10px}
+  #menuBtn:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+  #menuBtn .bars,#menuBtn .bars::before,#menuBtn .bars::after{
+    display:block;width:18px;height:2px;background:currentColor;transition:transform .2s}
+  #menuBtn .bars{position:relative}
+  #menuBtn .bars::before,#menuBtn .bars::after{content:"";position:absolute;left:0}
+  #menuBtn .bars::before{top:-6px} #menuBtn .bars::after{top:6px}
+  body.menu #menuBtn .bars{background:transparent}
+  body.menu #menuBtn .bars::before{transform:translateY(6px) rotate(45deg)}
+  body.menu #menuBtn .bars::after{transform:translateY(-6px) rotate(-45deg)}
+  #menuBtn .badge{position:absolute;top:-6px;right:-6px;min-width:18px;height:18px;
+    border-radius:9px;background:var(--amber);color:var(--void);text-align:center;
+    font-family:var(--mono);font-size:10px;line-height:18px}
+  #menuBtn .badge:empty,body.menu #menuBtn .badge{display:none}
+
+  .readout{left:12px;bottom:10px;font-size:11px;line-height:1.6}
+  body.menu .readout{display:none}
+  .zoom{top:auto;bottom:10px;right:10px}
+  .zoom button{width:44px;height:40px;font-size:16px}
+  /* 16px keeps iOS from zooming the page when a field takes focus. */
+  .rail input,.rail select,#find{font-size:16px}
+  .chip,.hits li{padding:10px 9px}
+  .pill{padding:10px 6px}
+  details.grp>summary{padding:4px 0 12px}
+  .ask{display:inline-block;padding:4px 0}
+  .help{max-width:92vw}
+}
+@media (prefers-reduced-motion:reduce){.rail{transition:none}}
+
+/* Embedded (?embed=1): the canvas and the zoom buttons, nothing else. The class is
+   on <html>, set before the body is drawn. */
+.embed:not(.withRail) .rail,.embed #menuBtn,.embed:not(.desk) .readout,.embed .wikiPanel,.embed:not(.desk):not(.home) #zreset,
+.embed:not(.withCard):not(.desk) .tip,.embed:not(.withRail) .help{display:none!important}
+/* .desk: the page shows the old desktop map inside it (rail beside the map, the
+   hover card, the readout and reset), as the published map at that width. */
+/* .withRail: the page asked for the sidebar, which opens over the map as on a
+   phone. .withCard: a tap shows the system card. */
+.embed:not(.desk) .zoom{top:10px;bottom:auto;right:10px}
+/* The Map tab (.home): + − • stacked at the middle of the right edge, and the
+   readout as one line at the bottom left, both inside the map, so always above the
+   page's panel. A short map puts the buttons in a row. */
+#readLine{display:none}
+.embed.home:not(.desk) .zoom{top:50%;bottom:auto;right:10px;transform:translateY(-50%)}
+@media (max-height:300px){.embed.home:not(.desk) .zoom{flex-direction:row}}
+.embed.home:not(.desk) .readout{display:block!important;left:10px;bottom:10px;line-height:1.4;padding:3px 8px;border:1px solid var(--edge);
+  border-radius:6px;background:color-mix(in srgb,var(--deep) 90%,transparent);backdrop-filter:blur(8px);box-shadow:0 8px 24px #0009}
+.embed.home:not(.desk) .readout > div:not(#readLine){display:none}
+.embed.home:not(.desk) #readLine{display:block}
+/* The Map tab has its own Route panel. */
+.embed:not(.desk) #routeSec{display:none!important}
+.embed.home .tip.mini{pointer-events:none;max-width:240px}
+.embed.home .tip.mini[style*="display: block"]{display:block!important}
+.tip .routeHere{display:inline-block;margin-top:8px;color:var(--cyan);font-weight:600;text-decoration:none}
+
+/* Docked tooltip. A tap on it closes it rather than reaching what it covers. */
+body.touch .tip,body.touch .help,.embed.withCard .tip{pointer-events:auto;max-height:45vh;overflow-y:auto}
+.embed.withCard .tip{min-width:0;max-width:none}
+body.touch .tip{min-width:0}
+@media (orientation:portrait){body.touch .tip{max-width:none}}
+@media (orientation:landscape){body.touch .tip{max-width:min(46vw,380px)}}

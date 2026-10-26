@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath='help.png'>
+<SubTexture name="blackHole" x="0" y="0" width="700" height="120"/>
+<SubTexture name="fleet" x="0" y="120" width="700" height="120"/>
+<SubTexture name="storm" x="0" y="240" width="700" height="120"/>
+<SubTexture name="planetCost" x="0" y="360" width="700" height="120"/>
+<SubTexture name="jumpRange" x="0" y="480" width="700" height="120"/>
+<SubTexture name="spectrum" x="0" y="600" width="700" height="120"/>
+<SubTexture name="repair" x="0" y="720" width="700" height="120"/>
+<SubTexture name="threeSystems" x="0" y="840" width="700" height="120"/>
+<SubTexture name="power" x="0" y="960" width="700" height="120"/>
+<SubTexture name="combat" x="0" y="1083" width="700" height="120"/>
+<SubTexture name="bounty" x="0" y="1204" width="700" height="120"/>
+<SubTexture name="pirateAttack" x="0" y="1324" width="700" height="120"/>
+<SubTexture name="cargoSystem" x="0" y="1444" width="700" height="120"/>
+<SubTexture name="collecting" x="0" y="1564" width="700" height="120"/>
+<SubTexture name="ranks" x="0" y="1684" width="700" height="120"/>
+<SubTexture name="dialogs" x="0" y="1804" width="700" height="119"/>
+<SubTexture name="missions" x="0" y="1923" width="700" height="119"/>
+</TextureAtlas>

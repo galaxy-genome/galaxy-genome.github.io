@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath='galaxyMapColor.png'>
+<SubTexture name='map' x='0' y='0' width='2048' height='2048'/>
+</TextureAtlas>

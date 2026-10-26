@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath='displacmentTextures.png'>
+  <SubTexture name="map_starHigh" x="0" y="0" width="1079" height="360"/>
+<SubTexture name="map_gasGiant1High" x="0" y="360" width="1079" height="360"/>
+<SubTexture name="map_gasGiant2High" x="0" y="720" width="1079" height="360"/>
+<SubTexture name="map_gasGiant3High" x="0" y="1080" width="1079" height="360"/>
+<SubTexture name="map_gasGiant4High" x="1082" y="1050" width="525" height="175"/>
+
+<SubTexture name="map_atmosphere" x="1081" y="1400" width="525" height="175"/>
+
+<SubTexture name="map_starLow" x="1081" y="1225" width="525" height="175"/>
+<SubTexture name="map_gasGiant1Low" x="1081" y="0" width="525" height="175"/>
+<SubTexture name="map_gasGiant2Low" x="1081" y="700" width="525" height="175"/>
+<SubTexture name="map_gasGiant3Low" x="1082" y="875" width="525" height="175"/>
+<SubTexture name="map_gasGiant4Low" x="1082" y="1050" width="525" height="175"/>
+<SubTexture name="map_icy1" x="1082" y="351" width="525" height="174"/>
+<SubTexture name="map_rocky1" x="1082" y="525" width="525" height="175"/>
+<SubTexture name="map_gasGiant4" x="1082" y="1050" width="525" height="175"/>
+</TextureAtlas>

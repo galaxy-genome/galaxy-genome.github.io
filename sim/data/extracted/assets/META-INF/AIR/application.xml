@@ -1,0 +1,146 @@
+<application xmlns="http://ns.adobe.com/air/application/51.2">
+  <id>com.skvgames.GalaxyGenome</id>
+  <versionNumber>11.6.12</versionNumber>
+  <filename>GalaxyGenome</filename>
+  <name>Galaxy Genome</name>
+  <android>
+    <gradleVersion>8.9</gradleVersion>
+    <androidGradlePluginVersion>8.7.3</androidGradlePluginVersion>
+    <runtimeInBackgroundThread>false</runtimeInBackgroundThread>
+    <androidBuildToolsVersion>35.0.0</androidBuildToolsVersion>
+    <androidCompileSdkVersion>35</androidCompileSdkVersion>
+    <colorDepth>32bit</colorDepth>
+    <manifestAdditions>&lt;manifest android:installLocation=&quot;auto&quot; xmlns:tools=&quot;http://schemas.android.com/tools&quot;&gt;
+    &lt;supports-screens
+    android:resizeable=&quot;true&quot;
+    android:smallScreens=&quot;true&quot;
+    android:largeScreens=&quot;true&quot;
+    android:xlargeScreens=&quot;true&quot;
+    android:normalScreens=&quot;true&quot;
+    android:anyDensity=&quot;true&quot;/&gt;
+    &lt;uses-feature android:required=&quot;true&quot; android:name=&quot;android.hardware.touchscreen.multitouch&quot; /&gt;
+  &lt;uses-sdk android:minSdkVersion=&quot;21&quot; android:targetSdkVersion=&quot;35&quot;/&gt;
+  &lt;queries&gt;
+    &lt;package android:name=&quot;com.google.android.play.games&quot;/&gt;
+  &lt;/queries&gt;
+  &lt;permission android:name=&quot;com.skvgames.galaxygenome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION&quot; android:protectionLevel=&quot;signature&quot;/&gt;
+  &lt;uses-permission android:name=&quot;com.skvgames.galaxygenome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION&quot;/&gt;
+  &lt;!-- Required permission for App measurement to run. --&gt;
+  &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot;/&gt;
+  &lt;uses-permission android:name=&quot;android.permission.ACCESS_WIFI_STATE&quot;/&gt;
+  &lt;uses-permission android:name=&quot;android.permission.DISABLE_KEYGUARD&quot; /&gt;
+  &lt;uses-permission android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot;/&gt;
+  &lt;uses-permission android:name=&quot;android.permission.WAKE_LOCK&quot;/&gt;
+  &lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot; /&gt;
+  &lt;uses-permission android:name=&quot;com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE&quot;/&gt;
+  &lt;uses-permission android:name=&quot;com.google.android.gms.permission.AD_ID&quot;/&gt;
+  &lt;!-- Required by older versions of Google Play services to create IID tokens --&gt;
+  &lt;uses-permission android:name=&quot;com.google.android.c2dm.permission.RECEIVE&quot;/&gt;
+  &lt;!-- Optional: AUTO START --&gt;
+  &lt;!-- &lt;uses-permission android:name=&quot;android.permission.RECEIVE_BOOT_COMPLETED&quot; /&gt; --&gt;
+  &lt;!-- &lt;uses-permission android:name=&quot;android.permission.SYSTEM_ALERT_WINDOW&quot;/&gt; --&gt;
+  &lt;!-- To control the screen brightness setting --&gt;
+  &lt;uses-permission android:name=&quot;android.permission.WRITE_SETTINGS&quot;/&gt;
+  &lt;application android:appComponentFactory=&quot;androidx.core.app.CoreComponentFactory&quot; android:hardwareAccelerated=&quot;true&quot; android:resizeableActivity=&quot;true&quot;&gt;
+    &lt;meta-data android:name=&quot;android.max_aspect&quot; android:value=&quot;2.5&quot;/&gt;
+    &lt;meta-data android:name=&quot;android.notch_support&quot; android:value=&quot;true&quot;/&gt;
+    &lt;meta-data android:name=&quot;com.google.android.gms.games.APP_ID&quot; android:value=&quot;\u003344745182411&quot;/&gt;
+    &lt;provider android:name=&quot;androidx.startup.InitializationProvider&quot; android:authorities=&quot;com.skvgames.galaxygenome.androidx-startup&quot; android:exported=&quot;false&quot; tools:replace=&quot;android:authorities&quot;&gt;
+      &lt;meta-data android:name=&quot;androidx.lifecycle.ProcessLifecycleInitializer&quot; android:value=&quot;androidx.startup&quot;/&gt;
+    &lt;/provider&gt;
+    &lt;receiver android:name=&quot;com.google.android.gms.measurement.AppMeasurementReceiver&quot; android:enabled=&quot;true&quot; android:exported=&quot;false&quot;/&gt;
+    &lt;service android:name=&quot;com.google.android.gms.measurement.AppMeasurementService&quot; android:enabled=&quot;true&quot; android:exported=&quot;false&quot;/&gt;
+    &lt;service android:name=&quot;com.google.android.gms.measurement.AppMeasurementJobService&quot; android:enabled=&quot;true&quot; android:exported=&quot;false&quot; android:permission=&quot;android.permission.BIND_JOB_SERVICE&quot;/&gt;
+    &lt;meta-data android:name=&quot;com.google.android.gms.version&quot; android:value=&quot;@integer/google_play_services_version&quot;/&gt;
+    &lt;activity android:name=&quot;com.google.android.gms.common.api.GoogleApiActivity&quot; android:exported=&quot;false&quot; android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot;/&gt;
+    &lt;service android:name=&quot;com.google.firebase.components.ComponentDiscoveryService&quot; android:exported=&quot;false&quot;&gt;
+      &lt;meta-data android:name=&quot;com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar&quot; android:value=&quot;com.google.firebase.components.ComponentRegistrar&quot;/&gt;
+    &lt;/service&gt;
+    &lt;!-- AUTO START and ALARM MANAGER --&gt;
+    &lt;receiver android:name=&quot;com.distriqt.extension.application.receivers.ApplicationStartupReceiver&quot; android:enabled=&quot;true&quot; android:exported=&quot;false&quot; android:permission=&quot;android.permission.RECEIVE_BOOT_COMPLETED&quot;&gt;
+      &lt;intent-filter&gt;
+        &lt;action android:name=&quot;android.intent.action.BOOT_COMPLETED&quot;/&gt;
+        &lt;action android:name=&quot;android.intent.action.QUICKBOOT_POWERON&quot;/&gt;
+        &lt;action android:name=&quot;com.htc.intent.action.QUICKBOOT_POWERON&quot;/&gt;
+        &lt;category android:name=&quot;android.intent.category.DEFAULT&quot;/&gt;
+      &lt;/intent-filter&gt;
+    &lt;/receiver&gt;
+    &lt;!-- ALARM MANAGER --&gt;
+    &lt;receiver android:name=&quot;com.distriqt.extension.application.alarms.AlarmReceiver&quot; android:enabled=&quot;true&quot; android:exported=&quot;false&quot;/&gt;
+    &lt;activity android:name=&quot;com.distriqt.extension.application.alarms.AlarmActivity&quot; android:exported=&quot;false&quot; android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot;/&gt;
+    &lt;!-- SETTINGS --&gt;
+    &lt;activity android:name=&quot;com.distriqt.extension.application.settings.SettingsActivity&quot; android:exported=&quot;false&quot; android:label=&quot;Settings&quot;/&gt;
+    &lt;activity android:name=&quot;com.distriqt.core.auth.AuthorisationActivity&quot; android:exported=&quot;false&quot; android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot;/&gt;
+    &lt;activity android:name=&quot;com.google.android.gms.auth.api.signin.internal.SignInHubActivity&quot; android:excludeFromRecents=&quot;true&quot; android:exported=&quot;false&quot; android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot;/&gt;
+    &lt;!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        --&gt;
+    &lt;service android:name=&quot;com.google.android.gms.auth.api.signin.RevocationBoundService&quot; android:exported=&quot;true&quot; android:permission=&quot;com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION&quot; android:visibleToInstantApps=&quot;true&quot;/&gt;
+  &lt;/application&gt;
+&lt;/manifest&gt;</manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions>&lt;key&gt;MinimumOSVersion&lt;/key&gt;
+&lt;string&gt;11.0&lt;/string&gt;
+&lt;key&gt;UIViewControllerBasedStatusBarAppearance&lt;/key&gt;
+		&lt;false/&gt;</InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+    <Entitlements>&lt;!-- GAME CENTER SAVED GAMES ADDITIONS --&gt;
+
+&lt;!-- You only need the following lines if you are going to support GameCenter Saves --&gt;
+
+&lt;!--
+    &lt;key&gt;com.apple.developer.ubiquity-container-identifiers&lt;/key&gt;
+    &lt;array&gt;
+        &lt;string&gt;${iosContainerIdentifier}&lt;/string&gt;
+    &lt;/array&gt;
+    
+    &lt;key&gt;com.apple.developer.ubiquity-kvstore-identifier&lt;/key&gt;
+    &lt;string&gt;${iosKvstoreIdentifier}&lt;/string&gt; 
+    --&gt;
+&lt;key&gt;com.apple.developer.game-center&lt;/key&gt;
+&lt;true/&gt;</Entitlements>
+  </iPhone>
+  <initialWindow>
+    <title>GalaxyGenome</title>
+    <content>Release_x64.swf</content>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <autoOrients>true</autoOrients>
+    <renderMode>direct</renderMode>
+    <systemChrome>standard</systemChrome>
+    <aspectRatio>landscape</aspectRatio>
+    <depthAndStencil>true</depthAndStencil>
+  </initialWindow>
+  <icon>
+    <image48x48>icons/48.png</image48x48>
+    <image57x57>icons/57.png</image57x57>
+    <image72x72>icons/72.png</image72x72>
+    <image114x114>icons/114.png</image114x114>
+    <image512x512>icons/512.png</image512x512>
+    <image100x100>icons/100.png</image100x100>
+    <image128x128>icons/128.png</image128x128>
+    <image144x144>icons/144.png</image144x144>
+    <image50x50>icons/50.png</image50x50>
+    <image58x58>icons/58.png</image58x58>
+    <image1024x1024>icons/1024.png</image1024x1024>
+    <image40x40>icons/40.png</image40x40>
+    <image76x76>icons/76.png</image76x76>
+    <image80x80>icons/80.png</image80x80>
+    <image120x120>icons/120.png</image120x120>
+    <image152x152>icons/152.png</image152x152>
+  </icon>
+  <supportedLanguages>en ru pt</supportedLanguages>
+  <extensions>
+    <extensionID>com.distriqt.Application</extensionID>
+    <extensionID>com.distriqt.GameServices</extensionID>
+    <extensionID>com.distriqt.Core</extensionID>
+    <extensionID>androidx.core</extensionID>
+    <extensionID>androidx.appcompat</extensionID>
+    <extensionID>com.jetbrains.kotlin</extensionID>
+    <extensionID>com.distriqt.playservices.Base</extensionID>
+    <extensionID>com.distriqt.playservices.Gamesv2</extensionID>
+    <extensionID>com.distriqt.playservices.Auth</extensionID>
+  </extensions>
+</application>

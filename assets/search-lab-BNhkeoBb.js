@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BtH0gOTJ.js";import"./index-wmRJ7ix4.js";import{t}from"./unit-DOc6skV4.js";e();var n=t({id:`search-lab`,routes:[]});export{n as default};
