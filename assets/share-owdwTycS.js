@@ -1,1 +1,0 @@
-import{v as e}from"./ui-Cl0j0Wnh.js";import{n as t}from"./share-DrrBVf8E.js";var n=e=>t({s:e.ship,n:e.name,g:e.goal,m:e.slots,l:e.locks,e:e.empty,p:e.priority,c:e.constraints});async function r(t,r){await e(`/loadouts/f/${await n(t)}`,r??t.name)}export{r as n,n as t};
