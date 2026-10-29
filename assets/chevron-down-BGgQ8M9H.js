@@ -1,0 +1,1 @@
+import{x as e}from"./ui-DFoEwjXv.js";var t={name:`chevron-down`,size:24,node:[[`path`,{d:`m6 9 6 6 6-6`,key:`qrunsl`}]]};t.node;var n=e(t);export{n as t};
