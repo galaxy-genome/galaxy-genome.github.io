@@ -1,1 +1,0 @@
-import{t as e}from"./react-DB-4Zxce.js";import{t}from"./react-dom-DEdkSy2c.js";import"./ui-DLAUpM2y.js";import"./prefs-CnRSq-YD.js";import{t as n}from"./jsx-runtime-BtH0gOTJ.js";import"./index-D5ALtLe9.js";import{t as r}from"./unit-DOc6skV4.js";e(),t(),n();var i=r({id:`panel-lab`,routes:[],launchers:[]});export{i as default};
