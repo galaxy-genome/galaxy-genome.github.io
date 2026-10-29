@@ -1,1 +1,0 @@
-import{t as e}from"./react-DB-4Zxce.js";import"./ui-C0ae1T1s.js";import{t}from"./jsx-runtime-BtH0gOTJ.js";import"./index-RVLXMWDR.js";import{t as n}from"./unit-DOc6skV4.js";e(),t();var r=n({id:`ui-lab`,routes:[]});export{r as default};

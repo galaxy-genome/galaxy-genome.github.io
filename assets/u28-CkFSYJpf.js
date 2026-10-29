@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-BtH0gOTJ.js";import{t}from"./unit-DOc6skV4.js";import{Moved as n}from"./u27-BQ339-cf.js";var r=e(),i=t({id:`u28`,routes:[{tab:`loadouts`,path:`/hangar`,element:(0,r.jsx)(n,{to:`/save`}),ownBack:!0}]});export{i as default};
