@@ -1,6 +1,6 @@
 {
-  "name": "Galaxy Genome Quest Editor",
-  "short_name": "GG Editor",
+  "name": "Galaxy Genome Mod Maker",
+  "short_name": "Mod Maker",
   "description": "Make quests and star systems for Galaxy Genome.",
   "start_url": ".",
   "scope": ".",
